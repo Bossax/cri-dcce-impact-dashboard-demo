@@ -1,0 +1,37 @@
+{
+  "province_metric_files": [
+    "affected_hh_abs.json",
+    "affected_hh_abs.json",
+    "affected_rate.json",
+    "affected_rate.json",
+    "cri_score.json",
+    "cri_score.json",
+    "deaths_abs.json",
+    "deaths_abs.json",
+    "deaths_rate.json",
+    "deaths_rate.json",
+    "heat_deaths.json",
+    "heat_deaths.json",
+    "heat_injured.json",
+    "heat_injured.json",
+    "loss_abs.json",
+    "loss_abs.json",
+    "loss_per_gpp.json",
+    "loss_per_gpp.json"
+  ],
+  "tambon_files": [
+    "tambon_affected_households.json",
+    "tambon_deaths.json",
+    "tambon_affected_households.json",
+    "tambon_deaths.json"
+  ],
+  "heat_files": [
+    "heat_deaths.json",
+    "heat_injured.json",
+    "heat_deaths.json",
+    "heat_injured.json"
+  ],
+  "spatial_province_exists": true,
+  "spatial_manifest_exists": true,
+  "province_metric_count": 22
+}

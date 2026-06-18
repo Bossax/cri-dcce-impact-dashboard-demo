@@ -1,0 +1,9 @@
+streamlit>=1.57.0
+pydeck>=0.9.2
+geopandas>=1.0.0
+pandas>=2.0.0
+numpy>=1.24.0
+pyarrow>=15.0.0
+fiona>=1.9.0
+shapely>=2.0.0
+mapclassify>=2.5.0

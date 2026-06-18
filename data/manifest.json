@@ -31,7 +31,7 @@
     ]
   },
   "assets": {
-    "province_geometry": "spatial/province_boundaries.geojson",
+    "province_geometry": "spatial/province_boundaries_simple.geojson",
     "tambon_manifest": "spatial/manifest.json"
   }
 }

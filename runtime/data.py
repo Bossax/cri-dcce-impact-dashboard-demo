@@ -5,6 +5,7 @@ import json
 from functools import lru_cache
 from pathlib import Path
 from typing import Any
+import streamlit as st
 
 
 def _data_root() -> Path:
@@ -17,26 +18,26 @@ MANIFEST_PATH = STAGE1_DIR / "manifest.json"
 SPATIAL_MANIFEST_PATH = STAGE1_DIR / "spatial" / "manifest.json"
 
 
-@lru_cache(maxsize=1)
+@st.cache_data
 def load_manifest() -> dict[str, Any]:
     with MANIFEST_PATH.open("r", encoding="utf-8") as handle:
         return json.load(handle)
 
 
-@lru_cache(maxsize=1)
+@st.cache_data
 def load_spatial_manifest() -> dict[str, Any]:
     with SPATIAL_MANIFEST_PATH.open("r", encoding="utf-8") as handle:
         return json.load(handle)
 
 
-@lru_cache(maxsize=None)
+@st.cache_data
 def load_metric(metric_key: str, period_key: str = "period_2560_2567") -> dict[str, Any]:
     path = STAGE1_DIR / period_key / f"{metric_key}.json"
     with path.open("r", encoding="utf-8") as handle:
         return json.load(handle)
 
 
-@lru_cache(maxsize=None)
+@st.cache_data
 def load_stage1_json(relative_path: str) -> dict[str, Any]:
     path = STAGE1_DIR / relative_path
     with path.open("r", encoding="utf-8") as handle:
@@ -74,7 +75,9 @@ def metric_summary(dataset: dict[str, Any]) -> dict[str, Any]:
     }
 
 
-def build_province_geojson(dataset: dict[str, Any]) -> dict[str, Any]:
+@st.cache_data
+def build_province_geojson_cached(metric_key: str, period_key: str) -> dict[str, Any]:
+    dataset = load_metric(metric_key, period_key)
     spatial_manifest = load_spatial_manifest()
     province_asset = str((load_manifest().get("assets") or {}).get("province_geometry", "spatial/province_boundaries.geojson"))
     base_geojson = load_stage1_json(province_asset)
@@ -108,6 +111,60 @@ def build_province_geojson(dataset: dict[str, Any]) -> dict[str, Any]:
             b = 255 if intensity < 0.5 else int(255 - (intensity - 0.5) * 2 * 55)
         else:
             # Red scaling: White [255,255,255] to Dark Red [200,0,0]
+            r = 255 if intensity < 0.5 else int(255 - (intensity - 0.5) * 2 * 55)
+            g = int(255 * (1 - intensity))
+            b = int(255 * (1 - intensity))
+        
+        new_props["fill_color"] = [r, g, b]
+        new_props["line_color"] = [80, 80, 80]
+        
+        new_features.append({
+            "type": feature.get("type", "Feature"),
+            "geometry": feature.get("geometry"),
+            "properties": new_props
+        })
+
+    return {
+        "type": base_geojson.get("type", "FeatureCollection"),
+        "features": new_features
+    }
+
+
+def build_province_geojson(dataset: dict[str, Any]) -> dict[str, Any]:
+    # Fallback/Backward compatibility: if called with dataset directly, we can't easily cache by key,
+    # but we will redirect pages to use build_province_geojson_cached instead.
+    # For now, let's keep it but it won't be optimized unless called via the new cached method.
+    spatial_manifest = load_spatial_manifest()
+    province_asset = str((load_manifest().get("assets") or {}).get("province_geometry", "spatial/province_boundaries.geojson"))
+    base_geojson = load_stage1_json(province_asset)
+    record_map = {str(item.get("province_code") or ""): item for item in dataset.get("records", []) if item.get("province_code")}
+
+    # Color Scaling
+    max_val = max([float(r.get("value") or 0) for r in record_map.values()], default=0.0)
+    color_scheme = (dataset.get("legend") or {}).get("color_scheme", "OrRd")
+
+    new_features = []
+    for feature in base_geojson.get("features", []):
+        old_props = feature.get("properties", {})
+        code = str(old_props.get("prov_code") or old_props.get("province_code") or "")
+        record = record_map.get(code, {})
+        value = float(record.get("value") or 0)
+        
+        # Linear scaling
+        intensity = (value / max_val) if max_val > 0 else 0.0
+        
+        new_props = old_props.copy()
+        new_props["province_name_th"] = record.get("province_name_th") or old_props.get("province_name_th") or code
+        new_props["province_code"] = code
+        new_props["value"] = value
+        new_props["display_value"] = record.get("display_value") if record.get("display_value") is not None else str(record.get("value") or 0)
+        new_props["has_data"] = code in record_map
+        
+        if color_scheme == "GnBu":
+            r = int(255 * (1 - intensity))
+            g = int(255 * (1 - intensity))
+            b = 255 if intensity < 0.5 else int(255 - (intensity - 0.5) * 2 * 55)
+        else:
             r = 255 if intensity < 0.5 else int(255 - (intensity - 0.5) * 2 * 55)
             g = int(255 * (1 - intensity))
             b = int(255 * (1 - intensity))
@@ -172,7 +229,9 @@ def tambon_rank_rows(
     return output
 
 
-def tambon_geojson_for_province(dataset: dict[str, Any], province_code: str) -> dict[str, Any]:
+@st.cache_data
+def tambon_geojson_for_province_cached(metric_key: str, period_key: str, province_code: str) -> dict[str, Any]:
+    dataset = load_metric(metric_key, period_key)
     spatial_manifest = load_spatial_manifest()
     tambon_files = {
         str(item.get("province_code")): item.get("file")
@@ -212,12 +271,10 @@ def tambon_geojson_for_province(dataset: dict[str, Any], province_code: str) -> 
         new_props["has_data"] = code in record_map
         
         if color_scheme == "GnBu":
-            # Blue scaling
             r = int(255 * (1 - intensity))
             g = int(255 * (1 - intensity))
             b = 255 if intensity < 0.5 else int(255 - (intensity - 0.5) * 2 * 55)
         else:
-            # Red scaling
             r = 255 if intensity < 0.5 else int(255 - (intensity - 0.5) * 2 * 55)
             g = int(255 * (1 - intensity))
             b = int(255 * (1 - intensity))
@@ -235,3 +292,65 @@ def tambon_geojson_for_province(dataset: dict[str, Any], province_code: str) -> 
         "type": base_geojson.get("type", "FeatureCollection"),
         "features": new_features
     }
+
+
+def tambon_geojson_for_province(dataset: dict[str, Any], province_code: str) -> dict[str, Any]:
+    spatial_manifest = load_spatial_manifest()
+    tambon_files = {
+        str(item.get("province_code")): item.get("file")
+        for item in spatial_manifest.get("tambon_by_province", [])
+        if item.get("province_code") and item.get("file")
+    }
+    relative_path = tambon_files[str(province_code)]
+    base_geojson = load_stage1_json(relative_path)
+
+    record_map = {
+        str(item.get("subdistrict_code") or ""): item
+        for item in tambon_records(dataset, province_code=province_code)
+        if item.get("subdistrict_code")
+    }
+    
+    raw_values = [float(r.get("value") or 0) for r in record_map.values()]
+    max_val = max(raw_values, default=0.0)
+    color_scheme = (dataset.get("legend") or {}).get("color_scheme", "OrRd")
+
+    new_features = []
+    for feature in base_geojson.get("features", []):
+        old_props = feature.get("properties", {})
+        code = str(old_props.get("subdistrict_code") or "")
+        record = record_map.get(code, {})
+        value = float(record.get("value") or 0)
+        
+        intensity = (value / max_val) if max_val > 0 else 0.0
+        
+        new_props = old_props.copy()
+        new_props["subdistrict_name_th"] = record.get("subdistrict_name_th") or old_props.get("subdistrict_name_th") or code
+        new_props["district_name_th"] = record.get("district_name_th") or old_props.get("district_name_th") or "-"
+        new_props["province_name_th"] = record.get("province_name_th") or old_props.get("province_name_th") or "-"
+        new_props["value"] = value
+        new_props["display_value"] = record.get("display_value") if record.get("display_value") is not None else str(record.get("value") or 0)
+        new_props["has_data"] = code in record_map
+        
+        if color_scheme == "GnBu":
+            r = int(255 * (1 - intensity))
+            g = int(255 * (1 - intensity))
+            b = 255 if intensity < 0.5 else int(255 - (intensity - 0.5) * 2 * 55)
+        else:
+            r = 255 if intensity < 0.5 else int(255 - (intensity - 0.5) * 2 * 55)
+            g = int(255 * (1 - intensity))
+            b = int(255 * (1 - intensity))
+        
+        new_props["fill_color"] = [r, g, b]
+        new_props["line_color"] = [80, 80, 80]
+        
+        new_features.append({
+            "type": feature.get("type", "Feature"),
+            "geometry": feature.get("geometry"),
+            "properties": new_props
+        })
+
+    return {
+        "type": base_geojson.get("type", "FeatureCollection"),
+        "features": new_features
+    }
+

@@ -46,9 +46,8 @@ def render() -> None:
 
     with col_map:
         # Map and Vertical Colorbar
-        dataset = data.load_metric(selected_metric, period_key)
         summary = data.metric_summary(dataset)
-        geojson = data.build_province_geojson(dataset)
+        geojson = data.build_province_geojson_cached(selected_metric, period_key)
 
         st.markdown(f'<div class="cri-section-title" style="margin-bottom:0px;">{summary["metric_label"]}</div>', unsafe_allow_html=True)
         st.caption(f"{summary['period_label']}")

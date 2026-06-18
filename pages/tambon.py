@@ -57,7 +57,7 @@ def render() -> None:
 
     with col_map:
         # Map and Vertical Colorbar
-        geojson = data.tambon_geojson_for_province(dataset, province_code)
+        geojson = data.tambon_geojson_for_province_cached(selected_metric, period_key, province_code)
         
         # Calculate Local Maximum for the selected province
         local_max = 0.0

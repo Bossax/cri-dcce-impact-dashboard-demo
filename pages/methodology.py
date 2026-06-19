@@ -42,10 +42,10 @@ def render() -> None:
             ### 7. Data Lineage & Metadata
             | Dataset | Source Agency | Detail |
             | :--- | :--- | :--- |
-            | **Human Impact** | DDPM | Standardized village reports (Bronze: Open Data) |
-            | **Population** | DOPA | Annual registration statistics (Silver: Annual) |
-            | **Households** | DOPA | Annual registration statistics (Silver: Annual) |
-            | **GPP** | NESDC | Current market prices (Million THB) (Silver: Annual) |
+            | **Human Impact** | DDPM | Standardized village reports |
+            | **Population** | DOPA | Annual registration statistics|
+            | **Households** | DOPA | Annual registration statistics|
+            | **GPP** | NESDC | Current market prices (Million THB)|
             | **Economic Relief**| DDPM | Government advance payments (THB) |
             | **Heat Impact** | MOPH | Clinical cases of heat-related injuries/deaths |
             """

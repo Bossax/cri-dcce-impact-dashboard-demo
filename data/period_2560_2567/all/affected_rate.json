@@ -125,19 +125,19 @@
       "province_code": "57",
       "province_name_th": "เชียงราย",
       "province_name_en": "CHIANG RAI",
-      "value": 2.9012183519588772,
-      "display_value": "2.901218",
+      "value": 2.867449199835281,
+      "display_value": "2.867449",
       "rank_desc": 10,
-      "normalized_value": 0.3437557412869201
+      "normalized_value": 0.3397526618235151
     },
     {
       "province_code": "50",
       "province_name_th": "เชียงใหม่",
       "province_name_en": "CHIANG MAI",
-      "value": 7.514231921012839,
-      "display_value": "7.514232",
+      "value": 7.51267530465206,
+      "display_value": "7.512675",
       "rank_desc": 2,
-      "normalized_value": 0.8905938678440092
+      "normalized_value": 0.8904093426606872
     },
     {
       "province_code": "92",
@@ -720,8 +720,8 @@
       {
         "province_code": "50",
         "province_name_th": "เชียงใหม่",
-        "value": 7.514231921012839,
-        "display_value": "7.514232",
+        "value": 7.51267530465206,
+        "display_value": "7.512675",
         "rank_desc": 2,
         "province_name_en": "CHIANG MAI"
       },
@@ -784,8 +784,8 @@
       {
         "province_code": "57",
         "province_name_th": "เชียงราย",
-        "value": 2.9012183519588772,
-        "display_value": "2.901218",
+        "value": 2.867449199835281,
+        "display_value": "2.867449",
         "rank_desc": 10,
         "province_name_en": "CHIANG RAI"
       }

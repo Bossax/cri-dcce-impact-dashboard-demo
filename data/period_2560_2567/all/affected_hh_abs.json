@@ -7,9 +7,9 @@
   "source_mode": "average_window",
   "legend": {
     "min": 42.5,
-    "max": 63358.125,
+    "max": 63345.0,
     "display_min": "42.5",
-    "display_max": "63358.125",
+    "display_max": "63345",
     "color_scheme": "OrRd"
   },
   "records": [
@@ -20,7 +20,7 @@
       "value": 1142.625,
       "display_value": "1142.625",
       "rank_desc": 53,
-      "normalized_value": 0.01737525294901535
+      "normalized_value": 0.017378855495438567
     },
     {
       "province_code": "10",
@@ -38,7 +38,7 @@
       "value": 4963.875,
       "display_value": "4963.875",
       "rank_desc": 16,
-      "normalized_value": 0.07772765411381471
+      "normalized_value": 0.07774376999328621
     },
     {
       "province_code": "46",
@@ -47,7 +47,7 @@
       "value": 10636.125,
       "display_value": "10636.125",
       "rank_desc": 5,
-      "normalized_value": 0.16731454518533143
+      "normalized_value": 0.1673492358121717
     },
     {
       "province_code": "62",
@@ -56,7 +56,7 @@
       "value": 2038.875,
       "display_value": "2038.875",
       "rank_desc": 40,
-      "normalized_value": 0.031530526627510984
+      "normalized_value": 0.03153706409699459
     },
     {
       "province_code": "40",
@@ -65,7 +65,7 @@
       "value": 5075.5,
       "display_value": "5075.5",
       "rank_desc": 15,
-      "normalized_value": 0.07949064705592024
+      "normalized_value": 0.07950712847043956
     },
     {
       "province_code": "22",
@@ -74,7 +74,7 @@
       "value": 1946.375,
       "display_value": "1946.375",
       "rank_desc": 43,
-      "normalized_value": 0.03006959182666206
+      "normalized_value": 0.030075826389163146
     },
     {
       "province_code": "24",
@@ -83,7 +83,7 @@
       "value": 2397.875,
       "display_value": "2397.875",
       "rank_desc": 35,
-      "normalized_value": 0.03720053304377869
+      "normalized_value": 0.03720824611982149
     },
     {
       "province_code": "20",
@@ -92,7 +92,7 @@
       "value": 998.375,
       "display_value": "998.375",
       "rank_desc": 55,
-      "normalized_value": 0.015096984354177978
+      "normalized_value": 0.015100114529441966
     },
     {
       "province_code": "18",
@@ -101,7 +101,7 @@
       "value": 2328.0,
       "display_value": "2328",
       "rank_desc": 37,
-      "normalized_value": 0.036096934998272545
+      "normalized_value": 0.03610441925674342
     },
     {
       "province_code": "36",
@@ -110,7 +110,7 @@
       "value": 2572.75,
       "display_value": "2572.75",
       "rank_desc": 34,
-      "normalized_value": 0.03996248951187009
+      "normalized_value": 0.039970775245843373
     },
     {
       "province_code": "86",
@@ -119,23 +119,23 @@
       "value": 5210.625,
       "display_value": "5210.625",
       "rank_desc": 14,
-      "normalized_value": 0.08162479640689009
+      "normalized_value": 0.08164172031120413
     },
     {
       "province_code": "57",
       "province_name_th": "เชียงราย",
       "province_name_en": "CHIANG RAI",
-      "value": 16345.0,
-      "display_value": "16345",
+      "value": 16154.75,
+      "display_value": "16154.75",
       "rank_desc": 4,
-      "normalized_value": 0.2574798874685356
+      "normalized_value": 0.25452786224872637
     },
     {
       "province_code": "50",
       "province_name_th": "เชียงใหม่",
       "province_name_en": "CHIANG MAI",
-      "value": 63358.125,
-      "display_value": "63358.125",
+      "value": 63345.0,
+      "display_value": "63345",
       "rank_desc": 1,
       "normalized_value": 1.0
     },
@@ -146,7 +146,7 @@
       "value": 1970.75,
       "display_value": "1970.75",
       "rank_desc": 41,
-      "normalized_value": 0.030454567889047924
+      "normalized_value": 0.030460882271632243
     },
     {
       "province_code": "23",
@@ -155,7 +155,7 @@
       "value": 711.0,
       "display_value": "711",
       "rank_desc": 61,
-      "normalized_value": 0.010558215290459503
+      "normalized_value": 0.01056040440740887
     },
     {
       "province_code": "63",
@@ -164,7 +164,7 @@
       "value": 4185.625,
       "display_value": "4185.625",
       "rank_desc": 20,
-      "normalized_value": 0.06543605942451014
+      "normalized_value": 0.06544962679199083
     },
     {
       "province_code": "26",
@@ -173,7 +173,7 @@
       "value": 107.625,
       "display_value": "107.625",
       "rank_desc": 74,
-      "normalized_value": 0.0010285770692463354
+      "normalized_value": 0.0010287903321353816
     },
     {
       "province_code": "73",
@@ -182,7 +182,7 @@
       "value": 3623.0,
       "display_value": "3623",
       "rank_desc": 28,
-      "normalized_value": 0.056550022210157445
+      "normalized_value": 0.05656174716638363
     },
     {
       "province_code": "48",
@@ -191,7 +191,7 @@
       "value": 1922.75,
       "display_value": "1922.75",
       "rank_desc": 44,
-      "normalized_value": 0.029696461181580376
+      "normalized_value": 0.02970261838000079
     },
     {
       "province_code": "30",
@@ -200,7 +200,7 @@
       "value": 5933.0,
       "display_value": "5933",
       "rank_desc": 10,
-      "normalized_value": 0.09303390750703322
+      "normalized_value": 0.09305319695114726
     },
     {
       "province_code": "80",
@@ -209,7 +209,7 @@
       "value": 26753.0,
       "display_value": "26753",
       "rank_desc": 2,
-      "normalized_value": 0.4218626918710824
+      "normalized_value": 0.42195015994628965
     },
     {
       "province_code": "60",
@@ -218,7 +218,7 @@
       "value": 5889.875,
       "display_value": "5889.875",
       "rank_desc": 11,
-      "normalized_value": 0.09235279601204284
+      "normalized_value": 0.09237194423600964
     },
     {
       "province_code": "12",
@@ -227,7 +227,7 @@
       "value": 484.25,
       "display_value": "484.25",
       "rank_desc": 68,
-      "normalized_value": 0.006976950792162282
+      "normalized_value": 0.006978397377670708
     },
     {
       "province_code": "96",
@@ -236,7 +236,7 @@
       "value": 18659.875,
       "display_value": "18659.875",
       "rank_desc": 3,
-      "normalized_value": 0.29404076797788853
+      "normalized_value": 0.2941017337387939
     },
     {
       "province_code": "55",
@@ -245,7 +245,7 @@
       "value": 3938.625,
       "display_value": "3938.625",
       "rank_desc": 25,
-      "normalized_value": 0.06153496865900005
+      "normalized_value": 0.061547727182970656
     },
     {
       "province_code": "38",
@@ -254,7 +254,7 @@
       "value": 262.5,
       "display_value": "262.5",
       "rank_desc": 72,
-      "normalized_value": 0.0034746557425595972
+      "normalized_value": 0.003475376169977489
     },
     {
       "province_code": "31",
@@ -263,7 +263,7 @@
       "value": 3939.25,
       "display_value": "3939.25",
       "rank_desc": 24,
-      "normalized_value": 0.061544839840086865
+      "normalized_value": 0.061557600410726276
     },
     {
       "province_code": "13",
@@ -272,7 +272,7 @@
       "value": 702.0,
       "display_value": "702",
       "rank_desc": 62,
-      "normalized_value": 0.010416070282809338
+      "normalized_value": 0.010418229927727974
     },
     {
       "province_code": "77",
@@ -281,7 +281,7 @@
       "value": 5412.5,
       "display_value": "5412.5",
       "rank_desc": 12,
-      "normalized_value": 0.08481318789793199
+      "normalized_value": 0.08483077287626871
     },
     {
       "province_code": "25",
@@ -290,7 +290,7 @@
       "value": 1557.625,
       "display_value": "1557.625",
       "rank_desc": 50,
-      "normalized_value": 0.023929717190661864
+      "normalized_value": 0.023934678725168832
     },
     {
       "province_code": "94",
@@ -299,7 +299,7 @@
       "value": 6593.5,
       "display_value": "6593.5",
       "rank_desc": 8,
-      "normalized_value": 0.10346577167958146
+      "normalized_value": 0.10348722404328423
     },
     {
       "province_code": "14",
@@ -308,7 +308,7 @@
       "value": 1464.625,
       "display_value": "1464.625",
       "rank_desc": 51,
-      "normalized_value": 0.022460885444943488
+      "normalized_value": 0.022465542435132893
     },
     {
       "province_code": "56",
@@ -317,7 +317,7 @@
       "value": 2358.875,
       "display_value": "2358.875",
       "rank_desc": 36,
-      "normalized_value": 0.03658457134396131
+      "normalized_value": 0.036592156707870936
     },
     {
       "province_code": "82",
@@ -326,7 +326,7 @@
       "value": 676.625,
       "display_value": "676.625",
       "rank_desc": 63,
-      "normalized_value": 0.010015300330684566
+      "normalized_value": 0.010017376880849888
     },
     {
       "province_code": "93",
@@ -335,7 +335,7 @@
       "value": 2943.25,
       "display_value": "2943.25",
       "rank_desc": 33,
-      "normalized_value": 0.045814125660135235
+      "normalized_value": 0.04582362465937364
     },
     {
       "province_code": "66",
@@ -344,7 +344,7 @@
       "value": 1563.125,
       "display_value": "1563.125",
       "rank_desc": 49,
-      "normalized_value": 0.024016583584225853
+      "normalized_value": 0.02402156312941827
     },
     {
       "province_code": "65",
@@ -353,7 +353,7 @@
       "value": 4238.25,
       "display_value": "4238.25",
       "rank_desc": 19,
-      "normalized_value": 0.06626721287202014
+      "normalized_value": 0.06628095256901387
     },
     {
       "province_code": "76",
@@ -362,7 +362,7 @@
       "value": 1108.5,
       "display_value": "1108.5",
       "rank_desc": 54,
-      "normalized_value": 0.016836286461675138
+      "normalized_value": 0.016839777259981835
     },
     {
       "province_code": "67",
@@ -371,7 +371,7 @@
       "value": 1584.5,
       "display_value": "1584.5",
       "rank_desc": 48,
-      "normalized_value": 0.024354177977394996
+      "normalized_value": 0.0243592275186604
     },
     {
       "province_code": "54",
@@ -380,7 +380,7 @@
       "value": 3781.875,
       "display_value": "3781.875",
       "rank_desc": 26,
-      "normalized_value": 0.05905927644242634
+      "normalized_value": 0.0590715216618617
     },
     {
       "province_code": "83",
@@ -389,7 +389,7 @@
       "value": 80.25,
       "display_value": "80.25",
       "rank_desc": 76,
-      "normalized_value": 0.000596219337643749
+      "normalized_value": 0.0005963429564393192
     },
     {
       "province_code": "44",
@@ -398,7 +398,7 @@
       "value": 2299.875,
       "display_value": "2299.875",
       "rank_desc": 38,
-      "normalized_value": 0.03565273184936578
+      "normalized_value": 0.03566012400774061
     },
     {
       "province_code": "49",
@@ -407,7 +407,7 @@
       "value": 300.125,
       "display_value": "300.125",
       "rank_desc": 71,
-      "normalized_value": 0.004068900843985983
+      "normalized_value": 0.004069744480865684
     },
     {
       "province_code": "58",
@@ -416,7 +416,7 @@
       "value": 4362.625,
       "display_value": "4362.625",
       "rank_desc": 18,
-      "normalized_value": 0.06823157790829673
+      "normalized_value": 0.06824572489238181
     },
     {
       "province_code": "35",
@@ -425,7 +425,7 @@
       "value": 547.75,
       "display_value": "547.75",
       "rank_desc": 66,
-      "normalized_value": 0.007979862790582893
+      "normalized_value": 0.007981517317641483
     },
     {
       "province_code": "95",
@@ -434,7 +434,7 @@
       "value": 5236.25,
       "display_value": "5236.25",
       "rank_desc": 13,
-      "normalized_value": 0.08202951483144959
+      "normalized_value": 0.08204652264918447
     },
     {
       "province_code": "45",
@@ -443,7 +443,7 @@
       "value": 2047.5,
       "display_value": "2047.5",
       "rank_desc": 39,
-      "normalized_value": 0.03166674892650906
+      "normalized_value": 0.03167331464002211
     },
     {
       "province_code": "85",
@@ -452,7 +452,7 @@
       "value": 855.25,
       "display_value": "855.25",
       "rank_desc": 59,
-      "normalized_value": 0.012836483885296875
+      "normalized_value": 0.012839145373405473
     },
     {
       "province_code": "21",
@@ -461,7 +461,7 @@
       "value": 1956.75,
       "display_value": "1956.75",
       "rank_desc": 42,
-      "normalized_value": 0.030233453432703224
+      "normalized_value": 0.030239721969906402
     },
     {
       "province_code": "70",
@@ -470,7 +470,7 @@
       "value": 321.625,
       "display_value": "321.625",
       "rank_desc": 70,
-      "normalized_value": 0.004408469473372489
+      "normalized_value": 0.004409383515658939
     },
     {
       "province_code": "16",
@@ -479,7 +479,7 @@
       "value": 912.25,
       "display_value": "912.25",
       "rank_desc": 58,
-      "normalized_value": 0.01373673560041459
+      "normalized_value": 0.013739583744717824
     },
     {
       "province_code": "52",
@@ -488,7 +488,7 @@
       "value": 6309.375,
       "display_value": "6309.375",
       "rank_desc": 9,
-      "normalized_value": 0.09897833275751444
+      "normalized_value": 0.09899885470558034
     },
     {
       "province_code": "51",
@@ -497,7 +497,7 @@
       "value": 3992.625,
       "display_value": "3992.625",
       "rank_desc": 22,
-      "normalized_value": 0.06238783870490104
+      "normalized_value": 0.06240077406105604
     },
     {
       "province_code": "42",
@@ -506,7 +506,7 @@
       "value": 3106.25,
       "display_value": "3106.25",
       "rank_desc": 32,
-      "normalized_value": 0.04838852968757712
+      "normalized_value": 0.04839856245803878
     },
     {
       "province_code": "33",
@@ -515,7 +515,7 @@
       "value": 3981.25,
       "display_value": "3981.25",
       "rank_desc": 23,
-      "normalized_value": 0.06220818320912097
+      "normalized_value": 0.062221081315903794
     },
     {
       "province_code": "47",
@@ -524,7 +524,7 @@
       "value": 4119.0,
       "display_value": "4119",
       "rank_desc": 21,
-      "normalized_value": 0.06438379152065545
+      "normalized_value": 0.06439714071324197
     },
     {
       "province_code": "90",
@@ -533,7 +533,7 @@
       "value": 3131.875,
       "display_value": "3131.875",
       "rank_desc": 31,
-      "normalized_value": 0.04879324811213662
+      "normalized_value": 0.048803364796019114
     },
     {
       "province_code": "91",
@@ -542,7 +542,7 @@
       "value": 3166.125,
       "display_value": "3166.125",
       "rank_desc": 30,
-      "normalized_value": 0.04933418883569419
+      "normalized_value": 0.04934441767702697
     },
     {
       "province_code": "11",
@@ -551,7 +551,7 @@
       "value": 518.25,
       "display_value": "518.25",
       "rank_desc": 67,
-      "normalized_value": 0.007513943043285129
+      "normalized_value": 0.00751550096757632
     },
     {
       "province_code": "75",
@@ -560,7 +560,7 @@
       "value": 146.0,
       "display_value": "146",
       "rank_desc": 73,
-      "normalized_value": 0.0016346675879769013
+      "normalized_value": 0.0016350065163303186
     },
     {
       "province_code": "74",
@@ -569,7 +569,7 @@
       "value": 88.875,
       "display_value": "88.875",
       "rank_desc": 75,
-      "normalized_value": 0.0007324416366418242
+      "normalized_value": 0.0007325934994668457
     },
     {
       "province_code": "27",
@@ -578,7 +578,7 @@
       "value": 1604.0,
       "display_value": "1604",
       "rank_desc": 47,
-      "normalized_value": 0.024662158827303687
+      "normalized_value": 0.02466727222463568
     },
     {
       "province_code": "19",
@@ -587,7 +587,7 @@
       "value": 1329.5,
       "display_value": "1329.5",
       "rank_desc": 52,
-      "normalized_value": 0.020326736093973643
+      "normalized_value": 0.020330950594368312
     },
     {
       "province_code": "17",
@@ -596,7 +596,7 @@
       "value": 634.25,
       "display_value": "634.25",
       "rank_desc": 64,
-      "normalized_value": 0.009346034252998372
+      "normalized_value": 0.009347972039018996
     },
     {
       "province_code": "64",
@@ -605,7 +605,7 @@
       "value": 7695.75,
       "display_value": "7695.75",
       "rank_desc": 7,
-      "normalized_value": 0.12087458664429199
+      "normalized_value": 0.1208996485130919
     },
     {
       "province_code": "72",
@@ -614,7 +614,7 @@
       "value": 962.625,
       "display_value": "962.625",
       "rank_desc": 57,
-      "normalized_value": 0.014532352796012043
+      "normalized_value": 0.014535365901820623
     },
     {
       "province_code": "84",
@@ -623,7 +623,7 @@
       "value": 9158.0,
       "display_value": "9158",
       "rank_desc": 6,
-      "normalized_value": 0.14396920191500914
+      "normalized_value": 0.14399905217013545
     },
     {
       "province_code": "32",
@@ -632,7 +632,7 @@
       "value": 3706.125,
       "display_value": "3706.125",
       "rank_desc": 27,
-      "normalized_value": 0.05786288929470411
+      "normalized_value": 0.05787488645788081
     },
     {
       "province_code": "43",
@@ -641,7 +641,7 @@
       "value": 580.0,
       "display_value": "580",
       "rank_desc": 65,
-      "normalized_value": 0.008489215734662653
+      "normalized_value": 0.008490975869831364
     },
     {
       "province_code": "39",
@@ -650,7 +650,7 @@
       "value": 1866.375,
       "display_value": "1866.375",
       "rank_desc": 46,
-      "normalized_value": 0.02880608064754948
+      "normalized_value": 0.02881205323644406
     },
     {
       "province_code": "15",
@@ -659,7 +659,7 @@
       "value": 988.625,
       "display_value": "988.625",
       "rank_desc": 56,
-      "normalized_value": 0.014942993929223632
+      "normalized_value": 0.014946092176454326
     },
     {
       "province_code": "37",
@@ -668,7 +668,7 @@
       "value": 331.75,
       "display_value": "331.75",
       "rank_desc": 69,
-      "normalized_value": 0.004568382606978925
+      "normalized_value": 0.004569329805299949
     },
     {
       "province_code": "41",
@@ -677,7 +677,7 @@
       "value": 1919.875,
       "display_value": "1919.875",
       "rank_desc": 45,
-      "normalized_value": 0.029651053748581017
+      "normalized_value": 0.02965720153232495
     },
     {
       "province_code": "53",
@@ -686,7 +686,7 @@
       "value": 3468.625,
       "display_value": "3468.625",
       "rank_desc": 29,
-      "normalized_value": 0.054111840481713636
+      "normalized_value": 0.05412305991074602
     },
     {
       "province_code": "61",
@@ -695,7 +695,7 @@
       "value": 809.375,
       "display_value": "809.375",
       "rank_desc": 60,
-      "normalized_value": 0.012111939193524506
+      "normalized_value": 0.012114450456143122
     },
     {
       "province_code": "34",
@@ -704,7 +704,7 @@
       "value": 4957.875,
       "display_value": "4957.875",
       "rank_desc": 17,
-      "normalized_value": 0.07763289077538127
+      "normalized_value": 0.07764898700683227
     }
   ],
   "rankings": {
@@ -712,8 +712,8 @@
       {
         "province_code": "50",
         "province_name_th": "เชียงใหม่",
-        "value": 63358.125,
-        "display_value": "63358.125",
+        "value": 63345.0,
+        "display_value": "63345",
         "rank_desc": 1,
         "province_name_en": "CHIANG MAI"
       },
@@ -736,8 +736,8 @@
       {
         "province_code": "57",
         "province_name_th": "เชียงราย",
-        "value": 16345.0,
-        "display_value": "16345",
+        "value": 16154.75,
+        "display_value": "16154.75",
         "rank_desc": 4,
         "province_name_en": "CHIANG RAI"
       },

@@ -1,11 +1,17 @@
-# CRI Impact Dashboard V4.0
+# CRI Impact Dashboard V4.1
 
 This is the standalone deployment bundle for the Climate Resilience Index (CRI) Impact Dashboard. It serves pre-computed Stage 1 analytical data to visualize climate risks, economic loss, and health impacts across Thailand.
+
+## V4.1 Refinements: Cold Spell Exclusion & Metadata Cleanups
+This version introduces adjustments to the analytical data pipeline and page metadata:
+
+1. **Cold Spell Exclusion**: Excluded Cold Spell (ภัยหนาว) from the hazard disaggregation options and all cumulative climate calculations, updating the overall averages (`ALL` hazard) to represent the sum of Flood, Drought, Windstorm, and Landslide.
+2. **Data Owner Registry**: Removed MOF (Ministry of Finance) from the Government Advance Payment data-owner reference in the Methodology tab table to align with standard DDPM definitions.
 
 ## V4.0 Feature Additions: Hazard Disaggregation
 This version expands dashboard capability to support hazard-specific views:
 
-1. **Hazard Selector Dimension**: Added interactive selector dropdowns across the CRI province metrics and Tambon-level human impact pages, supporting Flood (อุทกภัย), Drought (ภัยแล้ง), Windstorm (วาตภัย), Cold Spell (ภัยหนาว), Landslide (ดินโคลนถล่ม), and All Climate Hazards (รวมทุกภัย).
+1. **Hazard Selector Dimension**: Added interactive selector dropdowns across the CRI province metrics and Tambon-level human impact pages, supporting Flood (อุทกภัย), Drought (ภัยแล้ง), Windstorm (วาตภัย), Landslide (ดินโคลนถล่ม), and All Climate Hazards (รวมทุกภัย).
 2. **Disaggregated Spatial Caching**: Custom `hazard_key` support across `load_metric` caching layers.
 3. **Adoption of Nested Data Structure**: Swapped old flat JSON outputs with nested hazard-specific subdirectories under `period_2560_2567/` and `period_2567/`.
 

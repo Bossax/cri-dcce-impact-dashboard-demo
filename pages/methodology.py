@@ -46,7 +46,7 @@ def render() -> None:
             | **Population** | DOPA | Annual registration statistics (Silver: Annual) |
             | **Households** | DOPA | Annual registration statistics (Silver: Annual) |
             | **GPP** | NESDC | Current market prices (Million THB) (Silver: Annual) |
-            | **Economic Relief**| DDPM / MOF | Government advance payments (THB) |
+            | **Economic Relief**| DDPM | Government advance payments (THB) |
             | **Heat Impact** | MOPH | Clinical cases of heat-related injuries/deaths |
             """
         )

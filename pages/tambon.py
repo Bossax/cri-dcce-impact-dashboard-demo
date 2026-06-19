@@ -30,8 +30,18 @@ def render() -> None:
         selected_metric_label = st.selectbox("Metric Selector", options=list(metric_options.keys()), key="tambon_metric_selector")
         selected_metric = metric_options[selected_metric_label]
 
+        # Hazard Selector
+        hazard_options = data.available_hazard_options()
+        selected_hazard = st.selectbox(
+            "Hazard Selector",
+            options=hazard_options,
+            format_func=lambda x: x["hazard_label"],
+            key="tambon_hazard_selector"
+        )
+        hazard_key = selected_hazard["hazard_key"]
+
         # Province Selector
-        base_dataset = data.load_metric(selected_metric, period_key)
+        base_dataset = data.load_metric(selected_metric, period_key, hazard_key)
         province_options = data.tambon_province_options(base_dataset)
         selected_province = st.selectbox(
             "Select Province to Zoom",
@@ -47,7 +57,7 @@ def render() -> None:
         province_code = selected_province["province_code"]
 
         # Load Data for Ranking
-        dataset = data.load_metric(selected_metric, period_key)
+        dataset = data.load_metric(selected_metric, period_key, hazard_key)
         summary = data.metric_summary(dataset)
         rank_rows = data.tambon_rank_rows(dataset, province_code)
 
@@ -55,9 +65,36 @@ def render() -> None:
         st.caption(f"{selected_province['province_name_th']} | {summary['unit_label']}")
         st.table(rank_rows)
 
+        # Download button for all subdistricts in the selected province
+        all_tambons = data.tambon_records(dataset, province_code)
+        import pandas as pd
+        df_all = pd.DataFrame(all_tambons)
+        if not df_all.empty:
+            df_all["value"] = pd.to_numeric(df_all["value"], errors="coerce").fillna(0.0)
+            df_all = df_all.sort_values(by="value", ascending=False).reset_index(drop=True)
+            df_all["Rank"] = df_all.index + 1
+            
+            cols_to_keep = ["Rank", "subdistrict_code", "subdistrict_name_th", "district_name_th", "province_name_th", "display_value"]
+            rename_map = {
+                "subdistrict_code": "Tambon Code",
+                "subdistrict_name_th": "Tambon Name",
+                "district_name_th": "District Name",
+                "province_name_th": "Province Name",
+                "display_value": "Value"
+            }
+            df_export = df_all[cols_to_keep].rename(columns=rename_map)
+            csv_data = df_export.to_csv(index=False, encoding="utf-8-sig")
+            st.download_button(
+                label="Download All Province Tambons CSV",
+                data=csv_data,
+                file_name=f"tambons_{selected_metric}_{period_key}_{hazard_key}_{province_code}.csv",
+                mime="text/csv",
+                key="tambon_download_button",
+            )
+
     with col_map:
         # Map and Vertical Colorbar
-        geojson = data.tambon_geojson_for_province_cached(selected_metric, period_key, province_code)
+        geojson = data.tambon_geojson_for_province_cached(selected_metric, period_key, province_code, hazard_key)
         
         # Calculate Local Maximum for the selected province
         local_max = 0.0

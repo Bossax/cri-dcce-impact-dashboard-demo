@@ -31,8 +31,10 @@ def load_spatial_manifest() -> dict[str, Any]:
 
 
 @st.cache_data
-def load_metric(metric_key: str, period_key: str = "period_2560_2567") -> dict[str, Any]:
-    path = STAGE1_DIR / period_key / f"{metric_key}.json"
+def load_metric(metric_key: str, period_key: str = "period_2560_2567", hazard_key: str = "all") -> dict[str, Any]:
+    if metric_key.startswith("heat_"):
+        hazard_key = "all"
+    path = STAGE1_DIR / period_key / hazard_key / f"{metric_key}.json"
     with path.open("r", encoding="utf-8") as handle:
         return json.load(handle)
 
@@ -46,6 +48,10 @@ def load_stage1_json(relative_path: str) -> dict[str, Any]:
 
 def available_period_options() -> list[dict[str, str]]:
     return list(load_manifest().get("periods", []))
+
+
+def available_hazard_options() -> list[dict[str, str]]:
+    return list(load_manifest().get("hazards", []))
 
 
 def ranking_rows(dataset: dict[str, Any], ranking_key: str = "top_10") -> list[dict[str, Any]]:
@@ -76,8 +82,8 @@ def metric_summary(dataset: dict[str, Any]) -> dict[str, Any]:
 
 
 @st.cache_data
-def build_province_geojson_cached(metric_key: str, period_key: str) -> dict[str, Any]:
-    dataset = load_metric(metric_key, period_key)
+def build_province_geojson_cached(metric_key: str, period_key: str, hazard_key: str = "all") -> dict[str, Any]:
+    dataset = load_metric(metric_key, period_key, hazard_key)
     spatial_manifest = load_spatial_manifest()
     province_asset = str((load_manifest().get("assets") or {}).get("province_geometry", "spatial/province_boundaries.geojson"))
     base_geojson = load_stage1_json(province_asset)
@@ -230,8 +236,8 @@ def tambon_rank_rows(
 
 
 @st.cache_data
-def tambon_geojson_for_province_cached(metric_key: str, period_key: str, province_code: str) -> dict[str, Any]:
-    dataset = load_metric(metric_key, period_key)
+def tambon_geojson_for_province_cached(metric_key: str, period_key: str, province_code: str, hazard_key: str = "all") -> dict[str, Any]:
+    dataset = load_metric(metric_key, period_key, hazard_key)
     spatial_manifest = load_spatial_manifest()
     tambon_files = {
         str(item.get("province_code")): item.get("file")

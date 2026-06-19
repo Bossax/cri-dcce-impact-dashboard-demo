@@ -1,6 +1,6 @@
 {
-  "version": "2026-06-17-stage1",
-  "generated_at": "2026-06-18T11:35:50.863016+00:00",
+  "version": "2026-06-19-disaggregated-stage1",
+  "generated_at": "2026-06-19T06:55:30.398794+00:00",
   "periods": [
     {
       "period_key": "period_2560_2567",
@@ -9,6 +9,32 @@
     {
       "period_key": "period_2567",
       "period_label": "2567 only"
+    }
+  ],
+  "hazards": [
+    {
+      "hazard_key": "all",
+      "hazard_label": "All Climate Hazards (รวมทุกภัย)"
+    },
+    {
+      "hazard_key": "flood",
+      "hazard_label": "Flood (อุทกภัย)"
+    },
+    {
+      "hazard_key": "windstorm",
+      "hazard_label": "Windstorm (วาตภัย)"
+    },
+    {
+      "hazard_key": "cold_spell",
+      "hazard_label": "Cold Spell (ภัยหนาว)"
+    },
+    {
+      "hazard_key": "landslide",
+      "hazard_label": "Landslide (ดินโคลนถล่ม)"
+    },
+    {
+      "hazard_key": "drought",
+      "hazard_label": "Drought (ภัยแล้ง)"
     }
   ],
   "metric_groups": {

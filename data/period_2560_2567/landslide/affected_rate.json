@@ -1,0 +1,876 @@
+{
+  "metric_key": "affected_rate",
+  "metric_label": "Affected Rate",
+  "period_key": "period_2560_2567",
+  "period_label": "2560–2567 average",
+  "unit_label": "Per 100 households",
+  "source_mode": "average_window",
+  "legend": {
+    "min": 0.0,
+    "max": 0.04801814051026014,
+    "display_min": "0",
+    "display_max": "0.048018",
+    "color_scheme": "OrRd"
+  },
+  "records": [
+    {
+      "province_code": "81",
+      "province_name_th": "กระบี่",
+      "province_name_en": "KRABI",
+      "value": 0.00025625912923147887,
+      "display_value": "0.000256",
+      "rank_desc": 23,
+      "normalized_value": 0.005336714968725693
+    },
+    {
+      "province_code": "10",
+      "province_name_th": "กรุงเทพมหานคร",
+      "province_name_en": "BANGKOK",
+      "value": 0.0,
+      "display_value": "0",
+      "rank_desc": 33,
+      "normalized_value": 0.0
+    },
+    {
+      "province_code": "71",
+      "province_name_th": "กาญจนบุรี",
+      "province_name_en": "KANCHANABURI",
+      "value": 0.0,
+      "display_value": "0",
+      "rank_desc": 33,
+      "normalized_value": 0.0
+    },
+    {
+      "province_code": "46",
+      "province_name_th": "กาฬสินธุ์",
+      "province_name_en": "KALASIN",
+      "value": 0.0,
+      "display_value": "0",
+      "rank_desc": 33,
+      "normalized_value": 0.0
+    },
+    {
+      "province_code": "62",
+      "province_name_th": "กำแพงเพชร",
+      "province_name_en": "KAMPHAENG PHET",
+      "value": 0.0,
+      "display_value": "0",
+      "rank_desc": 33,
+      "normalized_value": 0.0
+    },
+    {
+      "province_code": "40",
+      "province_name_th": "ขอนแก่น",
+      "province_name_en": "KHON KAEN",
+      "value": 0.0,
+      "display_value": "0",
+      "rank_desc": 33,
+      "normalized_value": 0.0
+    },
+    {
+      "province_code": "22",
+      "province_name_th": "จันทบุรี",
+      "province_name_en": "CHANTHABURI",
+      "value": 5.0784235557598215e-05,
+      "display_value": "0.000051",
+      "rank_desc": 31,
+      "normalized_value": 0.001057605209571725
+    },
+    {
+      "province_code": "24",
+      "province_name_th": "ฉะเชิงเทรา",
+      "province_name_en": "CHACHOENGSAO",
+      "value": 0.0,
+      "display_value": "0",
+      "rank_desc": 33,
+      "normalized_value": 0.0
+    },
+    {
+      "province_code": "20",
+      "province_name_th": "ชลบุรี",
+      "province_name_en": "CHON BURI",
+      "value": 6.937451589595626e-05,
+      "display_value": "0.000069",
+      "rank_desc": 29,
+      "normalized_value": 0.0014447564016172776
+    },
+    {
+      "province_code": "18",
+      "province_name_th": "ชัยนาท",
+      "province_name_en": "CHAI NAT",
+      "value": 0.001372410433064112,
+      "display_value": "0.001372",
+      "rank_desc": 13,
+      "normalized_value": 0.02858108245093052
+    },
+    {
+      "province_code": "36",
+      "province_name_th": "ชัยภูมิ",
+      "province_name_en": "CHAIYAPHUM",
+      "value": 0.0002476425972507957,
+      "display_value": "0.000248",
+      "rank_desc": 24,
+      "normalized_value": 0.005157271702303453
+    },
+    {
+      "province_code": "86",
+      "province_name_th": "ชุมพร",
+      "province_name_en": "CHUMPHON",
+      "value": 0.0003095248535560537,
+      "display_value": "0.00031",
+      "rank_desc": 21,
+      "normalized_value": 0.0064459983303584364
+    },
+    {
+      "province_code": "57",
+      "province_name_th": "เชียงราย",
+      "province_name_en": "CHIANG RAI",
+      "value": 0.03674225750110049,
+      "display_value": "0.036742",
+      "rank_desc": 2,
+      "normalized_value": 0.7651745176023568
+    },
+    {
+      "province_code": "50",
+      "province_name_th": "เชียงใหม่",
+      "province_name_en": "CHIANG MAI",
+      "value": 0.0029353337088979152,
+      "display_value": "0.002935",
+      "rank_desc": 9,
+      "normalized_value": 0.061129683026162084
+    },
+    {
+      "province_code": "92",
+      "province_name_th": "ตรัง",
+      "province_name_en": "TRANG",
+      "value": 0.0,
+      "display_value": "0",
+      "rank_desc": 33,
+      "normalized_value": 0.0
+    },
+    {
+      "province_code": "23",
+      "province_name_th": "ตราด",
+      "province_name_en": "TRAT",
+      "value": 0.00011457207901348857,
+      "display_value": "0.000115",
+      "rank_desc": 28,
+      "normalized_value": 0.0023860165719871576
+    },
+    {
+      "province_code": "63",
+      "province_name_th": "ตาก",
+      "province_name_en": "TAK",
+      "value": 0.006720152470344572,
+      "display_value": "0.00672",
+      "rank_desc": 6,
+      "normalized_value": 0.139950285432412
+    },
+    {
+      "province_code": "26",
+      "province_name_th": "นครนายก",
+      "province_name_en": "NAKHON NAYOK",
+      "value": 0.0,
+      "display_value": "0",
+      "rank_desc": 33,
+      "normalized_value": 0.0
+    },
+    {
+      "province_code": "73",
+      "province_name_th": "นครปฐม",
+      "province_name_en": "NAKHON PATHOM",
+      "value": 0.0,
+      "display_value": "0",
+      "rank_desc": 33,
+      "normalized_value": 0.0
+    },
+    {
+      "province_code": "48",
+      "province_name_th": "นครพนม",
+      "province_name_en": "NAKHON PHANOM",
+      "value": 0.0,
+      "display_value": "0",
+      "rank_desc": 33,
+      "normalized_value": 0.0
+    },
+    {
+      "province_code": "30",
+      "province_name_th": "นครราชสีมา",
+      "province_name_en": "NAKHON RATCHASIMA",
+      "value": 0.0,
+      "display_value": "0",
+      "rank_desc": 33,
+      "normalized_value": 0.0
+    },
+    {
+      "province_code": "80",
+      "province_name_th": "นครศรีธรรมราช",
+      "province_name_en": "NAKHON SI THAMMARAT",
+      "value": 0.01178075608168218,
+      "display_value": "0.011781",
+      "rank_desc": 4,
+      "normalized_value": 0.24533969779952142
+    },
+    {
+      "province_code": "60",
+      "province_name_th": "นครสวรรค์",
+      "province_name_en": "NAKHON SAWAN",
+      "value": 0.0008876359414444322,
+      "display_value": "0.000888",
+      "rank_desc": 16,
+      "normalized_value": 0.01848542929842877
+    },
+    {
+      "province_code": "12",
+      "province_name_th": "นนทบุรี",
+      "province_name_en": "NONTHABURI",
+      "value": 0.0,
+      "display_value": "0",
+      "rank_desc": 33,
+      "normalized_value": 0.0
+    },
+    {
+      "province_code": "96",
+      "province_name_th": "นราธิวาส",
+      "province_name_en": "NARATHIWAT",
+      "value": 0.0,
+      "display_value": "0",
+      "rank_desc": 33,
+      "normalized_value": 0.0
+    },
+    {
+      "province_code": "55",
+      "province_name_th": "น่าน",
+      "province_name_en": "NAN",
+      "value": 0.005226241831275138,
+      "display_value": "0.005226",
+      "rank_desc": 7,
+      "normalized_value": 0.10883890495839661
+    },
+    {
+      "province_code": "38",
+      "province_name_th": "บึงกาฬ",
+      "province_name_en": "BUENG KAN",
+      "value": 0.0,
+      "display_value": "0",
+      "rank_desc": 33,
+      "normalized_value": 0.0
+    },
+    {
+      "province_code": "31",
+      "province_name_th": "บุรีรัมย์",
+      "province_name_en": "BURI RAM",
+      "value": 0.0,
+      "display_value": "0",
+      "rank_desc": 33,
+      "normalized_value": 0.0
+    },
+    {
+      "province_code": "13",
+      "province_name_th": "ปทุมธานี",
+      "province_name_en": "PATHUM THANI",
+      "value": 0.0,
+      "display_value": "0",
+      "rank_desc": 33,
+      "normalized_value": 0.0
+    },
+    {
+      "province_code": "77",
+      "province_name_th": "ประจวบคีรีขันธ์",
+      "province_name_en": "PRACHUAP KHIRI KHAN",
+      "value": 0.0,
+      "display_value": "0",
+      "rank_desc": 33,
+      "normalized_value": 0.0
+    },
+    {
+      "province_code": "25",
+      "province_name_th": "ปราจีนบุรี",
+      "province_name_en": "PRACHIN BURI",
+      "value": 0.0,
+      "display_value": "0",
+      "rank_desc": 33,
+      "normalized_value": 0.0
+    },
+    {
+      "province_code": "94",
+      "province_name_th": "ปัตตานี",
+      "province_name_en": "PATTANI",
+      "value": 0.0,
+      "display_value": "0",
+      "rank_desc": 33,
+      "normalized_value": 0.0
+    },
+    {
+      "province_code": "14",
+      "province_name_th": "พระนครศรีอยุธยา",
+      "province_name_en": "PHRA NAKHON SI AYUTTHAYA",
+      "value": 0.0,
+      "display_value": "0",
+      "rank_desc": 33,
+      "normalized_value": 0.0
+    },
+    {
+      "province_code": "56",
+      "province_name_th": "พะเยา",
+      "province_name_en": "PHAYAO",
+      "value": 0.0,
+      "display_value": "0",
+      "rank_desc": 33,
+      "normalized_value": 0.0
+    },
+    {
+      "province_code": "82",
+      "province_name_th": "พังงา",
+      "province_name_en": "PHANGNGA",
+      "value": 0.0008387344336131213,
+      "display_value": "0.000839",
+      "rank_desc": 18,
+      "normalized_value": 0.01746703276512565
+    },
+    {
+      "province_code": "93",
+      "province_name_th": "พัทลุง",
+      "province_name_en": "PHATTHALUNG",
+      "value": 6.296218176552254e-05,
+      "display_value": "0.000063",
+      "rank_desc": 30,
+      "normalized_value": 0.0013112165755787496
+    },
+    {
+      "province_code": "66",
+      "province_name_th": "พิจิตร",
+      "province_name_en": "PHICHIT",
+      "value": 0.007148541039209747,
+      "display_value": "0.007149",
+      "rank_desc": 5,
+      "normalized_value": 0.1488716756468798
+    },
+    {
+      "province_code": "65",
+      "province_name_th": "พิษณุโลก",
+      "province_name_en": "PHITSANULOK",
+      "value": 0.00014070783074255041,
+      "display_value": "0.000141",
+      "rank_desc": 26,
+      "normalized_value": 0.002930305697957735
+    },
+    {
+      "province_code": "76",
+      "province_name_th": "เพชรบุรี",
+      "province_name_en": "PHETCHABURI",
+      "value": 0.014016540639277599,
+      "display_value": "0.014017",
+      "rank_desc": 3,
+      "normalized_value": 0.2919009459827511
+    },
+    {
+      "province_code": "67",
+      "province_name_th": "เพชรบูรณ์",
+      "province_name_en": "PHETCHABUN",
+      "value": 0.0,
+      "display_value": "0",
+      "rank_desc": 33,
+      "normalized_value": 0.0
+    },
+    {
+      "province_code": "54",
+      "province_name_th": "แพร่",
+      "province_name_en": "PHRAE",
+      "value": 0.0,
+      "display_value": "0",
+      "rank_desc": 33,
+      "normalized_value": 0.0
+    },
+    {
+      "province_code": "83",
+      "province_name_th": "ภูเก็ต",
+      "province_name_en": "PHUKET",
+      "value": 0.0,
+      "display_value": "0",
+      "rank_desc": 33,
+      "normalized_value": 0.0
+    },
+    {
+      "province_code": "44",
+      "province_name_th": "มหาสารคาม",
+      "province_name_en": "MAHA SARAKHAM",
+      "value": 0.0,
+      "display_value": "0",
+      "rank_desc": 33,
+      "normalized_value": 0.0
+    },
+    {
+      "province_code": "49",
+      "province_name_th": "มุกดาหาร",
+      "province_name_en": "MUKDAHAN",
+      "value": 0.0,
+      "display_value": "0",
+      "rank_desc": 33,
+      "normalized_value": 0.0
+    },
+    {
+      "province_code": "58",
+      "province_name_th": "แม่ฮ่องสอน",
+      "province_name_en": "MAE HONG SON",
+      "value": 0.002262367880409079,
+      "display_value": "0.002262",
+      "rank_desc": 10,
+      "normalized_value": 0.04711485818418299
+    },
+    {
+      "province_code": "35",
+      "province_name_th": "ยโสธร",
+      "province_name_en": "YASOTHON",
+      "value": 0.0,
+      "display_value": "0",
+      "rank_desc": 33,
+      "normalized_value": 0.0
+    },
+    {
+      "province_code": "95",
+      "province_name_th": "ยะลา",
+      "province_name_en": "YALA",
+      "value": 0.04801814051026014,
+      "display_value": "0.048018",
+      "rank_desc": 1,
+      "normalized_value": 1.0
+    },
+    {
+      "province_code": "45",
+      "province_name_th": "ร้อยเอ็ด",
+      "province_name_en": "ROI ET",
+      "value": 0.0,
+      "display_value": "0",
+      "rank_desc": 33,
+      "normalized_value": 0.0
+    },
+    {
+      "province_code": "85",
+      "province_name_th": "ระนอง",
+      "province_name_en": "RANONG",
+      "value": 0.0037475139260294285,
+      "display_value": "0.003748",
+      "rank_desc": 8,
+      "normalized_value": 0.0780437119431705
+    },
+    {
+      "province_code": "21",
+      "province_name_th": "ระยอง",
+      "province_name_en": "RAYONG",
+      "value": 4.8400262426222873e-05,
+      "display_value": "0.000048",
+      "rank_desc": 32,
+      "normalized_value": 0.0010079578657545285
+    },
+    {
+      "province_code": "70",
+      "province_name_th": "ราชบุรี",
+      "province_name_en": "RATCHABURI",
+      "value": 0.0,
+      "display_value": "0",
+      "rank_desc": 33,
+      "normalized_value": 0.0
+    },
+    {
+      "province_code": "16",
+      "province_name_th": "ลพบุรี",
+      "province_name_en": "LOP BURI",
+      "value": 0.0,
+      "display_value": "0",
+      "rank_desc": 33,
+      "normalized_value": 0.0
+    },
+    {
+      "province_code": "52",
+      "province_name_th": "ลำปาง",
+      "province_name_en": "LAMPANG",
+      "value": 0.000923782098278658,
+      "display_value": "0.000924",
+      "rank_desc": 15,
+      "normalized_value": 0.019238189743754686
+    },
+    {
+      "province_code": "51",
+      "province_name_th": "ลำพูน",
+      "province_name_en": "LAMPHUN",
+      "value": 0.0,
+      "display_value": "0",
+      "rank_desc": 33,
+      "normalized_value": 0.0
+    },
+    {
+      "province_code": "42",
+      "province_name_th": "เลย",
+      "province_name_en": "LOEI",
+      "value": 0.0008745960459512763,
+      "display_value": "0.000875",
+      "rank_desc": 17,
+      "normalized_value": 0.01821386743962731
+    },
+    {
+      "province_code": "33",
+      "province_name_th": "ศรีสะเกษ",
+      "province_name_en": "SI SA KET",
+      "value": 0.0,
+      "display_value": "0",
+      "rank_desc": 33,
+      "normalized_value": 0.0
+    },
+    {
+      "province_code": "47",
+      "province_name_th": "สกลนคร",
+      "province_name_en": "SAKON NAKHON",
+      "value": 0.0,
+      "display_value": "0",
+      "rank_desc": 33,
+      "normalized_value": 0.0
+    },
+    {
+      "province_code": "90",
+      "province_name_th": "สงขลา",
+      "province_name_en": "SONGKHLA",
+      "value": 0.0,
+      "display_value": "0",
+      "rank_desc": 33,
+      "normalized_value": 0.0
+    },
+    {
+      "province_code": "91",
+      "province_name_th": "สตูล",
+      "province_name_en": "SATUN",
+      "value": 0.00011712879834051917,
+      "display_value": "0.000117",
+      "rank_desc": 27,
+      "normalized_value": 0.002439261435279694
+    },
+    {
+      "province_code": "11",
+      "province_name_th": "สมุทรปราการ",
+      "province_name_en": "SAMUT PRAKAN",
+      "value": 0.0010915636510690308,
+      "display_value": "0.001092",
+      "rank_desc": 14,
+      "normalized_value": 0.022732318233684913
+    },
+    {
+      "province_code": "75",
+      "province_name_th": "สมุทรสงคราม",
+      "province_name_en": "SAMUT SONGKHRAM",
+      "value": 0.0005113964703415617,
+      "display_value": "0.000511",
+      "rank_desc": 19,
+      "normalized_value": 0.010650068180634577
+    },
+    {
+      "province_code": "74",
+      "province_name_th": "สมุทรสาคร",
+      "province_name_en": "SAMUT SAKHON",
+      "value": 0.0,
+      "display_value": "0",
+      "rank_desc": 33,
+      "normalized_value": 0.0
+    },
+    {
+      "province_code": "27",
+      "province_name_th": "สระแก้ว",
+      "province_name_en": "SA KAEO",
+      "value": 0.0,
+      "display_value": "0",
+      "rank_desc": 33,
+      "normalized_value": 0.0
+    },
+    {
+      "province_code": "19",
+      "province_name_th": "สระบุรี",
+      "province_name_en": "SARABURI",
+      "value": 0.0014428285736021833,
+      "display_value": "0.001443",
+      "rank_desc": 12,
+      "normalized_value": 0.030047572818732764
+    },
+    {
+      "province_code": "17",
+      "province_name_th": "สิงห์บุรี",
+      "province_name_en": "SING BURI",
+      "value": 0.00031683017744074085,
+      "display_value": "0.000317",
+      "rank_desc": 20,
+      "normalized_value": 0.0065981350813250055
+    },
+    {
+      "province_code": "64",
+      "province_name_th": "สุโขทัย",
+      "province_name_en": "SUKHOTHAI",
+      "value": 0.0,
+      "display_value": "0",
+      "rank_desc": 33,
+      "normalized_value": 0.0
+    },
+    {
+      "province_code": "72",
+      "province_name_th": "สุพรรณบุรี",
+      "province_name_en": "SUPHAN BURI",
+      "value": 0.00028283353953245194,
+      "display_value": "0.000283",
+      "rank_desc": 22,
+      "normalized_value": 0.00589013936247736
+    },
+    {
+      "province_code": "84",
+      "province_name_th": "สุราษฎร์ธานี",
+      "province_name_en": "SURAT THANI",
+      "value": 0.0001692389782510989,
+      "display_value": "0.000169",
+      "rank_desc": 25,
+      "normalized_value": 0.003524480049679084
+    },
+    {
+      "province_code": "32",
+      "province_name_th": "สุรินทร์",
+      "province_name_en": "SURIN",
+      "value": 0.0,
+      "display_value": "0",
+      "rank_desc": 33,
+      "normalized_value": 0.0
+    },
+    {
+      "province_code": "43",
+      "province_name_th": "หนองคาย",
+      "province_name_en": "NONG KHAI",
+      "value": 0.0,
+      "display_value": "0",
+      "rank_desc": 33,
+      "normalized_value": 0.0
+    },
+    {
+      "province_code": "39",
+      "province_name_th": "หนองบัวลำภู",
+      "province_name_en": "NONG BUA LAMPHU",
+      "value": 0.0015443663952374991,
+      "display_value": "0.001544",
+      "rank_desc": 11,
+      "normalized_value": 0.032162144948272436
+    },
+    {
+      "province_code": "15",
+      "province_name_th": "อ่างทอง",
+      "province_name_en": "ANG THONG",
+      "value": 0.0,
+      "display_value": "0",
+      "rank_desc": 33,
+      "normalized_value": 0.0
+    },
+    {
+      "province_code": "37",
+      "province_name_th": "อำนาจเจริญ",
+      "province_name_en": "AMNAT CHAROEN",
+      "value": 0.0,
+      "display_value": "0",
+      "rank_desc": 33,
+      "normalized_value": 0.0
+    },
+    {
+      "province_code": "41",
+      "province_name_th": "อุดรธานี",
+      "province_name_en": "UDON THANI",
+      "value": 0.0,
+      "display_value": "0",
+      "rank_desc": 33,
+      "normalized_value": 0.0
+    },
+    {
+      "province_code": "53",
+      "province_name_th": "อุตรดิตถ์",
+      "province_name_en": "UTTARADIT",
+      "value": 0.0,
+      "display_value": "0",
+      "rank_desc": 33,
+      "normalized_value": 0.0
+    },
+    {
+      "province_code": "61",
+      "province_name_th": "อุทัยธานี",
+      "province_name_en": "UTHAI THANI",
+      "value": 0.0,
+      "display_value": "0",
+      "rank_desc": 33,
+      "normalized_value": 0.0
+    },
+    {
+      "province_code": "34",
+      "province_name_th": "อุบลราชธานี",
+      "province_name_en": "UBON RATCHATHANI",
+      "value": 0.0,
+      "display_value": "0",
+      "rank_desc": 33,
+      "normalized_value": 0.0
+    }
+  ],
+  "rankings": {
+    "top_10": [
+      {
+        "province_code": "95",
+        "province_name_th": "ยะลา",
+        "value": 0.04801814051026014,
+        "display_value": "0.048018",
+        "rank_desc": 1,
+        "province_name_en": "YALA"
+      },
+      {
+        "province_code": "57",
+        "province_name_th": "เชียงราย",
+        "value": 0.03674225750110049,
+        "display_value": "0.036742",
+        "rank_desc": 2,
+        "province_name_en": "CHIANG RAI"
+      },
+      {
+        "province_code": "76",
+        "province_name_th": "เพชรบุรี",
+        "value": 0.014016540639277599,
+        "display_value": "0.014017",
+        "rank_desc": 3,
+        "province_name_en": "PHETCHABURI"
+      },
+      {
+        "province_code": "80",
+        "province_name_th": "นครศรีธรรมราช",
+        "value": 0.01178075608168218,
+        "display_value": "0.011781",
+        "rank_desc": 4,
+        "province_name_en": "NAKHON SI THAMMARAT"
+      },
+      {
+        "province_code": "66",
+        "province_name_th": "พิจิตร",
+        "value": 0.007148541039209747,
+        "display_value": "0.007149",
+        "rank_desc": 5,
+        "province_name_en": "PHICHIT"
+      },
+      {
+        "province_code": "63",
+        "province_name_th": "ตาก",
+        "value": 0.006720152470344572,
+        "display_value": "0.00672",
+        "rank_desc": 6,
+        "province_name_en": "TAK"
+      },
+      {
+        "province_code": "55",
+        "province_name_th": "น่าน",
+        "value": 0.005226241831275138,
+        "display_value": "0.005226",
+        "rank_desc": 7,
+        "province_name_en": "NAN"
+      },
+      {
+        "province_code": "85",
+        "province_name_th": "ระนอง",
+        "value": 0.0037475139260294285,
+        "display_value": "0.003748",
+        "rank_desc": 8,
+        "province_name_en": "RANONG"
+      },
+      {
+        "province_code": "50",
+        "province_name_th": "เชียงใหม่",
+        "value": 0.0029353337088979152,
+        "display_value": "0.002935",
+        "rank_desc": 9,
+        "province_name_en": "CHIANG MAI"
+      },
+      {
+        "province_code": "58",
+        "province_name_th": "แม่ฮ่องสอน",
+        "value": 0.002262367880409079,
+        "display_value": "0.002262",
+        "rank_desc": 10,
+        "province_name_en": "MAE HONG SON"
+      }
+    ],
+    "bottom_10": [
+      {
+        "province_code": "10",
+        "province_name_th": "กรุงเทพมหานคร",
+        "value": 0.0,
+        "display_value": "0",
+        "rank_desc": 33,
+        "province_name_en": "BANGKOK"
+      },
+      {
+        "province_code": "12",
+        "province_name_th": "นนทบุรี",
+        "value": 0.0,
+        "display_value": "0",
+        "rank_desc": 33,
+        "province_name_en": "NONTHABURI"
+      },
+      {
+        "province_code": "13",
+        "province_name_th": "ปทุมธานี",
+        "value": 0.0,
+        "display_value": "0",
+        "rank_desc": 33,
+        "province_name_en": "PATHUM THANI"
+      },
+      {
+        "province_code": "14",
+        "province_name_th": "พระนครศรีอยุธยา",
+        "value": 0.0,
+        "display_value": "0",
+        "rank_desc": 33,
+        "province_name_en": "PHRA NAKHON SI AYUTTHAYA"
+      },
+      {
+        "province_code": "15",
+        "province_name_th": "อ่างทอง",
+        "value": 0.0,
+        "display_value": "0",
+        "rank_desc": 33,
+        "province_name_en": "ANG THONG"
+      },
+      {
+        "province_code": "16",
+        "province_name_th": "ลพบุรี",
+        "value": 0.0,
+        "display_value": "0",
+        "rank_desc": 33,
+        "province_name_en": "LOP BURI"
+      },
+      {
+        "province_code": "24",
+        "province_name_th": "ฉะเชิงเทรา",
+        "value": 0.0,
+        "display_value": "0",
+        "rank_desc": 33,
+        "province_name_en": "CHACHOENGSAO"
+      },
+      {
+        "province_code": "25",
+        "province_name_th": "ปราจีนบุรี",
+        "value": 0.0,
+        "display_value": "0",
+        "rank_desc": 33,
+        "province_name_en": "PRACHIN BURI"
+      },
+      {
+        "province_code": "26",
+        "province_name_th": "นครนายก",
+        "value": 0.0,
+        "display_value": "0",
+        "rank_desc": 33,
+        "province_name_en": "NAKHON NAYOK"
+      },
+      {
+        "province_code": "27",
+        "province_name_th": "สระแก้ว",
+        "value": 0.0,
+        "display_value": "0",
+        "rank_desc": 33,
+        "province_name_en": "SA KAEO"
+      }
+    ]
+  }
+}

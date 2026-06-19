@@ -1,390 +1,390 @@
 {
-  "province_geometry": "spatial/province_boundaries_simple.geojson",
+  "province_geometry": "spatial/province_boundaries.geojson",
   "tambon_by_province": [
     {
       "province_code": "10",
       "province_name_th": null,
-      "file": "spatial/tambon/10_simple.geojson"
+      "file": "spatial/tambon/10.geojson"
     },
     {
       "province_code": "11",
       "province_name_th": null,
-      "file": "spatial/tambon/11_simple.geojson"
+      "file": "spatial/tambon/11.geojson"
     },
     {
       "province_code": "12",
       "province_name_th": null,
-      "file": "spatial/tambon/12_simple.geojson"
+      "file": "spatial/tambon/12.geojson"
     },
     {
       "province_code": "13",
       "province_name_th": null,
-      "file": "spatial/tambon/13_simple.geojson"
+      "file": "spatial/tambon/13.geojson"
     },
     {
       "province_code": "14",
       "province_name_th": null,
-      "file": "spatial/tambon/14_simple.geojson"
+      "file": "spatial/tambon/14.geojson"
     },
     {
       "province_code": "15",
       "province_name_th": null,
-      "file": "spatial/tambon/15_simple.geojson"
+      "file": "spatial/tambon/15.geojson"
     },
     {
       "province_code": "16",
       "province_name_th": null,
-      "file": "spatial/tambon/16_simple.geojson"
+      "file": "spatial/tambon/16.geojson"
     },
     {
       "province_code": "17",
       "province_name_th": null,
-      "file": "spatial/tambon/17_simple.geojson"
+      "file": "spatial/tambon/17.geojson"
     },
     {
       "province_code": "18",
       "province_name_th": null,
-      "file": "spatial/tambon/18_simple.geojson"
+      "file": "spatial/tambon/18.geojson"
     },
     {
       "province_code": "19",
       "province_name_th": null,
-      "file": "spatial/tambon/19_simple.geojson"
+      "file": "spatial/tambon/19.geojson"
     },
     {
       "province_code": "20",
       "province_name_th": null,
-      "file": "spatial/tambon/20_simple.geojson"
+      "file": "spatial/tambon/20.geojson"
     },
     {
       "province_code": "21",
       "province_name_th": null,
-      "file": "spatial/tambon/21_simple.geojson"
+      "file": "spatial/tambon/21.geojson"
     },
     {
       "province_code": "22",
       "province_name_th": null,
-      "file": "spatial/tambon/22_simple.geojson"
+      "file": "spatial/tambon/22.geojson"
     },
     {
       "province_code": "23",
       "province_name_th": null,
-      "file": "spatial/tambon/23_simple.geojson"
+      "file": "spatial/tambon/23.geojson"
     },
     {
       "province_code": "24",
       "province_name_th": null,
-      "file": "spatial/tambon/24_simple.geojson"
+      "file": "spatial/tambon/24.geojson"
     },
     {
       "province_code": "25",
       "province_name_th": null,
-      "file": "spatial/tambon/25_simple.geojson"
+      "file": "spatial/tambon/25.geojson"
     },
     {
       "province_code": "26",
       "province_name_th": null,
-      "file": "spatial/tambon/26_simple.geojson"
+      "file": "spatial/tambon/26.geojson"
     },
     {
       "province_code": "27",
       "province_name_th": null,
-      "file": "spatial/tambon/27_simple.geojson"
+      "file": "spatial/tambon/27.geojson"
     },
     {
       "province_code": "30",
       "province_name_th": null,
-      "file": "spatial/tambon/30_simple.geojson"
+      "file": "spatial/tambon/30.geojson"
     },
     {
       "province_code": "31",
       "province_name_th": null,
-      "file": "spatial/tambon/31_simple.geojson"
+      "file": "spatial/tambon/31.geojson"
     },
     {
       "province_code": "32",
       "province_name_th": null,
-      "file": "spatial/tambon/32_simple.geojson"
+      "file": "spatial/tambon/32.geojson"
     },
     {
       "province_code": "33",
       "province_name_th": null,
-      "file": "spatial/tambon/33_simple.geojson"
+      "file": "spatial/tambon/33.geojson"
     },
     {
       "province_code": "34",
       "province_name_th": null,
-      "file": "spatial/tambon/34_simple.geojson"
+      "file": "spatial/tambon/34.geojson"
     },
     {
       "province_code": "35",
       "province_name_th": null,
-      "file": "spatial/tambon/35_simple.geojson"
+      "file": "spatial/tambon/35.geojson"
     },
     {
       "province_code": "36",
       "province_name_th": null,
-      "file": "spatial/tambon/36_simple.geojson"
+      "file": "spatial/tambon/36.geojson"
     },
     {
       "province_code": "37",
       "province_name_th": null,
-      "file": "spatial/tambon/37_simple.geojson"
+      "file": "spatial/tambon/37.geojson"
     },
     {
       "province_code": "38",
       "province_name_th": null,
-      "file": "spatial/tambon/38_simple.geojson"
+      "file": "spatial/tambon/38.geojson"
     },
     {
       "province_code": "39",
       "province_name_th": null,
-      "file": "spatial/tambon/39_simple.geojson"
+      "file": "spatial/tambon/39.geojson"
     },
     {
       "province_code": "40",
       "province_name_th": null,
-      "file": "spatial/tambon/40_simple.geojson"
+      "file": "spatial/tambon/40.geojson"
     },
     {
       "province_code": "41",
       "province_name_th": null,
-      "file": "spatial/tambon/41_simple.geojson"
+      "file": "spatial/tambon/41.geojson"
     },
     {
       "province_code": "42",
       "province_name_th": null,
-      "file": "spatial/tambon/42_simple.geojson"
+      "file": "spatial/tambon/42.geojson"
     },
     {
       "province_code": "43",
       "province_name_th": null,
-      "file": "spatial/tambon/43_simple.geojson"
+      "file": "spatial/tambon/43.geojson"
     },
     {
       "province_code": "44",
       "province_name_th": null,
-      "file": "spatial/tambon/44_simple.geojson"
+      "file": "spatial/tambon/44.geojson"
     },
     {
       "province_code": "45",
       "province_name_th": null,
-      "file": "spatial/tambon/45_simple.geojson"
+      "file": "spatial/tambon/45.geojson"
     },
     {
       "province_code": "46",
       "province_name_th": null,
-      "file": "spatial/tambon/46_simple.geojson"
+      "file": "spatial/tambon/46.geojson"
     },
     {
       "province_code": "47",
       "province_name_th": null,
-      "file": "spatial/tambon/47_simple.geojson"
+      "file": "spatial/tambon/47.geojson"
     },
     {
       "province_code": "48",
       "province_name_th": null,
-      "file": "spatial/tambon/48_simple.geojson"
+      "file": "spatial/tambon/48.geojson"
     },
     {
       "province_code": "49",
       "province_name_th": null,
-      "file": "spatial/tambon/49_simple.geojson"
+      "file": "spatial/tambon/49.geojson"
     },
     {
       "province_code": "50",
       "province_name_th": null,
-      "file": "spatial/tambon/50_simple.geojson"
+      "file": "spatial/tambon/50.geojson"
     },
     {
       "province_code": "51",
       "province_name_th": null,
-      "file": "spatial/tambon/51_simple.geojson"
+      "file": "spatial/tambon/51.geojson"
     },
     {
       "province_code": "52",
       "province_name_th": null,
-      "file": "spatial/tambon/52_simple.geojson"
+      "file": "spatial/tambon/52.geojson"
     },
     {
       "province_code": "53",
       "province_name_th": null,
-      "file": "spatial/tambon/53_simple.geojson"
+      "file": "spatial/tambon/53.geojson"
     },
     {
       "province_code": "54",
       "province_name_th": null,
-      "file": "spatial/tambon/54_simple.geojson"
+      "file": "spatial/tambon/54.geojson"
     },
     {
       "province_code": "55",
       "province_name_th": null,
-      "file": "spatial/tambon/55_simple.geojson"
+      "file": "spatial/tambon/55.geojson"
     },
     {
       "province_code": "56",
       "province_name_th": null,
-      "file": "spatial/tambon/56_simple.geojson"
+      "file": "spatial/tambon/56.geojson"
     },
     {
       "province_code": "57",
       "province_name_th": null,
-      "file": "spatial/tambon/57_simple.geojson"
+      "file": "spatial/tambon/57.geojson"
     },
     {
       "province_code": "58",
       "province_name_th": null,
-      "file": "spatial/tambon/58_simple.geojson"
+      "file": "spatial/tambon/58.geojson"
     },
     {
       "province_code": "60",
       "province_name_th": null,
-      "file": "spatial/tambon/60_simple.geojson"
+      "file": "spatial/tambon/60.geojson"
     },
     {
       "province_code": "61",
       "province_name_th": null,
-      "file": "spatial/tambon/61_simple.geojson"
+      "file": "spatial/tambon/61.geojson"
     },
     {
       "province_code": "62",
       "province_name_th": null,
-      "file": "spatial/tambon/62_simple.geojson"
+      "file": "spatial/tambon/62.geojson"
     },
     {
       "province_code": "63",
       "province_name_th": null,
-      "file": "spatial/tambon/63_simple.geojson"
+      "file": "spatial/tambon/63.geojson"
     },
     {
       "province_code": "64",
       "province_name_th": null,
-      "file": "spatial/tambon/64_simple.geojson"
+      "file": "spatial/tambon/64.geojson"
     },
     {
       "province_code": "65",
       "province_name_th": null,
-      "file": "spatial/tambon/65_simple.geojson"
+      "file": "spatial/tambon/65.geojson"
     },
     {
       "province_code": "66",
       "province_name_th": null,
-      "file": "spatial/tambon/66_simple.geojson"
+      "file": "spatial/tambon/66.geojson"
     },
     {
       "province_code": "67",
       "province_name_th": null,
-      "file": "spatial/tambon/67_simple.geojson"
+      "file": "spatial/tambon/67.geojson"
     },
     {
       "province_code": "70",
       "province_name_th": null,
-      "file": "spatial/tambon/70_simple.geojson"
+      "file": "spatial/tambon/70.geojson"
     },
     {
       "province_code": "71",
       "province_name_th": null,
-      "file": "spatial/tambon/71_simple.geojson"
+      "file": "spatial/tambon/71.geojson"
     },
     {
       "province_code": "72",
       "province_name_th": null,
-      "file": "spatial/tambon/72_simple.geojson"
+      "file": "spatial/tambon/72.geojson"
     },
     {
       "province_code": "73",
       "province_name_th": null,
-      "file": "spatial/tambon/73_simple.geojson"
+      "file": "spatial/tambon/73.geojson"
     },
     {
       "province_code": "74",
       "province_name_th": null,
-      "file": "spatial/tambon/74_simple.geojson"
+      "file": "spatial/tambon/74.geojson"
     },
     {
       "province_code": "75",
       "province_name_th": null,
-      "file": "spatial/tambon/75_simple.geojson"
+      "file": "spatial/tambon/75.geojson"
     },
     {
       "province_code": "76",
       "province_name_th": null,
-      "file": "spatial/tambon/76_simple.geojson"
+      "file": "spatial/tambon/76.geojson"
     },
     {
       "province_code": "77",
       "province_name_th": null,
-      "file": "spatial/tambon/77_simple.geojson"
+      "file": "spatial/tambon/77.geojson"
     },
     {
       "province_code": "80",
       "province_name_th": null,
-      "file": "spatial/tambon/80_simple.geojson"
+      "file": "spatial/tambon/80.geojson"
     },
     {
       "province_code": "81",
       "province_name_th": null,
-      "file": "spatial/tambon/81_simple.geojson"
+      "file": "spatial/tambon/81.geojson"
     },
     {
       "province_code": "82",
       "province_name_th": null,
-      "file": "spatial/tambon/82_simple.geojson"
+      "file": "spatial/tambon/82.geojson"
     },
     {
       "province_code": "83",
       "province_name_th": null,
-      "file": "spatial/tambon/83_simple.geojson"
+      "file": "spatial/tambon/83.geojson"
     },
     {
       "province_code": "84",
       "province_name_th": null,
-      "file": "spatial/tambon/84_simple.geojson"
+      "file": "spatial/tambon/84.geojson"
     },
     {
       "province_code": "85",
       "province_name_th": null,
-      "file": "spatial/tambon/85_simple.geojson"
+      "file": "spatial/tambon/85.geojson"
     },
     {
       "province_code": "86",
       "province_name_th": null,
-      "file": "spatial/tambon/86_simple.geojson"
+      "file": "spatial/tambon/86.geojson"
     },
     {
       "province_code": "90",
       "province_name_th": null,
-      "file": "spatial/tambon/90_simple.geojson"
+      "file": "spatial/tambon/90.geojson"
     },
     {
       "province_code": "91",
       "province_name_th": null,
-      "file": "spatial/tambon/91_simple.geojson"
+      "file": "spatial/tambon/91.geojson"
     },
     {
       "province_code": "92",
       "province_name_th": null,
-      "file": "spatial/tambon/92_simple.geojson"
+      "file": "spatial/tambon/92.geojson"
     },
     {
       "province_code": "93",
       "province_name_th": null,
-      "file": "spatial/tambon/93_simple.geojson"
+      "file": "spatial/tambon/93.geojson"
     },
     {
       "province_code": "94",
       "province_name_th": null,
-      "file": "spatial/tambon/94_simple.geojson"
+      "file": "spatial/tambon/94.geojson"
     },
     {
       "province_code": "95",
       "province_name_th": null,
-      "file": "spatial/tambon/95_simple.geojson"
+      "file": "spatial/tambon/95.geojson"
     },
     {
       "province_code": "96",
       "province_name_th": null,
-      "file": "spatial/tambon/96_simple.geojson"
+      "file": "spatial/tambon/96.geojson"
     }
   ]
 }

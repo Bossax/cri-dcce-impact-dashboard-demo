@@ -39,6 +39,43 @@ def render() -> None:
         st.caption(f"{summary['unit_label']}")
         st.table(rank_rows)
 
+        # Download button for all 77 provinces
+        records = dataset.get("records", [])
+        import pandas as pd
+        df_all = pd.DataFrame(records)
+        if not df_all.empty:
+            cols_to_keep = []
+            rename_map = {}
+            if "rank_desc" in df_all.columns:
+                cols_to_keep.append("rank_desc")
+                rename_map["rank_desc"] = "Rank"
+            if "province_code" in df_all.columns:
+                cols_to_keep.append("province_code")
+                rename_map["province_code"] = "Province Code"
+            if "province_name_th" in df_all.columns:
+                cols_to_keep.append("province_name_th")
+                rename_map["province_name_th"] = "Province Name (Thai)"
+            if "province_name_en" in df_all.columns:
+                cols_to_keep.append("province_name_en")
+                rename_map["province_name_en"] = "Province Name (English)"
+            if "display_value" in df_all.columns:
+                cols_to_keep.append("display_value")
+                rename_map["display_value"] = "Value"
+            elif "value" in df_all.columns:
+                cols_to_keep.append("value")
+                rename_map["value"] = "Value"
+                
+            df_export = df_all[cols_to_keep].rename(columns=rename_map)
+            df_export = df_export.sort_values(by="Rank").reset_index(drop=True)
+            csv_data = df_export.to_csv(index=False, encoding="utf-8-sig")
+            st.download_button(
+                label="Download All 77 Provinces CSV",
+                data=csv_data,
+                file_name=f"all_provinces_heat_{selected_metric}_{period_key}.csv",
+                mime="text/csv",
+                key="heat_download_button",
+            )
+
     with col_map:
         # Map and Vertical Colorbar
         dataset = data.load_metric(selected_metric, period_key)

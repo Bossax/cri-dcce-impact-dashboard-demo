@@ -35,8 +35,18 @@ def render() -> None:
         selected_label = st.selectbox("Metric Selector", options=list(metric_options.keys()), key="cri_metric_selector")
         selected_metric = metric_options[selected_label]
 
+        # Hazard Selector
+        hazard_options = data.available_hazard_options()
+        selected_hazard = st.selectbox(
+            "Hazard Selector",
+            options=hazard_options,
+            format_func=lambda x: x["hazard_label"],
+            key="cri_hazard_selector"
+        )
+        hazard_key = selected_hazard["hazard_key"]
+
         # Load Data for Ranking
-        dataset = data.load_metric(selected_metric, period_key)
+        dataset = data.load_metric(selected_metric, period_key, hazard_key)
         rank_rows = data.ranking_rows(dataset)
         summary = data.metric_summary(dataset)
 
@@ -44,10 +54,47 @@ def render() -> None:
         st.caption(f"{summary['unit_label']}")
         st.table(rank_rows)
 
+        # Download button for all 77 provinces
+        records = dataset.get("records", [])
+        import pandas as pd
+        df_all = pd.DataFrame(records)
+        if not df_all.empty:
+            cols_to_keep = []
+            rename_map = {}
+            if "rank_desc" in df_all.columns:
+                cols_to_keep.append("rank_desc")
+                rename_map["rank_desc"] = "Rank"
+            if "province_code" in df_all.columns:
+                cols_to_keep.append("province_code")
+                rename_map["province_code"] = "Province Code"
+            if "province_name_th" in df_all.columns:
+                cols_to_keep.append("province_name_th")
+                rename_map["province_name_th"] = "Province Name (Thai)"
+            if "province_name_en" in df_all.columns:
+                cols_to_keep.append("province_name_en")
+                rename_map["province_name_en"] = "Province Name (English)"
+            if "display_value" in df_all.columns:
+                cols_to_keep.append("display_value")
+                rename_map["display_value"] = "Value"
+            elif "value" in df_all.columns:
+                cols_to_keep.append("value")
+                rename_map["value"] = "Value"
+                
+            df_export = df_all[cols_to_keep].rename(columns=rename_map)
+            df_export = df_export.sort_values(by="Rank").reset_index(drop=True)
+            csv_data = df_export.to_csv(index=False, encoding="utf-8-sig")
+            st.download_button(
+                label="Download All 77 Provinces CSV",
+                data=csv_data,
+                file_name=f"all_provinces_{selected_metric}_{period_key}_{hazard_key}.csv",
+                mime="text/csv",
+                key="cri_download_button",
+            )
+
     with col_map:
         # Map and Vertical Colorbar
         summary = data.metric_summary(dataset)
-        geojson = data.build_province_geojson_cached(selected_metric, period_key)
+        geojson = data.build_province_geojson_cached(selected_metric, period_key, hazard_key)
 
         st.markdown(f'<div class="cri-section-title" style="margin-bottom:0px;">{summary["metric_label"]}</div>', unsafe_allow_html=True)
         st.caption(f"{summary['period_label']}")

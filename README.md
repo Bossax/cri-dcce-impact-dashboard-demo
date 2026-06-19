@@ -1,6 +1,13 @@
-# CRI Impact Dashboard V3.1
+# CRI Impact Dashboard V4.0
 
 This is the standalone deployment bundle for the Climate Resilience Index (CRI) Impact Dashboard. It serves pre-computed Stage 1 analytical data to visualize climate risks, economic loss, and health impacts across Thailand.
+
+## V4.0 Feature Additions: Hazard Disaggregation
+This version expands dashboard capability to support hazard-specific views:
+
+1. **Hazard Selector Dimension**: Added interactive selector dropdowns across the CRI province metrics and Tambon-level human impact pages, supporting Flood (อุทกภัย), Drought (ภัยแล้ง), Windstorm (วาตภัย), Cold Spell (ภัยหนาว), Landslide (ดินโคลนถล่ม), and All Climate Hazards (รวมทุกภัย).
+2. **Disaggregated Spatial Caching**: Custom `hazard_key` support across `load_metric` caching layers.
+3. **Adoption of Nested Data Structure**: Swapped old flat JSON outputs with nested hazard-specific subdirectories under `period_2560_2567/` and `period_2567/`.
 
 ## V3.1 Optimizations
 This version introduces a hardened, high-performance architecture optimized for serverless cloud deployment (e.g., Streamlit Cloud):
@@ -28,6 +35,6 @@ This repository is pre-configured for instant deployment on Streamlit Cloud. Sim
 
 ## Data Structure
 The `data/` directory is self-contained:
-* `/data/manifest.json`: Root metadata and period definitions.
+* `/data/manifest.json`: Root metadata, period, and hazard definitions.
 * `/data/spatial/`: Contains the optimized `_simple.geojson` boundary files.
-* `/data/period_*/`: Contains the pre-calculated metrics for each temporal slice.
+* `/data/period_*/[hazard_key]/`: Contains the pre-calculated metrics for each temporal slice and selected hazard.

@@ -1,6 +1,6 @@
 {
   "metric_key": "cri_score",
-  "metric_label": "CRI Phase 1 Score",
+  "metric_label": "CRI Score",
   "period_key": "period_2560_2567",
   "period_label": "2560–2567 average",
   "unit_label": "Score [0-1]",

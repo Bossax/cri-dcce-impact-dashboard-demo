@@ -17,15 +17,15 @@ def render() -> None:
     with col_ctrl:
         # Time Period
         period_options = [
-            PeriodOption("period_2560_2567", "2560-2567 Average"),
+            PeriodOption("period_2561_2567", "2561-2567 Average"),
             PeriodOption("period_2567", "2567 Only"),
         ]
-        period_key = render_period_choice(control_key="tambon", options=period_options, default_key="period_2560_2567")
+        period_key = render_period_choice(control_key="tambon", options=period_options, default_key="period_2561_2567")
 
         # Metric Selector
         metric_options = {
             "Tambon Deaths": "tambon_deaths",
-            "Tambon Affected Households": "tambon_affected_households",
+            "Tambon Affected People": "tambon_affected_people",
         }
         selected_metric_label = st.selectbox("Metric Selector", options=list(metric_options.keys()), key="tambon_metric_selector")
         selected_metric = metric_options[selected_metric_label]
@@ -40,110 +40,145 @@ def render() -> None:
         )
         hazard_key = selected_hazard["hazard_key"]
 
-        # Province Selector
-        base_dataset = data.load_metric(selected_metric, period_key, hazard_key)
-        province_options = data.tambon_province_options(base_dataset)
-        selected_province = st.selectbox(
-            "Select Province to Zoom",
-            options=province_options,
-            format_func=lambda x: x["province_name_th"],
-            key="tambon_province_selector"
-        )
+        # Check Wildfire average constraint
+        data_available = True
+        warning_msg = ""
+        
+        if hazard_key == "wildfire" and period_key == "period_2561_2567":
+            data_available = False
+            warning_msg = "Long-term historical wildfire average is not available. Please select '2567 Only'."
 
-        if not selected_province:
-            st.info("Please select a province to view tambon-level data.")
-            return
-
-        province_code = selected_province["province_code"]
-
-        # Load Data for Ranking
-        dataset = data.load_metric(selected_metric, period_key, hazard_key)
-        summary = data.metric_summary(dataset)
-        rank_rows = data.tambon_rank_rows(dataset, province_code)
-
-        st.markdown(f"**Ranking: {summary['metric_label']}**")
-        st.caption(f"{selected_province['province_name_th']} | {summary['unit_label']}")
-        st.table(rank_rows)
-
-        # Download button for all subdistricts in the selected province
-        all_tambons = data.tambon_records(dataset, province_code)
-        import pandas as pd
-        df_all = pd.DataFrame(all_tambons)
-        if not df_all.empty:
-            df_all["value"] = pd.to_numeric(df_all["value"], errors="coerce").fillna(0.0)
-            df_all = df_all.sort_values(by="value", ascending=False).reset_index(drop=True)
-            df_all["Rank"] = df_all.index + 1
-            
-            cols_to_keep = ["Rank", "subdistrict_code", "subdistrict_name_th", "district_name_th", "province_name_th", "display_value"]
-            rename_map = {
-                "subdistrict_code": "Tambon Code",
-                "subdistrict_name_th": "Tambon Name",
-                "district_name_th": "District Name",
-                "province_name_th": "Province Name",
-                "display_value": "Value"
-            }
-            df_export = df_all[cols_to_keep].rename(columns=rename_map)
-            csv_data = df_export.to_csv(index=False, encoding="utf-8-sig")
-            st.download_button(
-                label="Download All Province Tambons CSV",
-                data=csv_data,
-                file_name=f"tambons_{selected_metric}_{period_key}_{hazard_key}_{province_code}.csv",
-                mime="text/csv",
-                key="tambon_download_button",
+        prov_selected = False
+        if data_available:
+            # Province Selector
+            base_dataset = data.load_metric(selected_metric, period_key, hazard_key)
+            province_options = data.tambon_province_options(base_dataset)
+            selected_province = st.selectbox(
+                "Select Province to Zoom",
+                options=province_options,
+                format_func=lambda x: x["province_name_th"],
+                key="tambon_province_selector"
             )
+
+            if not selected_province:
+                st.info("Please select a province to view tambon-level data.")
+            else:
+                prov_selected = True
+                province_code = selected_province["province_code"]
+
+                # Load Data for Ranking
+                dataset = data.load_metric(selected_metric, period_key, hazard_key)
+                summary = data.metric_summary(dataset)
+                rank_rows = data.tambon_rank_rows(dataset, province_code)
+
+                # Check if all subdistricts in this province recorded zero impacts
+                all_zeros = True
+                if rank_rows:
+                    for row in rank_rows:
+                        try:
+                            val_str = str(row.get("value", "0")).replace(",", "").strip()
+                            if float(val_str) > 0:
+                                all_zeros = False
+                                break
+                        except (ValueError, TypeError):
+                            pass
+                else:
+                    all_zeros = True
+
+                if all_zeros:
+                    st.info(f"All subdistricts in {selected_province['province_name_th']} recorded zero impacts (0 deaths / 0 affected people) for the selected hazard.")
+                else:
+                    st.markdown(f"**Ranking: {summary['metric_label']}**")
+                    st.caption(f"{selected_province['province_name_th']} | {summary['unit_label']}")
+                    st.table(rank_rows)
+
+                    # Download button for all subdistricts in the selected province
+                    all_tambons = data.tambon_records(dataset, province_code)
+                    import pandas as pd
+                    df_all = pd.DataFrame(all_tambons)
+                    if not df_all.empty:
+                        df_all["value"] = pd.to_numeric(df_all["value"], errors="coerce").fillna(0.0)
+                        df_all = df_all.sort_values(by="value", ascending=False).reset_index(drop=True)
+                        df_all["Rank"] = df_all.index + 1
+                        
+                        cols_to_keep = ["Rank", "subdistrict_code", "subdistrict_name_th", "district_name_th", "province_name_th", "display_value"]
+                        rename_map = {
+                            "subdistrict_code": "Tambon Code",
+                            "subdistrict_name_th": "Tambon Name",
+                            "district_name_th": "District Name",
+                            "province_name_th": "Province Name",
+                            "display_value": "Value"
+                        }
+                        df_export = df_all[cols_to_keep].rename(columns=rename_map)
+                        csv_data = df_export.to_csv(index=False, encoding="utf-8-sig")
+                        st.download_button(
+                            label="Download All Province Tambons CSV",
+                            data=csv_data,
+                            file_name=f"tambons_{selected_metric}_{period_key}_{hazard_key}_{province_code}.csv",
+                            mime="text/csv",
+                            key="tambon_download_button",
+                        )
+        else:
+            st.warning(warning_msg)
 
     with col_map:
-        # Map and Vertical Colorbar
-        geojson = data.tambon_geojson_for_province_cached(selected_metric, period_key, province_code, hazard_key)
-        
-        # Calculate Local Maximum for the selected province
-        local_max = 0.0
-        for row in rank_rows:
-            try:
-                val = float(row.get("value", 0))
-                if val > local_max:
-                    local_max = val
-            except (ValueError, TypeError):
-                pass
-        
-        display_max = f"{local_max:,.1f}" if local_max % 1 != 0 else f"{int(local_max):,}"
-        if local_max == 0:
-             display_max = "0"
+        if data_available and prov_selected:
+            # Map and Vertical Colorbar
+            geojson = data.tambon_geojson_for_province_cached(selected_metric, period_key, province_code, hazard_key)
+            
+            # Calculate Local Maximum for the selected province
+            local_max = 0.0
+            for row in rank_rows:
+                try:
+                    val = float(row.get("value", 0))
+                    if val > local_max:
+                        local_max = val
+                except (ValueError, TypeError):
+                    pass
+            
+            display_max = f"{local_max:,.1f}" if local_max % 1 != 0 else f"{int(local_max):,}"
+            if local_max == 0:
+                 display_max = "0"
 
-        st.markdown(f'<div class="cri-section-title" style="margin-bottom:0px;">{summary["metric_label"]}</div>', unsafe_allow_html=True)
-        st.caption(f"{summary['period_label']}")
+            st.markdown(f'<div class="cri-section-title" style="margin-bottom:0px;">{summary["metric_label"]}</div>', unsafe_allow_html=True)
+            st.caption(f"{summary['period_label']}")
 
-        # Nested columns for Map + Vertical Legend
-        col_map_inner, col_legend = st.columns([0.92, 0.08])
+            # Nested columns for Map + Vertical Legend
+            col_map_inner, col_legend = st.columns([0.92, 0.08])
 
-        with col_map_inner:
-            view_state = pdk.ViewState(latitude=13.7367, longitude=100.5231, zoom=7, pitch=0)
-            layer = pdk.Layer(
-                "GeoJsonLayer",
-                geojson,
-                pickable=True,
-                opacity=1.0,
-                stroked=True,
-                filled=True,
-                get_fill_color="properties.fill_color",
-                get_line_color="properties.line_color",
-                line_width_min_pixels=1,
-            )
-            tooltip = {
-                "html": "<b>{subdistrict_name_th}</b><br/>{district_name_th}, {province_name_th}<br/>Value: {display_value}",
-                "style": {"backgroundColor": "steelblue", "color": "white"}
-            }
-            st.pydeck_chart(pdk.Deck(layers=[layer], initial_view_state=view_state, tooltip=tooltip, map_style="light"))
+            with col_map_inner:
+                view_state = pdk.ViewState(latitude=13.7367, longitude=100.5231, zoom=7, pitch=0)
+                layer = pdk.Layer(
+                    "GeoJsonLayer",
+                    geojson,
+                    pickable=True,
+                    opacity=1.0,
+                    stroked=True,
+                    filled=True,
+                    get_fill_color="properties.fill_color",
+                    get_line_color="properties.line_color",
+                    line_width_min_pixels=1,
+                )
+                tooltip = {
+                    "html": "<b>{subdistrict_name_th}</b><br/>{district_name_th}, {province_name_th}<br/>Value: {display_value}",
+                    "style": {"backgroundColor": "steelblue", "color": "white"}
+                }
+                st.pydeck_chart(pdk.Deck(layers=[layer], initial_view_state=view_state, tooltip=tooltip, map_style="light"))
 
-        with col_legend:
-            # Vertical Colorbar
-            st.markdown(
-                f"""
-                <div style="display: flex; flex-direction: column; align-items: center; height: 400px; padding-top: 40px;">
-                    <div style="font-size: 0.7rem; margin-bottom: 4px;">{display_max}</div>
-                    <div style="flex-grow: 1; width: 12px; background: linear-gradient(to bottom, rgba(200,0,0,1.0), rgba(255,255,255,1.0)); border-radius: 6px; border: 1px solid #ddd;"></div>
-                    <div style="font-size: 0.7rem; margin-top: 4px;">0</div>
-                </div>
-                """,
-                unsafe_allow_html=True
-            )
+            with col_legend:
+                # Vertical Colorbar
+                st.markdown(
+                    f"""
+                    <div style="display: flex; flex-direction: column; align-items: center; height: 400px; padding-top: 40px;">
+                        <div style="font-size: 0.7rem; margin-bottom: 4px;">{display_max}</div>
+                        <div style="flex-grow: 1; width: 12px; background: linear-gradient(to bottom, rgba(200,0,0,1.0), rgba(255,255,255,1.0)); border-radius: 6px; border: 1px solid #ddd;"></div>
+                        <div style="font-size: 0.7rem; margin-top: 4px;">0</div>
+                    </div>
+                    """,
+                    unsafe_allow_html=True
+                )
+        else:
+            if not data_available:
+                st.info("No map data available for the selected configuration.")
+            else:
+                st.info("Select a province to load the map.")

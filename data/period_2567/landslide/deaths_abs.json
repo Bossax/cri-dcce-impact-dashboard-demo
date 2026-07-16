@@ -134,10 +134,10 @@
       "province_code": "50",
       "province_name_th": "เชียงใหม่",
       "province_name_en": "CHIANG MAI",
-      "value": 6.0,
-      "display_value": "6",
+      "value": 12.0,
+      "display_value": "12",
       "rank_desc": 2,
-      "normalized_value": 0.46153846153846156
+      "normalized_value": 0.9230769230769231
     },
     {
       "province_code": "92",
@@ -720,8 +720,8 @@
       {
         "province_code": "50",
         "province_name_th": "เชียงใหม่",
-        "value": 6.0,
-        "display_value": "6",
+        "value": 12.0,
+        "display_value": "12",
         "rank_desc": 2,
         "province_name_en": "CHIANG MAI"
       },

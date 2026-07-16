@@ -1,10 +1,10 @@
 {
   "version": "2026-06-19-disaggregated-stage1",
-  "generated_at": "2026-06-22T07:32:51.459508+00:00",
+  "generated_at": "2026-07-16T05:01:49.397351+00:00",
   "periods": [
     {
-      "period_key": "period_2560_2567",
-      "period_label": "2560–2567 average"
+      "period_key": "period_2561_2567",
+      "period_label": "2561–2567 average"
     },
     {
       "period_key": "period_2567",
@@ -31,21 +31,29 @@
     {
       "hazard_key": "drought",
       "hazard_label": "Drought (ภัยแล้ง)"
+    },
+    {
+      "hazard_key": "cold_spell",
+      "hazard_label": "Cold Spell (ภัยหนาว)"
+    },
+    {
+      "hazard_key": "wildfire",
+      "hazard_label": "Wildfire (ไฟป่า)"
     }
   ],
   "metric_groups": {
     "cri": [
       "deaths_abs",
       "deaths_rate",
-      "affected_hh_abs",
-      "affected_rate",
+      "affected_ppl_abs",
+      "affected_ppl_rate",
       "loss_abs",
       "loss_per_gpp",
       "cri_score"
     ],
     "tambon": [
       "tambon_deaths",
-      "tambon_affected_households"
+      "tambon_affected_people"
     ],
     "heat": [
       "heat_deaths",

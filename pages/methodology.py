@@ -27,30 +27,42 @@ def render() -> None:
             - **Economic Metrics**: Gross Provincial Product (GPP) from the **NESDC** and disaster-related financial relief from **Government Advance Payments**.
             - **Public Health**: Heat-related mortality and injury data from the **Ministry of Public Health**.
 
-            ### 4. Why "Affected Households" instead of "Affected People"?
-            In the DDPM reporting system, headcount data (Affected People) is often under-reported or left as zero. Our analysis shows that **Affected Households** has **2.5x more data points** than headcount metrics, as it is the primary unit used for disaster compensation and official government relief. Using households provides a more robust and consistent proxy for social disruption across all provinces.
+            ### 4. Conversion of Affected Households to Affected People
+            In the raw DDPM reporting system, headcount data (Affected People) is often missing or under-reported. However, Affected Households data is robustly recorded as it is the primary administrative unit for disaster relief and compensation. 
+            
+            To estimate the number of **Affected People**, we calculate the average population per household ratio for each subdistrict (Tambon) using DOPA registry data. We then multiply the affected households by this ratio:
+            - **Tambon Multiplier**: Calculated dynamically for each subdistrict and year.
+            - **Province Fallback**: If subdistrict population or household statistics are missing, we fall back to the province's average household size.
+            - **National Fallback**: If both are unavailable, we fall back to a default national average of 3.0 people per household.
+            
+            *Note on potential artifacts*: Because household sizes vary across different regions and years, applying this multiplier may introduce slight discrepancies compared to direct census counts. However, it ensures uniform human-scale comparison across different hazards.
 
-            ### 5. What the time-period selector means
+            ### 5. Hazard Completeness and CRI Score Exclusion
+            The composite Climate Resilience Index (CRI) score requires a complete set of 6 metrics (representing human and economic dimensions). 
+            - **Complete Hazards**: *Flood, Drought, and Windstorm* are fully documented and integrated into the composite all-hazard CRI Score.
+            - **Incomplete Hazards**: *Landslide, Wildfire, and Cold Spell* lack financial relief data. To prevent calculation skew, they do not have hazard-specific CRI Scores, and their values are omitted from the overall composite CRI calculation.
+
+            ### 6. What the time-period selector means
             - **2560-2567 Average**: Represents the 8-year cumulative average, highlighting persistent "hotspots" where impacts are chronic.
             - **2567 Only**: Focuses on the most recent full calendar year to illustrate current trends and immediate shifts in impact patterns.
-
-            ### 6. Known limitations
-            - **Affected Rate Interpretation**: The "Affected Rate" represents *incidents per 100 households*. Because a single household can be hit by multiple independent disasters in one year, this rate can mathematically exceed 100%.
+            
+            ### 7. Known limitations
+            - **Affected Rate Interpretation**: The "Affected Rate" represents *estimated affected people per 100,000 population*.
             - **Economic Metrics**: The primary economic proxy is **Government Advance Payment** (เงินทดรองราชการ) for relief, measured in **THB**. This represents the direct fiscal cost of recovery. **Loss per GPP** is calculated as a **Percentage Point (%)** of the Gross Provincial Product (GPP), where GPP is denominated in **Million THB**. It is important to note that these figures represent government advance payments accounted for by DDPM from various sources of advance payment made by line agencies to recover and relief disaster in provinces.
             - **Government Relief Caps**: These emergency funds may hit administrative ceilings (e.g., 20M THB/event), potentially understating absolute total damage but providing a reliable indicator of provincial fiscal stress.
-
-            ### 7. Data Lineage & Metadata
+ 
+            ### 8. Data Lineage & Metadata
             | Dataset | Source Agency | Detail |
             | :--- | :--- | :--- |
-            | **Human Impact** | DDPM | Standardized village reports |
-            | **Population** | DOPA | Annual registration statistics|
-            | **Households** | DOPA | Annual registration statistics|
-            | **GPP** | NESDC | Current market prices (Million THB)|
+            | **Human Impact** | DDPM | Standardized village reports (Bronze: Open Data) |
+            | **Population** | DOPA | Annual registration statistics (Silver: Annual) |
+            | **Households** | DOPA | Annual registration statistics (Silver: Annual) |
+            | **GPP** | NESDC | Current market prices (Million THB) (Silver: Annual) |
             | **Economic Relief**| DDPM | Government advance payments (THB) |
             | **Heat Impact** | MOPH | Clinical cases of heat-related injuries/deaths |
             """
         )
-
+ 
     with tab2:
         st.markdown("### Calculation Methodology")
         st.markdown(
@@ -65,8 +77,8 @@ def render() -> None:
             st.markdown("#### A. Human Impact (50% Weight)")
             st.latex(r"S_1 = \text{Norm}(\text{Deaths}) \times 0.075")
             st.latex(r"S_2 = \text{Norm}(\text{DeathRate}) \times 0.225")
-            st.latex(r"S_3 = \text{Norm}(\text{AffHH}) \times 0.050")
-            st.latex(r"S_4 = \text{Norm}(\text{AffRate}) \times 0.150")
+            st.latex(r"S_3 = \text{Norm}(\text{AffPpl}) \times 0.050")
+            st.latex(r"S_4 = \text{Norm}(\text{AffPplRate}) \times 0.150")
 
         with col2:
             st.markdown("#### B. Economic Impact (50% Weight)")
@@ -84,10 +96,9 @@ def render() -> None:
             | :--- | :--- | :--- | :--- | :--- |
             | **Human Impact** | Total Deaths | `deaths_abs` | 7.5% | Annual deaths |
             | (50%) | Death Rate | `deaths_rate` | 22.5% | Per 100k pop |
-            | | Total Affected HH | `affected_hh_abs` | 5.0% | Annual households |
-            | | Affected Rate | `affected_rate` | 15.0% | Per 100 HH |
+            | | Total Affected People | `affected_ppl_abs` | 5.0% | Annual people (estimated) |
+            | | Affected People Rate | `affected_ppl_rate` | 15.0% | Per 100k pop |
             | **Economic Impact** | Govt Advance Payment | `loss_abs` | 12.5% | THB |
             | (50%) | Relief per Unit GPP | `loss_per_gpp` | 37.5% | Percentage Points (%) |
             """
         )
-

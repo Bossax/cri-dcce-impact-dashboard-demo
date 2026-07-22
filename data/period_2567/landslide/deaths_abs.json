@@ -1,15 +1,15 @@
 {
   "metric_key": "deaths_abs",
-  "metric_label": "Total Deaths (Absolute)",
+  "metric_label": "Total Deaths (Score)",
   "period_key": "period_2567",
   "period_label": "2567 only",
-  "unit_label": "Annual deaths",
+  "unit_label": "Score [0-1]",
   "source_mode": "single_year",
   "legend": {
     "min": 0.0,
-    "max": 13.0,
+    "max": 1.0,
     "display_min": "0",
-    "display_max": "13",
+    "display_max": "1",
     "color_scheme": "OrRd"
   },
   "records": [
@@ -125,8 +125,8 @@
       "province_code": "57",
       "province_name_th": "เชียงราย",
       "province_name_en": "CHIANG RAI",
-      "value": 4.0,
-      "display_value": "4",
+      "value": 0.3076923076923077,
+      "display_value": "0.307692",
       "rank_desc": 3,
       "normalized_value": 0.3076923076923077
     },
@@ -134,10 +134,10 @@
       "province_code": "50",
       "province_name_th": "เชียงใหม่",
       "province_name_en": "CHIANG MAI",
-      "value": 12.0,
-      "display_value": "12",
+      "value": 0.46153846153846156,
+      "display_value": "0.461538",
       "rank_desc": 2,
-      "normalized_value": 0.9230769230769231
+      "normalized_value": 0.46153846153846156
     },
     {
       "province_code": "92",
@@ -233,8 +233,8 @@
       "province_code": "96",
       "province_name_th": "นราธิวาส",
       "province_name_en": "NARATHIWAT",
-      "value": 1.0,
-      "display_value": "1",
+      "value": 0.07692307692307693,
+      "display_value": "0.076923",
       "rank_desc": 5,
       "normalized_value": 0.07692307692307693
     },
@@ -386,8 +386,8 @@
       "province_code": "83",
       "province_name_th": "ภูเก็ต",
       "province_name_en": "PHUKET",
-      "value": 13.0,
-      "display_value": "13",
+      "value": 1.0,
+      "display_value": "1",
       "rank_desc": 1,
       "normalized_value": 1.0
     },
@@ -620,8 +620,8 @@
       "province_code": "84",
       "province_name_th": "สุราษฎร์ธานี",
       "province_name_en": "SURAT THANI",
-      "value": 3.0,
-      "display_value": "3",
+      "value": 0.23076923076923078,
+      "display_value": "0.230769",
       "rank_desc": 4,
       "normalized_value": 0.23076923076923078
     },
@@ -712,40 +712,40 @@
       {
         "province_code": "83",
         "province_name_th": "ภูเก็ต",
-        "value": 13.0,
-        "display_value": "13",
+        "value": 1.0,
+        "display_value": "1",
         "rank_desc": 1,
         "province_name_en": "PHUKET"
       },
       {
         "province_code": "50",
         "province_name_th": "เชียงใหม่",
-        "value": 12.0,
-        "display_value": "12",
+        "value": 0.46153846153846156,
+        "display_value": "0.461538",
         "rank_desc": 2,
         "province_name_en": "CHIANG MAI"
       },
       {
         "province_code": "57",
         "province_name_th": "เชียงราย",
-        "value": 4.0,
-        "display_value": "4",
+        "value": 0.3076923076923077,
+        "display_value": "0.307692",
         "rank_desc": 3,
         "province_name_en": "CHIANG RAI"
       },
       {
         "province_code": "84",
         "province_name_th": "สุราษฎร์ธานี",
-        "value": 3.0,
-        "display_value": "3",
+        "value": 0.23076923076923078,
+        "display_value": "0.230769",
         "rank_desc": 4,
         "province_name_en": "SURAT THANI"
       },
       {
         "province_code": "96",
         "province_name_th": "นราธิวาส",
-        "value": 1.0,
-        "display_value": "1",
+        "value": 0.07692307692307693,
+        "display_value": "0.076923",
         "rank_desc": 5,
         "province_name_en": "NARATHIWAT"
       },

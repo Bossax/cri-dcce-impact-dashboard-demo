@@ -39,12 +39,12 @@ def render() -> None:
             metric_options["CRI Score"] = "cri_score"
             
         metric_options.update({
-            "Deaths (Count)": "deaths_abs",
-            "Death Rate (per 100k Population)": "deaths_rate",
-            "Affected People (Count)": "affected_ppl_abs",
-            "Affected People Rate (per 100k Population)": "affected_ppl_rate",
-            "Economic Loss (THB)": "loss_abs",
-            "Economic Loss per GPP (%)": "loss_per_gpp",
+            "Deaths (Score)": "deaths_abs",
+            "Death Rate (Score)": "deaths_rate",
+            "Affected People (Score)": "affected_ppl_abs",
+            "Affected People Rate (Score)": "affected_ppl_rate",
+            "Economic Loss (Score)": "loss_abs",
+            "Economic Loss per GPP (Score)": "loss_per_gpp",
         })
         
         selected_label = st.selectbox("Metric Selector", options=list(metric_options.keys()), key="cri_metric_selector")

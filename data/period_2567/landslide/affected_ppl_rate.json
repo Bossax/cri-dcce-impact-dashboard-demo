@@ -1,15 +1,15 @@
 {
   "metric_key": "affected_ppl_rate",
-  "metric_label": "Affected People Rate",
+  "metric_label": "Affected People Rate (Score)",
   "period_key": "period_2567",
   "period_label": "2567 only",
-  "unit_label": "Per 100,000 population",
+  "unit_label": "Score [0-1]",
   "source_mode": "single_year",
   "legend": {
     "min": 0.0,
-    "max": 410.3362915439483,
+    "max": 1.0,
     "display_min": "0",
-    "display_max": "410.336292",
+    "display_max": "1",
     "color_scheme": "OrRd"
   },
   "records": [
@@ -98,10 +98,10 @@
       "province_code": "18",
       "province_name_th": "ชัยนาท",
       "province_name_en": "CHAI NAT",
-      "value": 11.804513151791287,
-      "display_value": "11.804513",
+      "value": 0.041865690987311695,
+      "display_value": "0.041866",
       "rank_desc": 3,
-      "normalized_value": 0.028767899391436078
+      "normalized_value": 0.041865690987311695
     },
     {
       "province_code": "36",
@@ -125,10 +125,10 @@
       "province_code": "57",
       "province_name_th": "เชียงราย",
       "province_name_en": "CHIANG RAI",
-      "value": 189.55493438572643,
-      "display_value": "189.554934",
+      "value": 0.38677374292639755,
+      "display_value": "0.386774",
       "rank_desc": 2,
-      "normalized_value": 0.4619502059457115
+      "normalized_value": 0.38677374292639755
     },
     {
       "province_code": "50",
@@ -431,8 +431,8 @@
       "province_code": "95",
       "province_name_th": "ยะลา",
       "province_name_en": "YALA",
-      "value": 410.3362915439483,
-      "display_value": "410.336292",
+      "value": 1.0,
+      "display_value": "1",
       "rank_desc": 1,
       "normalized_value": 1.0
     },
@@ -620,10 +620,10 @@
       "province_code": "84",
       "province_name_th": "สุราษฎร์ธานี",
       "province_name_en": "SURAT THANI",
-      "value": 0.23385508820794715,
-      "display_value": "0.233855",
+      "value": 0.0008293865856923346,
+      "display_value": "0.000829",
       "rank_desc": 5,
-      "normalized_value": 0.000569910809809277
+      "normalized_value": 0.0008293865856923346
     },
     {
       "province_code": "32",
@@ -647,10 +647,10 @@
       "province_code": "39",
       "province_name_th": "หนองบัวลำภู",
       "province_name_en": "NONG BUA LAMPHU",
-      "value": 6.060765788850242,
-      "display_value": "6.060766",
+      "value": 0.010983155087886748,
+      "display_value": "0.010983",
       "rank_desc": 4,
-      "normalized_value": 0.014770240687329298
+      "normalized_value": 0.010983155087886748
     },
     {
       "province_code": "15",
@@ -712,40 +712,40 @@
       {
         "province_code": "95",
         "province_name_th": "ยะลา",
-        "value": 410.3362915439483,
-        "display_value": "410.336292",
+        "value": 1.0,
+        "display_value": "1",
         "rank_desc": 1,
         "province_name_en": "YALA"
       },
       {
         "province_code": "57",
         "province_name_th": "เชียงราย",
-        "value": 189.55493438572643,
-        "display_value": "189.554934",
+        "value": 0.38677374292639755,
+        "display_value": "0.386774",
         "rank_desc": 2,
         "province_name_en": "CHIANG RAI"
       },
       {
         "province_code": "18",
         "province_name_th": "ชัยนาท",
-        "value": 11.804513151791287,
-        "display_value": "11.804513",
+        "value": 0.041865690987311695,
+        "display_value": "0.041866",
         "rank_desc": 3,
         "province_name_en": "CHAI NAT"
       },
       {
         "province_code": "39",
         "province_name_th": "หนองบัวลำภู",
-        "value": 6.060765788850242,
-        "display_value": "6.060766",
+        "value": 0.010983155087886748,
+        "display_value": "0.010983",
         "rank_desc": 4,
         "province_name_en": "NONG BUA LAMPHU"
       },
       {
         "province_code": "84",
         "province_name_th": "สุราษฎร์ธานี",
-        "value": 0.23385508820794715,
-        "display_value": "0.233855",
+        "value": 0.0008293865856923346,
+        "display_value": "0.000829",
         "rank_desc": 5,
         "province_name_en": "SURAT THANI"
       },

@@ -7,24 +7,6 @@
   "source_mode": "single_year",
   "records": [
     {
-      "subdistrict_code": "500901",
-      "subdistrict_name_th": "เวียง",
-      "district_name_th": "ฝาง",
-      "province_code": "50",
-      "province_name_th": "เชียงใหม่",
-      "value": 135128.19353344984,
-      "display_value": "135128.193533"
-    },
-    {
-      "subdistrict_code": "501007",
-      "subdistrict_name_th": "มะลิกา",
-      "district_name_th": "แม่อาย",
-      "province_code": "50",
-      "province_name_th": "เชียงใหม่",
-      "value": 93519.64917836737,
-      "display_value": "93519.649178"
-    },
-    {
       "subdistrict_code": "500406",
       "subdistrict_name_th": "ปิงโค้ง",
       "district_name_th": "เชียงดาว",
@@ -34,6 +16,15 @@
       "display_value": "85241.225969"
     },
     {
+      "subdistrict_code": "500901",
+      "subdistrict_name_th": "เวียง",
+      "district_name_th": "ฝาง",
+      "province_code": "50",
+      "province_name_th": "เชียงใหม่",
+      "value": 69047.49743390358,
+      "display_value": "69047.497434"
+    },
+    {
       "subdistrict_code": "502001",
       "subdistrict_name_th": "เมืองแหง",
       "district_name_th": "เวียงแหง",
@@ -41,6 +32,15 @@
       "province_name_th": "เชียงใหม่",
       "value": 42715.28797549145,
       "display_value": "42715.287975"
+    },
+    {
+      "subdistrict_code": "501007",
+      "subdistrict_name_th": "มะลิกา",
+      "district_name_th": "แม่อาย",
+      "province_code": "50",
+      "province_name_th": "เชียงใหม่",
+      "value": 41840.9268292683,
+      "display_value": "41840.926829"
     },
     {
       "subdistrict_code": "501111",
@@ -66,17 +66,8 @@
       "district_name_th": "ฮอด",
       "province_code": "50",
       "province_name_th": "เชียงใหม่",
-      "value": 18371.767079116824,
-      "display_value": "18371.767079"
-    },
-    {
-      "subdistrict_code": "200705",
-      "subdistrict_name_th": "หนองขาม",
-      "district_name_th": "ศรีราชา",
-      "province_code": "20",
-      "province_name_th": "ชลบุรี",
-      "value": 1830.438603469979,
-      "display_value": "1830.438603"
+      "value": 8423.692363768909,
+      "display_value": "8423.692364"
     },
     {
       "subdistrict_code": "801803",
@@ -95,6 +86,15 @@
       "province_name_th": "จันทบุรี",
       "value": 1036.2043795620436,
       "display_value": "1036.20438"
+    },
+    {
+      "subdistrict_code": "200705",
+      "subdistrict_name_th": "หนองขาม",
+      "district_name_th": "ศรีราชา",
+      "province_code": "20",
+      "province_name_th": "ชลบุรี",
+      "value": 543.7883500600118,
+      "display_value": "543.78835"
     },
     {
       "subdistrict_code": "800409",
@@ -142,15 +142,6 @@
       "display_value": "5.692895"
     },
     {
-      "subdistrict_code": "801401",
-      "subdistrict_name_th": "สิชล",
-      "district_name_th": "สิชล",
-      "province_code": "80",
-      "province_name_th": "นครศรีธรรมราช",
-      "value": 3.8790908093998144,
-      "display_value": "3.879091"
-    },
-    {
       "subdistrict_code": "490701",
       "subdistrict_name_th": "หนองสูง",
       "district_name_th": "หนองสูง",
@@ -167,6 +158,15 @@
       "province_name_th": "จันทบุรี",
       "value": 2.555046596114358,
       "display_value": "2.555047"
+    },
+    {
+      "subdistrict_code": "801401",
+      "subdistrict_name_th": "สิชล",
+      "district_name_th": "สิชล",
+      "province_code": "80",
+      "province_name_th": "นครศรีธรรมราช",
+      "value": 1.9262010896483408,
+      "display_value": "1.926201"
     },
     {
       "subdistrict_code": "820603",
@@ -66961,27 +66961,19 @@
   "rankings": {
     "national_top_10": [
       {
-        "subdistrict_code": "500901",
-        "subdistrict_name_th": "เวียง",
-        "value": 135128.19353344984,
-        "display_value": "135128.193533",
-        "rank_desc": 1,
-        "province_name_th": "เชียงใหม่"
-      },
-      {
-        "subdistrict_code": "501007",
-        "subdistrict_name_th": "มะลิกา",
-        "value": 93519.64917836737,
-        "display_value": "93519.649178",
-        "rank_desc": 2,
-        "province_name_th": "เชียงใหม่"
-      },
-      {
         "subdistrict_code": "500406",
         "subdistrict_name_th": "ปิงโค้ง",
         "value": 85241.22596858638,
         "display_value": "85241.225969",
-        "rank_desc": 3,
+        "rank_desc": 1,
+        "province_name_th": "เชียงใหม่"
+      },
+      {
+        "subdistrict_code": "500901",
+        "subdistrict_name_th": "เวียง",
+        "value": 69047.49743390358,
+        "display_value": "69047.497434",
+        "rank_desc": 2,
         "province_name_th": "เชียงใหม่"
       },
       {
@@ -66989,6 +66981,14 @@
         "subdistrict_name_th": "เมืองแหง",
         "value": 42715.28797549145,
         "display_value": "42715.287975",
+        "rank_desc": 3,
+        "province_name_th": "เชียงใหม่"
+      },
+      {
+        "subdistrict_code": "501007",
+        "subdistrict_name_th": "มะลิกา",
+        "value": 41840.9268292683,
+        "display_value": "41840.926829",
         "rank_desc": 4,
         "province_name_th": "เชียงใหม่"
       },
@@ -67011,25 +67011,17 @@
       {
         "subdistrict_code": "501601",
         "subdistrict_name_th": "หางดง",
-        "value": 18371.767079116824,
-        "display_value": "18371.767079",
+        "value": 8423.692363768909,
+        "display_value": "8423.692364",
         "rank_desc": 7,
         "province_name_th": "เชียงใหม่"
-      },
-      {
-        "subdistrict_code": "200705",
-        "subdistrict_name_th": "หนองขาม",
-        "value": 1830.438603469979,
-        "display_value": "1830.438603",
-        "rank_desc": 8,
-        "province_name_th": "ชลบุรี"
       },
       {
         "subdistrict_code": "801803",
         "subdistrict_name_th": "ดุสิต",
         "value": 1149.4192377495463,
         "display_value": "1149.419238",
-        "rank_desc": 9,
+        "rank_desc": 8,
         "province_name_th": "นครศรีธรรมราช"
       },
       {
@@ -67037,8 +67029,16 @@
         "subdistrict_name_th": "คลองใหญ่",
         "value": 1036.2043795620436,
         "display_value": "1036.20438",
-        "rank_desc": 10,
+        "rank_desc": 9,
         "province_name_th": "จันทบุรี"
+      },
+      {
+        "subdistrict_code": "200705",
+        "subdistrict_name_th": "หนองขาม",
+        "value": 543.7883500600118,
+        "display_value": "543.78835",
+        "rank_desc": 10,
+        "province_name_th": "ชลบุรี"
       }
     ],
     "national_bottom_10": [

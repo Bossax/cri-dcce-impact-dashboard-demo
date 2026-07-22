@@ -1,9 +1,9 @@
 {
   "metric_key": "affected_ppl_rate",
-  "metric_label": "Affected People Rate",
+  "metric_label": "Affected People Rate (Score)",
   "period_key": "period_2567",
   "period_label": "2567 only",
-  "unit_label": "Per 100,000 population",
+  "unit_label": "Score [0-1]",
   "source_mode": "single_year",
   "legend": {
     "min": 0.0,

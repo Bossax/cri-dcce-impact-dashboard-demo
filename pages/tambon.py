@@ -25,7 +25,9 @@ def render() -> None:
         # Metric Selector
         metric_options = {
             "Tambon Deaths": "tambon_deaths",
+            "Tambon Death Rate (per 100k Population)": "tambon_deaths_rate",
             "Tambon Affected People": "tambon_affected_people",
+            "Tambon Affected People Rate (per 100k Population)": "tambon_affected_people_rate",
         }
         selected_metric_label = st.selectbox("Metric Selector", options=list(metric_options.keys()), key="tambon_metric_selector")
         selected_metric = metric_options[selected_metric_label]

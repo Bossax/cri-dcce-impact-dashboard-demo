@@ -1,9 +1,9 @@
 {
   "metric_key": "deaths_rate",
-  "metric_label": "Death Rate",
+  "metric_label": "Death Rate (Score)",
   "period_key": "period_2567",
   "period_label": "2567 only",
-  "unit_label": "Per 100,000 population",
+  "unit_label": "Score [0-1]",
   "source_mode": "single_year",
   "legend": {
     "min": 0.0,

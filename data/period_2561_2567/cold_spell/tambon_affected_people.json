@@ -16,15 +16,6 @@
       "display_value": "151.412455"
     },
     {
-      "subdistrict_code": "571204",
-      "subdistrict_name_th": "เม็งราย",
-      "district_name_th": "พญาเม็งราย",
-      "province_code": "57",
-      "province_name_th": "เชียงราย",
-      "value": 132.21240011703884,
-      "display_value": "132.2124"
-    },
-    {
       "subdistrict_code": "571005",
       "subdistrict_name_th": "ท่าก๊อ",
       "district_name_th": "แม่สรวย",
@@ -52,6 +43,15 @@
       "display_value": "77.796781"
     },
     {
+      "subdistrict_code": "571204",
+      "subdistrict_name_th": "เม็งราย",
+      "district_name_th": "พญาเม็งราย",
+      "province_code": "57",
+      "province_name_th": "เชียงราย",
+      "value": 67.51913746630728,
+      "display_value": "67.519137"
+    },
+    {
       "subdistrict_code": "570602",
       "subdistrict_name_th": "ป่าแงะ",
       "district_name_th": "ป่าแดด",
@@ -66,8 +66,8 @@
       "district_name_th": "ดอยสะเก็ด",
       "province_code": "50",
       "province_name_th": "เชียงใหม่",
-      "value": 39.76752821073118,
-      "display_value": "39.767528"
+      "value": 28.451673443853615,
+      "display_value": "28.451673"
     },
     {
       "subdistrict_code": "570404",
@@ -126,19 +126,11 @@
         "province_name_th": "เชียงราย"
       },
       {
-        "subdistrict_code": "571204",
-        "subdistrict_name_th": "เม็งราย",
-        "value": 132.21240011703884,
-        "display_value": "132.2124",
-        "rank_desc": 2,
-        "province_name_th": "เชียงราย"
-      },
-      {
         "subdistrict_code": "571005",
         "subdistrict_name_th": "ท่าก๊อ",
         "value": 91.12475378997455,
         "display_value": "91.124754",
-        "rank_desc": 3,
+        "rank_desc": 2,
         "province_name_th": "เชียงราย"
       },
       {
@@ -146,7 +138,7 @@
         "subdistrict_name_th": "ป่าแดด",
         "value": 82.03214285714286,
         "display_value": "82.032143",
-        "rank_desc": 4,
+        "rank_desc": 3,
         "province_name_th": "เชียงราย"
       },
       {
@@ -154,6 +146,14 @@
         "subdistrict_name_th": "แม่ต๋ำ",
         "value": 77.79678068410463,
         "display_value": "77.796781",
+        "rank_desc": 4,
+        "province_name_th": "เชียงราย"
+      },
+      {
+        "subdistrict_code": "571204",
+        "subdistrict_name_th": "เม็งราย",
+        "value": 67.51913746630728,
+        "display_value": "67.519137",
         "rank_desc": 5,
         "province_name_th": "เชียงราย"
       },
@@ -168,8 +168,8 @@
       {
         "subdistrict_code": "500503",
         "subdistrict_name_th": "ลวงเหนือ",
-        "value": 39.76752821073118,
-        "display_value": "39.767528",
+        "value": 28.451673443853615,
+        "display_value": "28.451673",
         "rank_desc": 7,
         "province_name_th": "เชียงใหม่"
       },
@@ -242,8 +242,8 @@
       {
         "subdistrict_code": "500503",
         "subdistrict_name_th": "ลวงเหนือ",
-        "value": 39.76752821073118,
-        "display_value": "39.767528",
+        "value": 28.451673443853615,
+        "display_value": "28.451673",
         "rank_desc": 7,
         "province_name_th": "เชียงใหม่"
       },
@@ -256,11 +256,19 @@
         "province_name_th": "เชียงราย"
       },
       {
+        "subdistrict_code": "571204",
+        "subdistrict_name_th": "เม็งราย",
+        "value": 67.51913746630728,
+        "display_value": "67.519137",
+        "rank_desc": 5,
+        "province_name_th": "เชียงราย"
+      },
+      {
         "subdistrict_code": "571202",
         "subdistrict_name_th": "แม่ต๋ำ",
         "value": 77.79678068410463,
         "display_value": "77.796781",
-        "rank_desc": 5,
+        "rank_desc": 4,
         "province_name_th": "เชียงราย"
       },
       {
@@ -268,14 +276,6 @@
         "subdistrict_name_th": "ป่าแดด",
         "value": 82.03214285714286,
         "display_value": "82.032143",
-        "rank_desc": 4,
-        "province_name_th": "เชียงราย"
-      },
-      {
-        "subdistrict_code": "571005",
-        "subdistrict_name_th": "ท่าก๊อ",
-        "value": 91.12475378997455,
-        "display_value": "91.124754",
         "rank_desc": 3,
         "province_name_th": "เชียงราย"
       }

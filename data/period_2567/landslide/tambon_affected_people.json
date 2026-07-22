@@ -7,15 +7,6 @@
   "source_mode": "single_year",
   "records": [
     {
-      "subdistrict_code": "950403",
-      "subdistrict_name_th": "แม่หวาด",
-      "district_name_th": "ธารโต",
-      "province_code": "95",
-      "province_name_th": "ยะลา",
-      "value": 1412.8225401916038,
-      "display_value": "1412.82254"
-    },
-    {
       "subdistrict_code": "571502",
       "subdistrict_name_th": "แม่สลองใน",
       "district_name_th": "แม่ฟ้าหลวง",
@@ -25,13 +16,13 @@
       "display_value": "1230.78877"
     },
     {
-      "subdistrict_code": "570906",
-      "subdistrict_name_th": "เวียงพางคำ",
-      "district_name_th": "แม่สาย",
-      "province_code": "57",
-      "province_name_th": "เชียงราย",
-      "value": 1060.148642535465,
-      "display_value": "1060.148643"
+      "subdistrict_code": "950403",
+      "subdistrict_name_th": "แม่หวาด",
+      "district_name_th": "ธารโต",
+      "province_code": "95",
+      "province_name_th": "ยะลา",
+      "value": 702.9433365758755,
+      "display_value": "702.943337"
     },
     {
       "subdistrict_code": "950404",
@@ -79,15 +70,6 @@
       "display_value": "35.135729"
     },
     {
-      "subdistrict_code": "390202",
-      "subdistrict_name_th": "ด่านช้าง",
-      "district_name_th": "นากลาง",
-      "province_code": "39",
-      "province_name_th": "หนองบัวลำภู",
-      "value": 30.569229878144963,
-      "display_value": "30.56923"
-    },
-    {
       "subdistrict_code": "950203",
       "subdistrict_name_th": "ตาเนาะแมเราะ",
       "district_name_th": "เบตง",
@@ -104,6 +86,24 @@
       "province_name_th": "เชียงราย",
       "value": 17.309746328437917,
       "display_value": "17.309746"
+    },
+    {
+      "subdistrict_code": "390202",
+      "subdistrict_name_th": "ด่านช้าง",
+      "district_name_th": "นากลาง",
+      "province_code": "39",
+      "province_name_th": "หนองบัวลำภู",
+      "value": 15.619744627841794,
+      "display_value": "15.619745"
+    },
+    {
+      "subdistrict_code": "570906",
+      "subdistrict_name_th": "เวียงพางคำ",
+      "district_name_th": "แม่สาย",
+      "province_code": "57",
+      "province_name_th": "เชียงราย",
+      "value": 15.53957783641161,
+      "display_value": "15.539578"
     },
     {
       "subdistrict_code": "950401",
@@ -2377,35 +2377,27 @@
   "rankings": {
     "national_top_10": [
       {
-        "subdistrict_code": "950403",
-        "subdistrict_name_th": "แม่หวาด",
-        "value": 1412.8225401916038,
-        "display_value": "1412.82254",
-        "rank_desc": 1,
-        "province_name_th": "ยะลา"
-      },
-      {
         "subdistrict_code": "571502",
         "subdistrict_name_th": "แม่สลองใน",
         "value": 1230.788770053476,
         "display_value": "1230.78877",
-        "rank_desc": 2,
+        "rank_desc": 1,
         "province_name_th": "เชียงราย"
       },
       {
-        "subdistrict_code": "570906",
-        "subdistrict_name_th": "เวียงพางคำ",
-        "value": 1060.148642535465,
-        "display_value": "1060.148643",
-        "rank_desc": 3,
-        "province_name_th": "เชียงราย"
+        "subdistrict_code": "950403",
+        "subdistrict_name_th": "แม่หวาด",
+        "value": 702.9433365758755,
+        "display_value": "702.943337",
+        "rank_desc": 2,
+        "province_name_th": "ยะลา"
       },
       {
         "subdistrict_code": "950404",
         "subdistrict_name_th": "คีรีเขต",
         "value": 606.1869158878504,
         "display_value": "606.186916",
-        "rank_desc": 4,
+        "rank_desc": 3,
         "province_name_th": "ยะลา"
       },
       {
@@ -2413,7 +2405,7 @@
         "subdistrict_name_th": "บ้านแหร",
         "value": 157.76846915460777,
         "display_value": "157.768469",
-        "rank_desc": 5,
+        "rank_desc": 4,
         "province_name_th": "ยะลา"
       },
       {
@@ -2421,7 +2413,7 @@
         "subdistrict_name_th": "แม่สลองนอก",
         "value": 123.17919075144508,
         "display_value": "123.179191",
-        "rank_desc": 6,
+        "rank_desc": 5,
         "province_name_th": "เชียงราย"
       },
       {
@@ -2429,7 +2421,7 @@
         "subdistrict_name_th": "ธรรมามูล",
         "value": 37.037722419928826,
         "display_value": "37.037722",
-        "rank_desc": 7,
+        "rank_desc": 6,
         "province_name_th": "ชัยนาท"
       },
       {
@@ -2437,24 +2429,32 @@
         "subdistrict_name_th": "ยะรม",
         "value": 35.13572938689218,
         "display_value": "35.135729",
-        "rank_desc": 8,
+        "rank_desc": 7,
         "province_name_th": "ยะลา"
-      },
-      {
-        "subdistrict_code": "390202",
-        "subdistrict_name_th": "ด่านช้าง",
-        "value": 30.569229878144963,
-        "display_value": "30.56923",
-        "rank_desc": 9,
-        "province_name_th": "หนองบัวลำภู"
       },
       {
         "subdistrict_code": "950203",
         "subdistrict_name_th": "ตาเนาะแมเราะ",
         "value": 29.34141546526868,
         "display_value": "29.341415",
-        "rank_desc": 10,
+        "rank_desc": 8,
         "province_name_th": "ยะลา"
+      },
+      {
+        "subdistrict_code": "571504",
+        "subdistrict_name_th": "แม่ฟ้าหลวง",
+        "value": 17.309746328437917,
+        "display_value": "17.309746",
+        "rank_desc": 9,
+        "province_name_th": "เชียงราย"
+      },
+      {
+        "subdistrict_code": "390202",
+        "subdistrict_name_th": "ด่านช้าง",
+        "value": 15.619744627841794,
+        "display_value": "15.619745",
+        "rank_desc": 10,
+        "province_name_th": "หนองบัวลำภู"
       }
     ],
     "national_bottom_10": [

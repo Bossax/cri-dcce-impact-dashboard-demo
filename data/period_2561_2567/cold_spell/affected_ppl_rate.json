@@ -1,15 +1,15 @@
 {
   "metric_key": "affected_ppl_rate",
-  "metric_label": "Affected People Rate",
+  "metric_label": "Affected People Rate (Score)",
   "period_key": "period_2561_2567",
   "period_label": "2561–2567 average",
-  "unit_label": "Per 100,000 population",
+  "unit_label": "Score [0-1]",
   "source_mode": "average_window",
   "legend": {
     "min": 0.0,
-    "max": 16.428899565825944,
+    "max": 1.0,
     "display_min": "0",
-    "display_max": "16.4289",
+    "display_max": "1",
     "color_scheme": "OrRd"
   },
   "records": [
@@ -125,8 +125,8 @@
       "province_code": "57",
       "province_name_th": "เชียงราย",
       "province_name_en": "CHIANG RAI",
-      "value": 16.428899565825944,
-      "display_value": "16.4289",
+      "value": 1.0,
+      "display_value": "1",
       "rank_desc": 1,
       "normalized_value": 1.0
     },
@@ -134,10 +134,10 @@
       "province_code": "50",
       "province_name_th": "เชียงใหม่",
       "province_name_en": "CHIANG MAI",
-      "value": 0.7425147623961601,
-      "display_value": "0.742515",
+      "value": 0.035975558642485264,
+      "display_value": "0.035976",
       "rank_desc": 2,
-      "normalized_value": 0.04519564803601811
+      "normalized_value": 0.035975558642485264
     },
     {
       "province_code": "92",
@@ -712,16 +712,16 @@
       {
         "province_code": "57",
         "province_name_th": "เชียงราย",
-        "value": 16.428899565825944,
-        "display_value": "16.4289",
+        "value": 1.0,
+        "display_value": "1",
         "rank_desc": 1,
         "province_name_en": "CHIANG RAI"
       },
       {
         "province_code": "50",
         "province_name_th": "เชียงใหม่",
-        "value": 0.7425147623961601,
-        "display_value": "0.742515",
+        "value": 0.035975558642485264,
+        "display_value": "0.035976",
         "rank_desc": 2,
         "province_name_en": "CHIANG MAI"
       },

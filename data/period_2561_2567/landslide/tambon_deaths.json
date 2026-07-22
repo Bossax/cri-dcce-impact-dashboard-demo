@@ -21,17 +21,8 @@
       "district_name_th": "แม่อาย",
       "province_code": "50",
       "province_name_th": "เชียงใหม่",
-      "value": 1.7142857142857142,
-      "display_value": "1.714286"
-    },
-    {
-      "subdistrict_code": "150607",
-      "subdistrict_name_th": "บางจัก",
-      "district_name_th": "วิเศษชัยชาญ",
-      "province_code": "15",
-      "province_name_th": "อ่างทอง",
-      "value": 0.2857142857142857,
-      "display_value": "0.285714"
+      "value": 0.8571428571428571,
+      "display_value": "0.857143"
     },
     {
       "subdistrict_code": "571502",
@@ -50,6 +41,15 @@
       "province_name_th": "สุราษฎร์ธานี",
       "value": 0.2857142857142857,
       "display_value": "0.285714"
+    },
+    {
+      "subdistrict_code": "150607",
+      "subdistrict_name_th": "บางจัก",
+      "district_name_th": "วิเศษชัยชาญ",
+      "province_code": "15",
+      "province_name_th": "อ่างทอง",
+      "value": 0.14285714285714285,
+      "display_value": "0.142857"
     },
     {
       "subdistrict_code": "300607",
@@ -2387,18 +2387,10 @@
       {
         "subdistrict_code": "501001",
         "subdistrict_name_th": "แม่อาย",
-        "value": 1.7142857142857142,
-        "display_value": "1.714286",
+        "value": 0.8571428571428571,
+        "display_value": "0.857143",
         "rank_desc": 2,
         "province_name_th": "เชียงใหม่"
-      },
-      {
-        "subdistrict_code": "150607",
-        "subdistrict_name_th": "บางจัก",
-        "value": 0.2857142857142857,
-        "display_value": "0.285714",
-        "rank_desc": 3,
-        "province_name_th": "อ่างทอง"
       },
       {
         "subdistrict_code": "571502",
@@ -2417,11 +2409,19 @@
         "province_name_th": "สุราษฎร์ธานี"
       },
       {
+        "subdistrict_code": "150607",
+        "subdistrict_name_th": "บางจัก",
+        "value": 0.14285714285714285,
+        "display_value": "0.142857",
+        "rank_desc": 5,
+        "province_name_th": "อ่างทอง"
+      },
+      {
         "subdistrict_code": "300607",
         "subdistrict_name_th": "หนองพลวง",
         "value": 0.14285714285714285,
         "display_value": "0.142857",
-        "rank_desc": 6,
+        "rank_desc": 5,
         "province_name_th": "นครราชสีมา"
       },
       {
@@ -2429,7 +2429,7 @@
         "subdistrict_name_th": "เทอดไทย",
         "value": 0.14285714285714285,
         "display_value": "0.142857",
-        "rank_desc": 6,
+        "rank_desc": 5,
         "province_name_th": "เชียงราย"
       },
       {
@@ -2437,7 +2437,7 @@
         "subdistrict_name_th": "แม่สลองนอก",
         "value": 0.14285714285714285,
         "display_value": "0.142857",
-        "rank_desc": 6,
+        "rank_desc": 5,
         "province_name_th": "เชียงราย"
       },
       {
@@ -2445,7 +2445,7 @@
         "subdistrict_name_th": "บ้านคลอง",
         "value": 0.14285714285714285,
         "display_value": "0.142857",
-        "rank_desc": 6,
+        "rank_desc": 5,
         "province_name_th": "พิษณุโลก"
       },
       {
@@ -2453,7 +2453,7 @@
         "subdistrict_name_th": "วัดประดู่",
         "value": 0.14285714285714285,
         "display_value": "0.142857",
-        "rank_desc": 6,
+        "rank_desc": 5,
         "province_name_th": "สุราษฎร์ธานี"
       }
     ],

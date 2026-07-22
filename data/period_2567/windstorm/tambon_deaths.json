@@ -16,38 +16,11 @@
       "display_value": "3"
     },
     {
-      "subdistrict_code": "250112",
-      "subdistrict_name_th": "เนินหอม",
-      "district_name_th": "เมืองปราจีนบุรี",
-      "province_code": "25",
-      "province_name_th": "ปราจีนบุรี",
-      "value": 2.0,
-      "display_value": "2"
-    },
-    {
       "subdistrict_code": "341002",
       "subdistrict_name_th": "ห้วยข่า",
       "district_name_th": "บุณฑริก",
       "province_code": "34",
       "province_name_th": "อุบลราชธานี",
-      "value": 2.0,
-      "display_value": "2"
-    },
-    {
-      "subdistrict_code": "410609",
-      "subdistrict_name_th": "บ้านเชียง",
-      "district_name_th": "หนองหาน",
-      "province_code": "41",
-      "province_name_th": "อุดรธานี",
-      "value": 2.0,
-      "display_value": "2"
-    },
-    {
-      "subdistrict_code": "850302",
-      "subdistrict_name_th": "กะเปอร์",
-      "district_name_th": "กะเปอร์",
-      "province_code": "85",
-      "province_name_th": "ระนอง",
       "value": 2.0,
       "display_value": "2"
     },
@@ -84,6 +57,24 @@
       "district_name_th": "เมืองปราจีนบุรี",
       "province_code": "25",
       "province_name_th": "ปราจีนบุรี",
+      "value": 1.0,
+      "display_value": "1"
+    },
+    {
+      "subdistrict_code": "250112",
+      "subdistrict_name_th": "เนินหอม",
+      "district_name_th": "เมืองปราจีนบุรี",
+      "province_code": "25",
+      "province_name_th": "ปราจีนบุรี",
+      "value": 1.0,
+      "display_value": "1"
+    },
+    {
+      "subdistrict_code": "410609",
+      "subdistrict_name_th": "บ้านเชียง",
+      "district_name_th": "หนองหาน",
+      "province_code": "41",
+      "province_name_th": "อุดรธานี",
       "value": 1.0,
       "display_value": "1"
     },
@@ -147,6 +138,15 @@
       "district_name_th": "บางสะพานน้อย",
       "province_code": "77",
       "province_name_th": "ประจวบคีรีขันธ์",
+      "value": 1.0,
+      "display_value": "1"
+    },
+    {
+      "subdistrict_code": "850302",
+      "subdistrict_name_th": "กะเปอร์",
+      "district_name_th": "กะเปอร์",
+      "province_code": "85",
+      "province_name_th": "ระนอง",
       "value": 1.0,
       "display_value": "1"
     },
@@ -60129,14 +60129,6 @@
         "province_name_th": "บึงกาฬ"
       },
       {
-        "subdistrict_code": "250112",
-        "subdistrict_name_th": "เนินหอม",
-        "value": 2.0,
-        "display_value": "2",
-        "rank_desc": 2,
-        "province_name_th": "ปราจีนบุรี"
-      },
-      {
         "subdistrict_code": "341002",
         "subdistrict_name_th": "ห้วยข่า",
         "value": 2.0,
@@ -60145,27 +60137,11 @@
         "province_name_th": "อุบลราชธานี"
       },
       {
-        "subdistrict_code": "410609",
-        "subdistrict_name_th": "บ้านเชียง",
-        "value": 2.0,
-        "display_value": "2",
-        "rank_desc": 2,
-        "province_name_th": "อุดรธานี"
-      },
-      {
-        "subdistrict_code": "850302",
-        "subdistrict_name_th": "กะเปอร์",
-        "value": 2.0,
-        "display_value": "2",
-        "rank_desc": 2,
-        "province_name_th": "ระนอง"
-      },
-      {
         "subdistrict_code": "141003",
         "subdistrict_name_th": "สามเมือง",
         "value": 1.0,
         "display_value": "1",
-        "rank_desc": 6,
+        "rank_desc": 3,
         "province_name_th": "พระนครศรีอยุธยา"
       },
       {
@@ -60173,7 +60149,7 @@
         "subdistrict_name_th": "บางชัน",
         "value": 1.0,
         "display_value": "1",
-        "rank_desc": 6,
+        "rank_desc": 3,
         "province_name_th": "จันทบุรี"
       },
       {
@@ -60181,7 +60157,7 @@
         "subdistrict_name_th": "คลองขุด",
         "value": 1.0,
         "display_value": "1",
-        "rank_desc": 6,
+        "rank_desc": 3,
         "province_name_th": "จันทบุรี"
       },
       {
@@ -60189,16 +60165,40 @@
         "subdistrict_name_th": "บ้านพระ",
         "value": 1.0,
         "display_value": "1",
-        "rank_desc": 6,
+        "rank_desc": 3,
         "province_name_th": "ปราจีนบุรี"
+      },
+      {
+        "subdistrict_code": "250112",
+        "subdistrict_name_th": "เนินหอม",
+        "value": 1.0,
+        "display_value": "1",
+        "rank_desc": 3,
+        "province_name_th": "ปราจีนบุรี"
+      },
+      {
+        "subdistrict_code": "410609",
+        "subdistrict_name_th": "บ้านเชียง",
+        "value": 1.0,
+        "display_value": "1",
+        "rank_desc": 3,
+        "province_name_th": "อุดรธานี"
       },
       {
         "subdistrict_code": "471213",
         "subdistrict_name_th": "พันนา",
         "value": 1.0,
         "display_value": "1",
-        "rank_desc": 6,
+        "rank_desc": 3,
         "province_name_th": "สกลนคร"
+      },
+      {
+        "subdistrict_code": "520203",
+        "subdistrict_name_th": "จางเหนือ",
+        "value": 1.0,
+        "display_value": "1",
+        "rank_desc": 3,
+        "province_name_th": "ลำปาง"
       }
     ],
     "national_bottom_10": [

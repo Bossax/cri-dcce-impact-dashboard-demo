@@ -1,9 +1,9 @@
 {
   "metric_key": "deaths_abs",
-  "metric_label": "Deaths (Count)",
+  "metric_label": "Deaths (Score)",
   "period_key": "period_2561_2567",
   "period_label": "2561–2567 average",
-  "unit_label": "Annual deaths",
+  "unit_label": "Score [0-1]",
   "source_mode": "average_window",
   "legend": {
     "min": 0.0,

@@ -40,7 +40,7 @@ def main() -> None:
     _apply_global_style()
 
     st.title("CRI Impact Index")
-    st.caption("v4.1 | Explore climate-impact patterns across provinces and tambons.")
+    st.caption("v4.2 | Explore climate-impact patterns across provinces and tambons.")
 
     tabs = st.tabs([
         "Methodology",

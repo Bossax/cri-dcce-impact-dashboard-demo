@@ -1,6 +1,15 @@
-# CRI Impact Dashboard V4.1
+# CRI Impact Dashboard V4.2
 
 This is the standalone deployment bundle for the Climate Resilience Index (CRI) Impact Dashboard. It serves pre-computed Stage 1 analytical data to visualize climate risks, economic loss, and health impacts across Thailand.
+
+## V4.2 Data & UI Upgrade
+
+This release strengthens data lineage and makes the dashboard's score semantics explicit:
+
+1. **Household-data normalization**: annual population and household registrations are consolidated to unique subdistrict-year records before impact data joins.
+2. **Exporter join guardrail**: household values are pre-aggregated by subdistrict and year, preventing accidental join fan-out.
+3. **Normalized CRI components**: the six province component metrics now display min-max normalized values on the `Score [0-1]` scale.
+4. **Tambon population rates**: Tambon views now include deaths and affected-people rates per 100,000 population.
 
 ## V4.1 Refinements: Cold Spell Exclusion & Metadata Cleanups
 This version introduces adjustments to the analytical data pipeline and page metadata:

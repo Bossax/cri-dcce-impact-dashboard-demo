@@ -21,8 +21,8 @@
       "district_name_th": "แม่อาย",
       "province_code": "50",
       "province_name_th": "เชียงใหม่",
-      "value": 12.0,
-      "display_value": "12"
+      "value": 6.0,
+      "display_value": "6"
     },
     {
       "subdistrict_code": "571502",
@@ -2387,8 +2387,8 @@
       {
         "subdistrict_code": "501001",
         "subdistrict_name_th": "แม่อาย",
-        "value": 12.0,
-        "display_value": "12",
+        "value": 6.0,
+        "display_value": "6",
         "rank_desc": 2,
         "province_name_th": "เชียงใหม่"
       },

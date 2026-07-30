@@ -124,56 +124,11 @@
       "display_value": "0.285714"
     },
     {
-      "subdistrict_code": "341002",
-      "subdistrict_name_th": "ห้วยข่า",
-      "district_name_th": "บุณฑริก",
-      "province_code": "34",
-      "province_name_th": "อุบลราชธานี",
-      "value": 0.2857142857142857,
-      "display_value": "0.285714"
-    },
-    {
       "subdistrict_code": "361002",
       "subdistrict_name_th": "กวางโจน",
       "district_name_th": "ภูเขียว",
       "province_code": "36",
       "province_name_th": "ชัยภูมิ",
-      "value": 0.2857142857142857,
-      "display_value": "0.285714"
-    },
-    {
-      "subdistrict_code": "400805",
-      "subdistrict_name_th": "ศรีสุขสำราญ",
-      "district_name_th": "อุบลรัตน์",
-      "province_code": "40",
-      "province_name_th": "ขอนแก่น",
-      "value": 0.2857142857142857,
-      "display_value": "0.285714"
-    },
-    {
-      "subdistrict_code": "402101",
-      "subdistrict_name_th": "กระนวน",
-      "district_name_th": "ซำสูง",
-      "province_code": "40",
-      "province_name_th": "ขอนแก่น",
-      "value": 0.2857142857142857,
-      "display_value": "0.285714"
-    },
-    {
-      "subdistrict_code": "470601",
-      "subdistrict_name_th": "วาริชภูมิ",
-      "district_name_th": "วาริชภูมิ",
-      "province_code": "47",
-      "province_name_th": "สกลนคร",
-      "value": 0.2857142857142857,
-      "display_value": "0.285714"
-    },
-    {
-      "subdistrict_code": "501910",
-      "subdistrict_name_th": "ท่าวังตาล",
-      "district_name_th": "สารภี",
-      "province_code": "50",
-      "province_name_th": "เชียงใหม่",
       "value": 0.2857142857142857,
       "display_value": "0.285714"
     },
@@ -219,15 +174,6 @@
       "district_name_th": "เมืองชุมพร",
       "province_code": "86",
       "province_name_th": "ชุมพร",
-      "value": 0.2857142857142857,
-      "display_value": "0.285714"
-    },
-    {
-      "subdistrict_code": "920213",
-      "subdistrict_name_th": "เกาะลิบง",
-      "district_name_th": "กันตัง",
-      "province_code": "92",
-      "province_name_th": "ตรัง",
       "value": 0.2857142857142857,
       "display_value": "0.285714"
     },
@@ -547,6 +493,15 @@
       "display_value": "0.142857"
     },
     {
+      "subdistrict_code": "341002",
+      "subdistrict_name_th": "ห้วยข่า",
+      "district_name_th": "บุณฑริก",
+      "province_code": "34",
+      "province_name_th": "อุบลราชธานี",
+      "value": 0.14285714285714285,
+      "display_value": "0.142857"
+    },
+    {
       "subdistrict_code": "350806",
       "subdistrict_name_th": "สามัคคี",
       "district_name_th": "เลิงนกทา",
@@ -586,6 +541,24 @@
       "subdistrict_code": "400115",
       "subdistrict_name_th": "บ้านเป็ด",
       "district_name_th": "เมืองขอนแก่น",
+      "province_code": "40",
+      "province_name_th": "ขอนแก่น",
+      "value": 0.14285714285714285,
+      "display_value": "0.142857"
+    },
+    {
+      "subdistrict_code": "400805",
+      "subdistrict_name_th": "ศรีสุขสำราญ",
+      "district_name_th": "อุบลรัตน์",
+      "province_code": "40",
+      "province_name_th": "ขอนแก่น",
+      "value": 0.14285714285714285,
+      "display_value": "0.142857"
+    },
+    {
+      "subdistrict_code": "402101",
+      "subdistrict_name_th": "กระนวน",
+      "district_name_th": "ซำสูง",
       "province_code": "40",
       "province_name_th": "ขอนแก่น",
       "value": 0.14285714285714285,
@@ -718,6 +691,15 @@
       "display_value": "0.142857"
     },
     {
+      "subdistrict_code": "470601",
+      "subdistrict_name_th": "วาริชภูมิ",
+      "district_name_th": "วาริชภูมิ",
+      "province_code": "47",
+      "province_name_th": "สกลนคร",
+      "value": 0.14285714285714285,
+      "display_value": "0.142857"
+    },
+    {
       "subdistrict_code": "471103",
       "subdistrict_name_th": "วาใหญ่",
       "district_name_th": "อากาศอำนวย",
@@ -775,6 +757,15 @@
       "subdistrict_code": "500602",
       "subdistrict_name_th": "แม่แตง",
       "district_name_th": "แม่แตง",
+      "province_code": "50",
+      "province_name_th": "เชียงใหม่",
+      "value": 0.14285714285714285,
+      "display_value": "0.142857"
+    },
+    {
+      "subdistrict_code": "501910",
+      "subdistrict_name_th": "ท่าวังตาล",
+      "district_name_th": "สารภี",
       "province_code": "50",
       "province_name_th": "เชียงใหม่",
       "value": 0.14285714285714285,
@@ -876,15 +867,6 @@
       "district_name_th": "ชุมแสง",
       "province_code": "60",
       "province_name_th": "นครสวรรค์",
-      "value": 0.14285714285714285,
-      "display_value": "0.142857"
-    },
-    {
-      "subdistrict_code": "610207",
-      "subdistrict_name_th": "หนองกลางดง",
-      "district_name_th": "ทัพทัน",
-      "province_code": "61",
-      "province_name_th": "อุทัยธานี",
       "value": 0.14285714285714285,
       "display_value": "0.142857"
     },
@@ -1177,15 +1159,6 @@
       "display_value": "0.142857"
     },
     {
-      "subdistrict_code": "860105",
-      "subdistrict_name_th": "นาทุ่ง",
-      "district_name_th": "เมืองชุมพร",
-      "province_code": "86",
-      "province_name_th": "ชุมพร",
-      "value": 0.14285714285714285,
-      "display_value": "0.142857"
-    },
-    {
       "subdistrict_code": "900302",
       "subdistrict_name_th": "ป่าชิง",
       "district_name_th": "จะนะ",
@@ -1227,6 +1200,15 @@
       "district_name_th": "สะเดา",
       "province_code": "90",
       "province_name_th": "สงขลา",
+      "value": 0.14285714285714285,
+      "display_value": "0.142857"
+    },
+    {
+      "subdistrict_code": "920213",
+      "subdistrict_name_th": "เกาะลิบง",
+      "district_name_th": "กันตัง",
+      "province_code": "92",
+      "province_name_th": "ตรัง",
       "value": 0.14285714285714285,
       "display_value": "0.142857"
     },
@@ -42019,6 +42001,15 @@
       "display_value": "0"
     },
     {
+      "subdistrict_code": "610207",
+      "subdistrict_name_th": "หนองกลางดง",
+      "district_name_th": "ทัพทัน",
+      "province_code": "61",
+      "province_name_th": "อุทัยธานี",
+      "value": 0.0,
+      "display_value": "0"
+    },
+    {
       "subdistrict_code": "610208",
       "subdistrict_name_th": "หนองกระทุ่ม",
       "district_name_th": "ทัพทัน",
@@ -55375,6 +55366,15 @@
       "display_value": "0"
     },
     {
+      "subdistrict_code": "860105",
+      "subdistrict_name_th": "นาทุ่ง",
+      "district_name_th": "เมืองชุมพร",
+      "province_code": "86",
+      "province_name_th": "ชุมพร",
+      "value": 0.0,
+      "display_value": "0"
+    },
+    {
       "subdistrict_code": "860106",
       "subdistrict_name_th": "นาชะอัง",
       "district_name_th": "เมืองชุมพร",
@@ -60207,7 +60207,7 @@
         "subdistrict_name_th": "เสาชิงช้า",
         "value": 0.0,
         "display_value": "0",
-        "rank_desc": 142,
+        "rank_desc": 140,
         "province_name_th": "กรุงเทพมหานคร"
       },
       {
@@ -60215,7 +60215,7 @@
         "subdistrict_name_th": "วชิรพยาบาล",
         "value": 0.0,
         "display_value": "0",
-        "rank_desc": 142,
+        "rank_desc": 140,
         "province_name_th": "กรุงเทพมหานคร"
       },
       {
@@ -60223,7 +60223,7 @@
         "subdistrict_name_th": "ถนนนครไชยศรี",
         "value": 0.0,
         "display_value": "0",
-        "rank_desc": 142,
+        "rank_desc": 140,
         "province_name_th": "กรุงเทพมหานคร"
       },
       {
@@ -60231,7 +60231,7 @@
         "subdistrict_name_th": "กระทุ่มราย",
         "value": 0.0,
         "display_value": "0",
-        "rank_desc": 142,
+        "rank_desc": 140,
         "province_name_th": "กรุงเทพมหานคร"
       },
       {
@@ -60239,7 +60239,7 @@
         "subdistrict_name_th": "หนองจอก",
         "value": 0.0,
         "display_value": "0",
-        "rank_desc": 142,
+        "rank_desc": 140,
         "province_name_th": "กรุงเทพมหานคร"
       },
       {
@@ -60247,7 +60247,7 @@
         "subdistrict_name_th": "คลองสิบ",
         "value": 0.0,
         "display_value": "0",
-        "rank_desc": 142,
+        "rank_desc": 140,
         "province_name_th": "กรุงเทพมหานคร"
       },
       {
@@ -60255,7 +60255,7 @@
         "subdistrict_name_th": "คลองสิบสอง",
         "value": 0.0,
         "display_value": "0",
-        "rank_desc": 142,
+        "rank_desc": 140,
         "province_name_th": "กรุงเทพมหานคร"
       },
       {
@@ -60263,7 +60263,7 @@
         "subdistrict_name_th": "โคกแฝด",
         "value": 0.0,
         "display_value": "0",
-        "rank_desc": 142,
+        "rank_desc": 140,
         "province_name_th": "กรุงเทพมหานคร"
       },
       {
@@ -60271,7 +60271,7 @@
         "subdistrict_name_th": "คู้ฝั่งเหนือ",
         "value": 0.0,
         "display_value": "0",
-        "rank_desc": 142,
+        "rank_desc": 140,
         "province_name_th": "กรุงเทพมหานคร"
       },
       {
@@ -60279,7 +60279,7 @@
         "subdistrict_name_th": "ลำผักชี",
         "value": 0.0,
         "display_value": "0",
-        "rank_desc": 142,
+        "rank_desc": 140,
         "province_name_th": "กรุงเทพมหานคร"
       }
     ]

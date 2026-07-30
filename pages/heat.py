@@ -9,7 +9,7 @@ from runtime import data
 
 
 def render() -> None:
-    st.header("Heat-Related Mortality & Impact")
+    st.header("Heat-Related Casualties & Impact")
     
     # 1. Setup Columns
     col_ctrl, col_map = st.columns([1, 2])
@@ -17,18 +17,20 @@ def render() -> None:
     with col_ctrl:
         # Time Period
         period_options = [
-            PeriodOption("period_2560_2567", "2560-2567 Average"),
+            PeriodOption("period_2561_2567", "2561-2567 Average"),
             PeriodOption("period_2567", "2567 Only"),
         ]
-        period_key = render_period_choice(control_key="heat", options=period_options, default_key="period_2560_2567")
+        period_key = render_period_choice(control_key="heat", options=period_options, default_key="period_2561_2567")
 
         # Metric Selector
         metric_options = {
+            "Heat Casualty Score": "heat_score",
             "Heat-Related Deaths": "heat_deaths",
             "Heat-Related Injuries": "heat_injured",
         }
         selected_label = st.selectbox("Metric Selector", options=list(metric_options.keys()), key="heat_metric_selector")
         selected_metric = metric_options[selected_label]
+
 
         # Load Data for Ranking
         dataset = data.load_metric(selected_metric, period_key)

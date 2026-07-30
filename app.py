@@ -40,13 +40,13 @@ def main() -> None:
     _apply_global_style()
 
     st.title("CRI Impact Index")
-    st.caption("v4.2 | Explore climate-impact patterns across provinces and tambons.")
+    st.caption("v4.3 | 30 July 2026") # release version and date
 
     tabs = st.tabs([
         "Methodology",
         "CRI",
         "Tambon-Level Human Impact",
-        "Heat Mortality",
+        "Heat Casualties",
     ])
 
     with tabs[0]:

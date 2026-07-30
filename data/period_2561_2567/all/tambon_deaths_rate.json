@@ -214,15 +214,6 @@
       "display_value": "5.597224"
     },
     {
-      "subdistrict_code": "402101",
-      "subdistrict_name_th": "กระนวน",
-      "district_name_th": "ซำสูง",
-      "province_code": "40",
-      "province_name_th": "ขอนแก่น",
-      "value": 5.438477226376615,
-      "display_value": "5.438477"
-    },
-    {
       "subdistrict_code": "941009",
       "subdistrict_name_th": "คลองใหม่",
       "district_name_th": "ยะรัง",
@@ -259,15 +250,6 @@
       "display_value": "5.180542"
     },
     {
-      "subdistrict_code": "400805",
-      "subdistrict_name_th": "ศรีสุขสำราญ",
-      "district_name_th": "อุบลรัตน์",
-      "province_code": "40",
-      "province_name_th": "ขอนแก่น",
-      "value": 5.125182584629577,
-      "display_value": "5.125183"
-    },
-    {
       "subdistrict_code": "840402",
       "subdistrict_name_th": "ลิปะน้อย",
       "district_name_th": "เกาะสมุย",
@@ -275,15 +257,6 @@
       "province_name_th": "สุราษฎร์ธานี",
       "value": 5.083496428843758,
       "display_value": "5.083496"
-    },
-    {
-      "subdistrict_code": "610207",
-      "subdistrict_name_th": "หนองกลางดง",
-      "district_name_th": "ทัพทัน",
-      "province_code": "61",
-      "province_name_th": "อุทัยธานี",
-      "value": 4.898599000685803,
-      "display_value": "4.898599"
     },
     {
       "subdistrict_code": "550802",
@@ -473,24 +446,6 @@
       "province_name_th": "จันทบุรี",
       "value": 3.828117523207962,
       "display_value": "3.828118"
-    },
-    {
-      "subdistrict_code": "920213",
-      "subdistrict_name_th": "เกาะลิบง",
-      "district_name_th": "กันตัง",
-      "province_code": "92",
-      "province_name_th": "ตรัง",
-      "value": 3.814391699883661,
-      "display_value": "3.814392"
-    },
-    {
-      "subdistrict_code": "501910",
-      "subdistrict_name_th": "ท่าวังตาล",
-      "district_name_th": "สารภี",
-      "province_code": "50",
-      "province_name_th": "เชียงใหม่",
-      "value": 3.782434374763598,
-      "display_value": "3.782434"
     },
     {
       "subdistrict_code": "141206",
@@ -781,6 +736,15 @@
       "display_value": "2.728364"
     },
     {
+      "subdistrict_code": "402101",
+      "subdistrict_name_th": "กระนวน",
+      "district_name_th": "ซำสูง",
+      "province_code": "40",
+      "province_name_th": "ขอนแก่น",
+      "value": 2.7192386131883075,
+      "display_value": "2.719239"
+    },
+    {
       "subdistrict_code": "820701",
       "subdistrict_name_th": "ทับปุด",
       "district_name_th": "ทับปุด",
@@ -905,6 +869,24 @@
       "province_name_th": "ร้อยเอ็ด",
       "value": 2.5683832027738536,
       "display_value": "2.568383"
+    },
+    {
+      "subdistrict_code": "400805",
+      "subdistrict_name_th": "ศรีสุขสำราญ",
+      "district_name_th": "อุบลรัตน์",
+      "province_code": "40",
+      "province_name_th": "ขอนแก่น",
+      "value": 2.5625912923147887,
+      "display_value": "2.562591"
+    },
+    {
+      "subdistrict_code": "501910",
+      "subdistrict_name_th": "ท่าวังตาล",
+      "district_name_th": "สารภี",
+      "province_code": "50",
+      "province_name_th": "เชียงใหม่",
+      "value": 2.521622916509065,
+      "display_value": "2.521623"
     },
     {
       "subdistrict_code": "640401",
@@ -1078,15 +1060,6 @@
       "display_value": "2.273968"
     },
     {
-      "subdistrict_code": "650204",
-      "subdistrict_name_th": "เนินเพิ่ม",
-      "district_name_th": "นครไทย",
-      "province_code": "65",
-      "province_name_th": "พิษณุโลก",
-      "value": 2.253749676023484,
-      "display_value": "2.25375"
-    },
-    {
       "subdistrict_code": "841106",
       "subdistrict_name_th": "ปากฉลุย",
       "district_name_th": "ท่าฉาง",
@@ -1240,15 +1213,6 @@
       "display_value": "1.992786"
     },
     {
-      "subdistrict_code": "470601",
-      "subdistrict_name_th": "วาริชภูมิ",
-      "district_name_th": "วาริชภูมิ",
-      "province_code": "47",
-      "province_name_th": "สกลนคร",
-      "value": 1.9836940350320365,
-      "display_value": "1.983694"
-    },
-    {
       "subdistrict_code": "141003",
       "subdistrict_name_th": "สามเมือง",
       "district_name_th": "ลาดบัวหลวง",
@@ -1292,6 +1256,15 @@
       "province_name_th": "พัทลุง",
       "value": 1.9086883493663154,
       "display_value": "1.908688"
+    },
+    {
+      "subdistrict_code": "920213",
+      "subdistrict_name_th": "เกาะลิบง",
+      "district_name_th": "กันตัง",
+      "province_code": "92",
+      "province_name_th": "ตรัง",
+      "value": 1.9071958499418304,
+      "display_value": "1.907196"
     },
     {
       "subdistrict_code": "920117",
@@ -1607,15 +1580,6 @@
       "province_name_th": "แม่ฮ่องสอน",
       "value": 1.6213762241390492,
       "display_value": "1.621376"
-    },
-    {
-      "subdistrict_code": "341002",
-      "subdistrict_name_th": "ห้วยข่า",
-      "district_name_th": "บุณฑริก",
-      "province_code": "34",
-      "province_name_th": "อุบลราชธานี",
-      "value": 1.6061418865742603,
-      "display_value": "1.606142"
     },
     {
       "subdistrict_code": "170601",
@@ -2059,15 +2023,6 @@
       "display_value": "1.188213"
     },
     {
-      "subdistrict_code": "860105",
-      "subdistrict_name_th": "นาทุ่ง",
-      "district_name_th": "เมืองชุมพร",
-      "province_code": "86",
-      "province_name_th": "ชุมพร",
-      "value": 1.1866196765274761,
-      "display_value": "1.18662"
-    },
-    {
       "subdistrict_code": "711303",
       "subdistrict_name_th": "ดอนแสลบ",
       "district_name_th": "ห้วยกระเจา",
@@ -2129,6 +2084,15 @@
       "province_name_th": "นครปฐม",
       "value": 1.1353315168029063,
       "display_value": "1.135332"
+    },
+    {
+      "subdistrict_code": "650204",
+      "subdistrict_name_th": "เนินเพิ่ม",
+      "district_name_th": "นครไทย",
+      "province_code": "65",
+      "province_name_th": "พิษณุโลก",
+      "value": 1.126874838011742,
+      "display_value": "1.126875"
     },
     {
       "subdistrict_code": "571502",
@@ -2219,6 +2183,15 @@
       "province_name_th": "ปัตตานี",
       "value": 0.995500338470115,
       "display_value": "0.9955"
+    },
+    {
+      "subdistrict_code": "470601",
+      "subdistrict_name_th": "วาริชภูมิ",
+      "district_name_th": "วาริชภูมิ",
+      "province_code": "47",
+      "province_name_th": "สกลนคร",
+      "value": 0.9918470175160182,
+      "display_value": "0.991847"
     },
     {
       "subdistrict_code": "950701",
@@ -2320,15 +2293,6 @@
       "display_value": "0.874891"
     },
     {
-      "subdistrict_code": "900301",
-      "subdistrict_name_th": "บ้านนา",
-      "district_name_th": "จะนะ",
-      "province_code": "90",
-      "province_name_th": "สงขลา",
-      "value": 0.8594092420869893,
-      "display_value": "0.859409"
-    },
-    {
       "subdistrict_code": "941012",
       "subdistrict_name_th": "เขาตูม",
       "district_name_th": "ยะรัง",
@@ -2372,6 +2336,15 @@
       "province_name_th": "เชียงราย",
       "value": 0.8217331996647329,
       "display_value": "0.821733"
+    },
+    {
+      "subdistrict_code": "341002",
+      "subdistrict_name_th": "ห้วยข่า",
+      "district_name_th": "บุณฑริก",
+      "province_code": "34",
+      "province_name_th": "อุบลราชธานี",
+      "value": 0.8030709432871301,
+      "display_value": "0.803071"
     },
     {
       "subdistrict_code": "960106",
@@ -2527,98 +2500,8 @@
       "display_value": "0.309585"
     },
     {
-      "subdistrict_code": "100101",
-      "subdistrict_name_th": "พระบรมมหาราชวัง",
-      "district_name_th": "พระนคร",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "100102",
-      "subdistrict_name_th": "วังบูรพาภิรมย์",
-      "district_name_th": "พระนคร",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "100103",
-      "subdistrict_name_th": "วัดราชบพิธ",
-      "district_name_th": "พระนคร",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "100104",
-      "subdistrict_name_th": "สำราญราษฎร์",
-      "district_name_th": "พระนคร",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "100105",
-      "subdistrict_name_th": "ศาลเจ้าพ่อเสือ",
-      "district_name_th": "พระนคร",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "100106",
       "subdistrict_name_th": "เสาชิงช้า",
-      "district_name_th": "พระนคร",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "100107",
-      "subdistrict_name_th": "บวรนิเวศ",
-      "district_name_th": "พระนคร",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "100108",
-      "subdistrict_name_th": "ตลาดยอด",
-      "district_name_th": "พระนคร",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "100109",
-      "subdistrict_name_th": "ชนะสงคราม",
-      "district_name_th": "พระนคร",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "100110",
-      "subdistrict_name_th": "บ้านพานถม",
-      "district_name_th": "พระนคร",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "100111",
-      "subdistrict_name_th": "บางขุนพรหม",
       "district_name_th": "พระนคร",
       "province_code": "10",
       "province_name_th": "กรุงเทพมหานคร",
@@ -2635,35 +2518,8 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "100201",
-      "subdistrict_name_th": "ดุสิต",
-      "district_name_th": "ดุสิต",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "100202",
       "subdistrict_name_th": "วชิรพยาบาล",
-      "district_name_th": "ดุสิต",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "100203",
-      "subdistrict_name_th": "สวนจิตรลดา",
-      "district_name_th": "ดุสิต",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "100204",
-      "subdistrict_name_th": "สี่แยกมหานาค",
       "district_name_th": "ดุสิต",
       "province_code": "10",
       "province_name_th": "กรุงเทพมหานคร",
@@ -2752,62 +2608,8 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "100401",
-      "subdistrict_name_th": "มหาพฤฒาราม",
-      "district_name_th": "บางรัก",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "100402",
-      "subdistrict_name_th": "สีลม",
-      "district_name_th": "บางรัก",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "100403",
-      "subdistrict_name_th": "สุริยวงศ์",
-      "district_name_th": "บางรัก",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "100404",
-      "subdistrict_name_th": "บางรัก",
-      "district_name_th": "บางรัก",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "100405",
-      "subdistrict_name_th": "สี่พระยา",
-      "district_name_th": "บางรัก",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "100502",
       "subdistrict_name_th": "อนุสาวรีย์",
-      "district_name_th": "บางเขน",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "100508",
-      "subdistrict_name_th": "ท่าแร้ง",
       "district_name_th": "บางเขน",
       "province_code": "10",
       "province_name_th": "กรุงเทพมหานคร",
@@ -2842,72 +2644,9 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "100702",
-      "subdistrict_name_th": "วังใหม่",
-      "district_name_th": "ปทุมวัน",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "100703",
-      "subdistrict_name_th": "ปทุมวัน",
-      "district_name_th": "ปทุมวัน",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "100704",
       "subdistrict_name_th": "ลุมพินี",
       "district_name_th": "ปทุมวัน",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "100801",
-      "subdistrict_name_th": "ป้อมปราบ",
-      "district_name_th": "ป้อมปราบศัตรูพ่าย",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "100802",
-      "subdistrict_name_th": "วัดเทพศิรินทร์",
-      "district_name_th": "ป้อมปราบศัตรูพ่าย",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "100803",
-      "subdistrict_name_th": "คลองมหานาค",
-      "district_name_th": "ป้อมปราบศัตรูพ่าย",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "100804",
-      "subdistrict_name_th": "บ้านบาตร",
-      "district_name_th": "ป้อมปราบศัตรูพ่าย",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "100805",
-      "subdistrict_name_th": "วัดโสมนัส",
-      "district_name_th": "ป้อมปราบศัตรูพ่าย",
       "province_code": "10",
       "province_name_th": "กรุงเทพมหานคร",
       "value": 0.0,
@@ -2995,15 +2734,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "101106",
-      "subdistrict_name_th": "ขุมทอง",
-      "district_name_th": "ลาดกระบัง",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "101203",
       "subdistrict_name_th": "ช่องนนทรี",
       "district_name_th": "ยานนาวา",
@@ -3058,71 +2788,8 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "101406",
-      "subdistrict_name_th": "พญาไท",
-      "district_name_th": "พญาไท",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "101501",
-      "subdistrict_name_th": "วัดกัลยาณ์",
-      "district_name_th": "ธนบุรี",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "101502",
-      "subdistrict_name_th": "หิรัญรูจี",
-      "district_name_th": "ธนบุรี",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "101503",
-      "subdistrict_name_th": "บางยี่เรือ",
-      "district_name_th": "ธนบุรี",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "101504",
-      "subdistrict_name_th": "บุคคโล",
-      "district_name_th": "ธนบุรี",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "101505",
-      "subdistrict_name_th": "ตลาดพลู",
-      "district_name_th": "ธนบุรี",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "101506",
       "subdistrict_name_th": "ดาวคะนอง",
-      "district_name_th": "ธนบุรี",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "101507",
-      "subdistrict_name_th": "สำเหร่",
       "district_name_th": "ธนบุรี",
       "province_code": "10",
       "province_name_th": "กรุงเทพมหานคร",
@@ -3175,45 +2842,9 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "101801",
-      "subdistrict_name_th": "สมเด็จเจ้าพระยา",
-      "district_name_th": "คลองสาน",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "101802",
       "subdistrict_name_th": "คลองสาน",
       "district_name_th": "คลองสาน",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "101803",
-      "subdistrict_name_th": "บางลำภูล่าง",
-      "district_name_th": "คลองสาน",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "101804",
-      "subdistrict_name_th": "คลองต้นไทร",
-      "district_name_th": "คลองสาน",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "101901",
-      "subdistrict_name_th": "คลองชักพระ",
-      "district_name_th": "ตลิ่งชัน",
       "province_code": "10",
       "province_name_th": "กรุงเทพมหานคร",
       "value": 0.0,
@@ -3265,44 +2896,8 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "102004",
-      "subdistrict_name_th": "ศิริราช",
-      "district_name_th": "บางกอกน้อย",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "102005",
       "subdistrict_name_th": "บ้านช่างหล่อ",
-      "district_name_th": "บางกอกน้อย",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "102006",
-      "subdistrict_name_th": "บางขุนนนท์",
-      "district_name_th": "บางกอกน้อย",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "102007",
-      "subdistrict_name_th": "บางขุนศรี",
-      "district_name_th": "บางกอกน้อย",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "102009",
-      "subdistrict_name_th": "อรุณอมรินทร์",
       "district_name_th": "บางกอกน้อย",
       "province_code": "10",
       "province_name_th": "กรุงเทพมหานคร",
@@ -3328,69 +2923,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "102201",
-      "subdistrict_name_th": "บางหว้า",
-      "district_name_th": "ภาษีเจริญ",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "102202",
-      "subdistrict_name_th": "บางด้วน",
-      "district_name_th": "ภาษีเจริญ",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "102206",
-      "subdistrict_name_th": "บางจาก",
-      "district_name_th": "ภาษีเจริญ",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "102207",
-      "subdistrict_name_th": "บางแวก",
-      "district_name_th": "ภาษีเจริญ",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "102208",
-      "subdistrict_name_th": "คลองขวาง",
-      "district_name_th": "ภาษีเจริญ",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "102209",
-      "subdistrict_name_th": "ปากคลองภาษีเจริญ",
-      "district_name_th": "ภาษีเจริญ",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "102210",
-      "subdistrict_name_th": "คูหาสวรรค์",
-      "district_name_th": "ภาษีเจริญ",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "102302",
       "subdistrict_name_th": "หนองแขม",
       "district_name_th": "หนองแขม",
@@ -3409,15 +2941,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "102401",
-      "subdistrict_name_th": "ราษฎร์บูรณะ",
-      "district_name_th": "ราษฎร์บูรณะ",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "102402",
       "subdistrict_name_th": "บางปะกอก",
       "district_name_th": "ราษฎร์บูรณะ",
@@ -3427,26 +2950,8 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "102501",
-      "subdistrict_name_th": "บางพลัด",
-      "district_name_th": "บางพลัด",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "102502",
       "subdistrict_name_th": "บางอ้อ",
-      "district_name_th": "บางพลัด",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "102503",
-      "subdistrict_name_th": "บางบำหรุ",
       "district_name_th": "บางพลัด",
       "province_code": "10",
       "province_name_th": "กรุงเทพมหานคร",
@@ -3472,26 +2977,8 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "102602",
-      "subdistrict_name_th": "รัชดาภิเษก",
-      "district_name_th": "ดินแดง",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "102701",
       "subdistrict_name_th": "คลองกุ่ม",
-      "district_name_th": "บึงกุ่ม",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "102704",
-      "subdistrict_name_th": "นวมินทร์",
       "district_name_th": "บึงกุ่ม",
       "province_code": "10",
       "province_name_th": "กรุงเทพมหานคร",
@@ -3544,44 +3031,8 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "102902",
-      "subdistrict_name_th": "วงศ์สว่าง",
-      "district_name_th": "บางซื่อ",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "103001",
-      "subdistrict_name_th": "ลาดยาว",
-      "district_name_th": "จตุจักร",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "103002",
-      "subdistrict_name_th": "เสนานิคม",
-      "district_name_th": "จตุจักร",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "103003",
       "subdistrict_name_th": "จันทรเกษม",
-      "district_name_th": "จตุจักร",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "103004",
-      "subdistrict_name_th": "จอมพล",
       "district_name_th": "จตุจักร",
       "province_code": "10",
       "province_name_th": "กรุงเทพมหานคร",
@@ -3600,15 +3051,6 @@
     {
       "subdistrict_code": "103101",
       "subdistrict_name_th": "บางคอแหลม",
-      "district_name_th": "บางคอแหลม",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "103102",
-      "subdistrict_name_th": "วัดพระยาไกร",
       "district_name_th": "บางคอแหลม",
       "province_code": "10",
       "province_name_th": "กรุงเทพมหานคร",
@@ -3688,35 +3130,8 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "103402",
-      "subdistrict_name_th": "อ่อนนุช",
-      "district_name_th": "สวนหลวง",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "103403",
-      "subdistrict_name_th": "พัฒนาการ",
-      "district_name_th": "สวนหลวง",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "103501",
       "subdistrict_name_th": "บางขุนเทียน",
-      "district_name_th": "จอมทอง",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "103502",
-      "subdistrict_name_th": "บางค้อ",
       "district_name_th": "จอมทอง",
       "province_code": "10",
       "province_name_th": "กรุงเทพมหานคร",
@@ -3805,24 +3220,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "103801",
-      "subdistrict_name_th": "ลาดพร้าว",
-      "district_name_th": "ลาดพร้าว",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "103802",
-      "subdistrict_name_th": "จรเข้บัว",
-      "district_name_th": "ลาดพร้าว",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "103901",
       "subdistrict_name_th": "คลองเตยเหนือ",
       "district_name_th": "วัฒนา",
@@ -3834,15 +3231,6 @@
     {
       "subdistrict_code": "103902",
       "subdistrict_name_th": "คลองตันเหนือ",
-      "district_name_th": "วัฒนา",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "103903",
-      "subdistrict_name_th": "พระโขนงเหนือ",
       "district_name_th": "วัฒนา",
       "province_code": "10",
       "province_name_th": "กรุงเทพมหานคร",
@@ -3931,35 +3319,8 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "104301",
-      "subdistrict_name_th": "คันนายาว",
-      "district_name_th": "คันนายาว",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "104302",
-      "subdistrict_name_th": "รามอินทรา",
-      "district_name_th": "คันนายาว",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "104401",
       "subdistrict_name_th": "สะพานสูง",
-      "district_name_th": "สะพานสูง",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "104402",
-      "subdistrict_name_th": "ราษฎร์พัฒนา",
       "district_name_th": "สะพานสูง",
       "province_code": "10",
       "province_name_th": "กรุงเทพมหานคร",
@@ -3978,15 +3339,6 @@
     {
       "subdistrict_code": "104501",
       "subdistrict_name_th": "วังทองหลาง",
-      "district_name_th": "วังทองหลาง",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "104502",
-      "subdistrict_name_th": "สะพานสอง",
       "district_name_th": "วังทองหลาง",
       "province_code": "10",
       "province_name_th": "กรุงเทพมหานคร",
@@ -4057,15 +3409,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "104701",
-      "subdistrict_name_th": 0.0,
-      "district_name_th": 0.0,
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "104702",
       "subdistrict_name_th": "บางนาเหนือ",
       "district_name_th": "บางนา",
@@ -4078,15 +3421,6 @@
       "subdistrict_code": "104703",
       "subdistrict_name_th": "บางนาใต้",
       "district_name_th": "บางนา",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "104801",
-      "subdistrict_name_th": "ทวีวัฒนา",
-      "district_name_th": "ทวีวัฒนา",
       "province_code": "10",
       "province_name_th": "กรุงเทพมหานคร",
       "value": 0.0,
@@ -4120,15 +3454,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "105001",
-      "subdistrict_name_th": 0.0,
-      "district_name_th": 0.0,
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "105002",
       "subdistrict_name_th": "บางบอนเหนือ",
       "district_name_th": "บางบอน",
@@ -4143,33 +3468,6 @@
       "district_name_th": "บางบอน",
       "province_code": "10",
       "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "105004",
-      "subdistrict_name_th": "คลองบางพราน",
-      "district_name_th": "บางบอน",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "105005",
-      "subdistrict_name_th": "คลองบางบอน",
-      "district_name_th": "บางบอน",
-      "province_code": "10",
-      "province_name_th": "กรุงเทพมหานคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "110101",
-      "subdistrict_name_th": "ปากน้ำ",
-      "district_name_th": "เมืองสมุทรปราการ",
-      "province_code": "11",
-      "province_name_th": "สมุทรปราการ",
       "value": 0.0,
       "display_value": "0"
     },
@@ -4219,26 +3517,8 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "110111",
-      "subdistrict_name_th": "บางโปรง",
-      "district_name_th": "เมืองสมุทรปราการ",
-      "province_code": "11",
-      "province_name_th": "สมุทรปราการ",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "110112",
       "subdistrict_name_th": "บางปู",
-      "district_name_th": "เมืองสมุทรปราการ",
-      "province_code": "11",
-      "province_name_th": "สมุทรปราการ",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "110113",
-      "subdistrict_name_th": "บางด้วน",
       "district_name_th": "เมืองสมุทรปราการ",
       "province_code": "11",
       "province_name_th": "สมุทรปราการ",
@@ -4399,134 +3679,8 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "110401",
-      "subdistrict_name_th": "ตลาด",
-      "district_name_th": "พระประแดง",
-      "province_code": "11",
-      "province_name_th": "สมุทรปราการ",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "110402",
-      "subdistrict_name_th": "บางพึ่ง",
-      "district_name_th": "พระประแดง",
-      "province_code": "11",
-      "province_name_th": "สมุทรปราการ",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "110403",
-      "subdistrict_name_th": "บางจาก",
-      "district_name_th": "พระประแดง",
-      "province_code": "11",
-      "province_name_th": "สมุทรปราการ",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "110404",
-      "subdistrict_name_th": "บางครุ",
-      "district_name_th": "พระประแดง",
-      "province_code": "11",
-      "province_name_th": "สมุทรปราการ",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "110405",
-      "subdistrict_name_th": "บางหญ้าแพรก",
-      "district_name_th": "พระประแดง",
-      "province_code": "11",
-      "province_name_th": "สมุทรปราการ",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "110406",
-      "subdistrict_name_th": "บางหัวเสือ",
-      "district_name_th": "พระประแดง",
-      "province_code": "11",
-      "province_name_th": "สมุทรปราการ",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "110407",
-      "subdistrict_name_th": "สำโรงใต้",
-      "district_name_th": "พระประแดง",
-      "province_code": "11",
-      "province_name_th": "สมุทรปราการ",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "110408",
-      "subdistrict_name_th": "บางยอ",
-      "district_name_th": "พระประแดง",
-      "province_code": "11",
-      "province_name_th": "สมุทรปราการ",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "110409",
-      "subdistrict_name_th": "บางกะเจ้า",
-      "district_name_th": "พระประแดง",
-      "province_code": "11",
-      "province_name_th": "สมุทรปราการ",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "110410",
-      "subdistrict_name_th": "บางน้ำผึ้ง",
-      "district_name_th": "พระประแดง",
-      "province_code": "11",
-      "province_name_th": "สมุทรปราการ",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "110411",
-      "subdistrict_name_th": "บางกระสอบ",
-      "district_name_th": "พระประแดง",
-      "province_code": "11",
-      "province_name_th": "สมุทรปราการ",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "110412",
       "subdistrict_name_th": "บางกอบัว",
-      "district_name_th": "พระประแดง",
-      "province_code": "11",
-      "province_name_th": "สมุทรปราการ",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "110413",
-      "subdistrict_name_th": "ทรงคนอง",
-      "district_name_th": "พระประแดง",
-      "province_code": "11",
-      "province_name_th": "สมุทรปราการ",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "110414",
-      "subdistrict_name_th": "สำโรง",
-      "district_name_th": "พระประแดง",
-      "province_code": "11",
-      "province_name_th": "สมุทรปราการ",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "110415",
-      "subdistrict_name_th": "สำโรงกลาง",
       "district_name_th": "พระประแดง",
       "province_code": "11",
       "province_name_th": "สมุทรปราการ",
@@ -4606,62 +3760,8 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "120101",
-      "subdistrict_name_th": "สวนใหญ่",
-      "district_name_th": "เมืองนนทบุรี",
-      "province_code": "12",
-      "province_name_th": "นนทบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "120102",
-      "subdistrict_name_th": "ตลาดขวัญ",
-      "district_name_th": "เมืองนนทบุรี",
-      "province_code": "12",
-      "province_name_th": "นนทบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "120103",
-      "subdistrict_name_th": "บางเขน",
-      "district_name_th": "เมืองนนทบุรี",
-      "province_code": "12",
-      "province_name_th": "นนทบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "120104",
-      "subdistrict_name_th": "บางกระสอ",
-      "district_name_th": "เมืองนนทบุรี",
-      "province_code": "12",
-      "province_name_th": "นนทบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "120105",
-      "subdistrict_name_th": "ท่าทราย",
-      "district_name_th": "เมืองนนทบุรี",
-      "province_code": "12",
-      "province_name_th": "นนทบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "120106",
       "subdistrict_name_th": "บางไผ่",
-      "district_name_th": "เมืองนนทบุรี",
-      "province_code": "12",
-      "province_name_th": "นนทบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "120107",
-      "subdistrict_name_th": "บางศรีเมือง",
       "district_name_th": "เมืองนนทบุรี",
       "province_code": "12",
       "province_name_th": "นนทบุรี",
@@ -4678,90 +3778,9 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "120109",
-      "subdistrict_name_th": "ไทรม้า",
-      "district_name_th": "เมืองนนทบุรี",
-      "province_code": "12",
-      "province_name_th": "นนทบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "120110",
       "subdistrict_name_th": "บางรักน้อย",
       "district_name_th": "เมืองนนทบุรี",
-      "province_code": "12",
-      "province_name_th": "นนทบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "120201",
-      "subdistrict_name_th": "วัดชลอ",
-      "district_name_th": "บางกรวย",
-      "province_code": "12",
-      "province_name_th": "นนทบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "120202",
-      "subdistrict_name_th": "บางกรวย",
-      "district_name_th": "บางกรวย",
-      "province_code": "12",
-      "province_name_th": "นนทบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "120203",
-      "subdistrict_name_th": "บางสีทอง",
-      "district_name_th": "บางกรวย",
-      "province_code": "12",
-      "province_name_th": "นนทบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "120204",
-      "subdistrict_name_th": "บางขนุน",
-      "district_name_th": "บางกรวย",
-      "province_code": "12",
-      "province_name_th": "นนทบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "120205",
-      "subdistrict_name_th": "บางขุนกอง",
-      "district_name_th": "บางกรวย",
-      "province_code": "12",
-      "province_name_th": "นนทบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "120206",
-      "subdistrict_name_th": "บางคูเวียง",
-      "district_name_th": "บางกรวย",
-      "province_code": "12",
-      "province_name_th": "นนทบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "120207",
-      "subdistrict_name_th": "มหาสวัสดิ์",
-      "district_name_th": "บางกรวย",
-      "province_code": "12",
-      "province_name_th": "นนทบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "120208",
-      "subdistrict_name_th": "ปลายบาง",
-      "district_name_th": "บางกรวย",
       "province_code": "12",
       "province_name_th": "นนทบุรี",
       "value": 0.0,
@@ -4777,26 +3796,8 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "120301",
-      "subdistrict_name_th": "บางม่วง",
-      "district_name_th": "บางใหญ่",
-      "province_code": "12",
-      "province_name_th": "นนทบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "120302",
       "subdistrict_name_th": "บางแม่นาง",
-      "district_name_th": "บางใหญ่",
-      "province_code": "12",
-      "province_name_th": "นนทบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "120303",
-      "subdistrict_name_th": "บางเลน",
       "district_name_th": "บางใหญ่",
       "province_code": "12",
       "province_name_th": "นนทบุรี",
@@ -4825,15 +3826,6 @@
       "subdistrict_code": "120306",
       "subdistrict_name_th": "บ้านใหม่",
       "district_name_th": "บางใหญ่",
-      "province_code": "12",
-      "province_name_th": "นนทบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "120401",
-      "subdistrict_name_th": "โสนลอย",
-      "district_name_th": "บางบัวทอง",
       "province_code": "12",
       "province_name_th": "นนทบุรี",
       "value": 0.0,
@@ -4957,128 +3949,11 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "120507",
-      "subdistrict_name_th": "ทวีวัฒนา",
-      "district_name_th": "ไทรน้อย",
-      "province_code": "12",
-      "province_name_th": "นนทบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "120601",
-      "subdistrict_name_th": "ปากเกร็ด",
-      "district_name_th": "ปากเกร็ด",
-      "province_code": "12",
-      "province_name_th": "นนทบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "120602",
-      "subdistrict_name_th": "บางตลาด",
-      "district_name_th": "ปากเกร็ด",
-      "province_code": "12",
-      "province_name_th": "นนทบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "120603",
-      "subdistrict_name_th": "บ้านใหม่",
-      "district_name_th": "ปากเกร็ด",
-      "province_code": "12",
-      "province_name_th": "นนทบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "120604",
-      "subdistrict_name_th": "บางพูด",
-      "district_name_th": "ปากเกร็ด",
-      "province_code": "12",
-      "province_name_th": "นนทบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "120605",
-      "subdistrict_name_th": "บางตะไนย์",
-      "district_name_th": "ปากเกร็ด",
-      "province_code": "12",
-      "province_name_th": "นนทบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "120606",
-      "subdistrict_name_th": "คลองพระอุดม",
-      "district_name_th": "ปากเกร็ด",
-      "province_code": "12",
-      "province_name_th": "นนทบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "120607",
-      "subdistrict_name_th": "ท่าอิฐ",
-      "district_name_th": "ปากเกร็ด",
-      "province_code": "12",
-      "province_name_th": "นนทบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "120608",
-      "subdistrict_name_th": "เกาะเกร็ด",
-      "district_name_th": "ปากเกร็ด",
-      "province_code": "12",
-      "province_name_th": "นนทบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "120609",
-      "subdistrict_name_th": "อ้อมเกร็ด",
-      "district_name_th": "ปากเกร็ด",
-      "province_code": "12",
-      "province_name_th": "นนทบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "120610",
       "subdistrict_name_th": "คลองข่อย",
       "district_name_th": "ปากเกร็ด",
       "province_code": "12",
       "province_name_th": "นนทบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "120611",
-      "subdistrict_name_th": "บางพลับ",
-      "district_name_th": "ปากเกร็ด",
-      "province_code": "12",
-      "province_name_th": "นนทบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "120612",
-      "subdistrict_name_th": "คลองเกลือ",
-      "district_name_th": "ปากเกร็ด",
-      "province_code": "12",
-      "province_name_th": "นนทบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "130101",
-      "subdistrict_name_th": "บางปรอก",
-      "district_name_th": "เมืองปทุมธานี",
-      "province_code": "13",
-      "province_name_th": "ปทุมธานี",
       "value": 0.0,
       "display_value": "0"
     },
@@ -5110,35 +3985,8 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "130105",
-      "subdistrict_name_th": "บ้านกระแชง",
-      "district_name_th": "เมืองปทุมธานี",
-      "province_code": "13",
-      "province_name_th": "ปทุมธานี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "130106",
       "subdistrict_name_th": "บางขะแยง",
-      "district_name_th": "เมืองปทุมธานี",
-      "province_code": "13",
-      "province_name_th": "ปทุมธานี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "130107",
-      "subdistrict_name_th": "บางคูวัด",
-      "district_name_th": "เมืองปทุมธานี",
-      "province_code": "13",
-      "province_name_th": "ปทุมธานี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "130108",
-      "subdistrict_name_th": "บางหลวง",
       "district_name_th": "เมืองปทุมธานี",
       "province_code": "13",
       "province_name_th": "ปทุมธานี",
@@ -5263,24 +4111,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "130301",
-      "subdistrict_name_th": "ประชาธิปัตย์",
-      "district_name_th": "ธัญบุรี",
-      "province_code": "13",
-      "province_name_th": "ปทุมธานี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "130302",
-      "subdistrict_name_th": "บึงยี่โถ",
-      "district_name_th": "ธัญบุรี",
-      "province_code": "13",
-      "province_name_th": "ปทุมธานี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "130303",
       "subdistrict_name_th": "รังสิต",
       "district_name_th": "ธัญบุรี",
@@ -5292,24 +4122,6 @@
     {
       "subdistrict_code": "130304",
       "subdistrict_name_th": "ลำผักกูด",
-      "district_name_th": "ธัญบุรี",
-      "province_code": "13",
-      "province_name_th": "ปทุมธานี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "130305",
-      "subdistrict_name_th": "บึงสนั่น",
-      "district_name_th": "ธัญบุรี",
-      "province_code": "13",
-      "province_name_th": "ปทุมธานี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "130306",
-      "subdistrict_name_th": "บึงน้ำรักษ์",
       "district_name_th": "ธัญบุรี",
       "province_code": "13",
       "province_name_th": "ปทุมธานี",
@@ -5443,15 +4255,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "130601",
-      "subdistrict_name_th": "คูคต",
-      "district_name_th": "ลำลูกกา",
-      "province_code": "13",
-      "province_name_th": "ปทุมธานี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "130602",
       "subdistrict_name_th": "ลาดสวาย",
       "district_name_th": "ลำลูกกา",
@@ -5533,24 +4336,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "130703",
-      "subdistrict_name_th": "สามโคก",
-      "district_name_th": "สามโคก",
-      "province_code": "13",
-      "province_name_th": "ปทุมธานี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "130704",
-      "subdistrict_name_th": "กระแชง",
-      "district_name_th": "สามโคก",
-      "province_code": "13",
-      "province_name_th": "ปทุมธานี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "130705",
       "subdistrict_name_th": "บางโพธิ์เหนือ",
       "district_name_th": "สามโคก",
@@ -5578,26 +4363,8 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "130708",
-      "subdistrict_name_th": "บ้านงิ้ว",
-      "district_name_th": "สามโคก",
-      "province_code": "13",
-      "province_name_th": "ปทุมธานี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "130709",
       "subdistrict_name_th": "เชียงรากน้อย",
-      "district_name_th": "สามโคก",
-      "province_code": "13",
-      "province_name_th": "ปทุมธานี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "130710",
-      "subdistrict_name_th": "บางกระบือ",
       "district_name_th": "สามโคก",
       "province_code": "13",
       "province_name_th": "ปทุมธานี",
@@ -5610,60 +4377,6 @@
       "district_name_th": "สามโคก",
       "province_code": "13",
       "province_name_th": "ปทุมธานี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "140101",
-      "subdistrict_name_th": "ประตูชัย",
-      "district_name_th": "พระนครศรีอยุธยา",
-      "province_code": "14",
-      "province_name_th": "พระนครศรีอยุธยา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "140102",
-      "subdistrict_name_th": "กะมัง",
-      "district_name_th": "พระนครศรีอยุธยา",
-      "province_code": "14",
-      "province_name_th": "พระนครศรีอยุธยา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "140103",
-      "subdistrict_name_th": "หอรัตนไชย",
-      "district_name_th": "พระนครศรีอยุธยา",
-      "province_code": "14",
-      "province_name_th": "พระนครศรีอยุธยา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "140104",
-      "subdistrict_name_th": "หัวรอ",
-      "district_name_th": "พระนครศรีอยุธยา",
-      "province_code": "14",
-      "province_name_th": "พระนครศรีอยุธยา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "140105",
-      "subdistrict_name_th": "ท่าวาสุกรี",
-      "district_name_th": "พระนครศรีอยุธยา",
-      "province_code": "14",
-      "province_name_th": "พระนครศรีอยุธยา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "140106",
-      "subdistrict_name_th": "ไผ่ลิง",
-      "district_name_th": "พระนครศรีอยุธยา",
-      "province_code": "14",
-      "province_name_th": "พระนครศรีอยุธยา",
       "value": 0.0,
       "display_value": "0"
     },
@@ -5797,15 +4510,6 @@
       "subdistrict_code": "140121",
       "subdistrict_name_th": "บ้านรุน",
       "district_name_th": "พระนครศรีอยุธยา",
-      "province_code": "14",
-      "province_name_th": "พระนครศรีอยุธยา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "140201",
-      "subdistrict_name_th": "ท่าเรือ",
-      "district_name_th": "ท่าเรือ",
       "province_code": "14",
       "province_name_th": "พระนครศรีอยุธยา",
       "value": 0.0,
@@ -5956,15 +4660,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "140308",
-      "subdistrict_name_th": "แม่ลา",
-      "district_name_th": "นครหลวง",
-      "province_code": "14",
-      "province_name_th": "พระนครศรีอยุธยา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "140309",
       "subdistrict_name_th": "หนองปลิง",
       "district_name_th": "นครหลวง",
@@ -5976,15 +4671,6 @@
     {
       "subdistrict_code": "140310",
       "subdistrict_name_th": "คลองสะแก",
-      "district_name_th": "นครหลวง",
-      "province_code": "14",
-      "province_name_th": "พระนครศรีอยุธยา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "140311",
-      "subdistrict_name_th": "สามไถ",
       "district_name_th": "นครหลวง",
       "province_code": "14",
       "province_name_th": "พระนครศรีอยุธยา",
@@ -6361,26 +5047,8 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "140602",
-      "subdistrict_name_th": "เชียงรากน้อย",
-      "district_name_th": "บางปะอิน",
-      "province_code": "14",
-      "province_name_th": "พระนครศรีอยุธยา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "140603",
       "subdistrict_name_th": "บ้านโพ",
-      "district_name_th": "บางปะอิน",
-      "province_code": "14",
-      "province_name_th": "พระนครศรีอยุธยา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "140604",
-      "subdistrict_name_th": "บ้านกรด",
       "district_name_th": "บางปะอิน",
       "province_code": "14",
       "province_name_th": "พระนครศรีอยุธยา",
@@ -6399,15 +5067,6 @@
     {
       "subdistrict_code": "140606",
       "subdistrict_name_th": "คลองจิก",
-      "district_name_th": "บางปะอิน",
-      "province_code": "14",
-      "province_name_th": "พระนครศรีอยุธยา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "140607",
-      "subdistrict_name_th": "บ้านหว้า",
       "district_name_th": "บางปะอิน",
       "province_code": "14",
       "province_name_th": "พระนครศรีอยุธยา",
@@ -6469,24 +5128,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "140614",
-      "subdistrict_name_th": "คุ้งลาน",
-      "district_name_th": "บางปะอิน",
-      "province_code": "14",
-      "province_name_th": "พระนครศรีอยุธยา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "140615",
-      "subdistrict_name_th": "ตลิ่งชัน",
-      "district_name_th": "บางปะอิน",
-      "province_code": "14",
-      "province_name_th": "พระนครศรีอยุธยา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "140616",
       "subdistrict_name_th": "บ้านสร้าง",
       "district_name_th": "บางปะอิน",
@@ -6498,15 +5139,6 @@
     {
       "subdistrict_code": "140617",
       "subdistrict_name_th": "ตลาดเกรียบ",
-      "district_name_th": "บางปะอิน",
-      "province_code": "14",
-      "province_name_th": "พระนครศรีอยุธยา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "140618",
-      "subdistrict_name_th": "ขนอนหลวง",
       "district_name_th": "บางปะอิน",
       "province_code": "14",
       "province_name_th": "พระนครศรีอยุธยา",
@@ -6615,24 +5247,6 @@
     {
       "subdistrict_code": "140712",
       "subdistrict_name_th": "ขวัญเมือง",
-      "district_name_th": "บางปะหัน",
-      "province_code": "14",
-      "province_name_th": "พระนครศรีอยุธยา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "140713",
-      "subdistrict_name_th": "บ้านลี่",
-      "district_name_th": "บางปะหัน",
-      "province_code": "14",
-      "province_name_th": "พระนครศรีอยุธยา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "140714",
-      "subdistrict_name_th": "โพธิ์สามต้น",
       "district_name_th": "บางปะหัน",
       "province_code": "14",
       "province_name_th": "พระนครศรีอยุธยา",
@@ -6820,24 +5434,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "140902",
-      "subdistrict_name_th": "โคกม่วง",
-      "district_name_th": "ภาชี",
-      "province_code": "14",
-      "province_name_th": "พระนครศรีอยุธยา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "140903",
-      "subdistrict_name_th": "ระโสม",
-      "district_name_th": "ภาชี",
-      "province_code": "14",
-      "province_name_th": "พระนครศรีอยุธยา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "140904",
       "subdistrict_name_th": "หนองน้ำใส",
       "district_name_th": "ภาชี",
@@ -6849,15 +5445,6 @@
     {
       "subdistrict_code": "140905",
       "subdistrict_name_th": "ดอนหญ้านาง",
-      "district_name_th": "ภาชี",
-      "province_code": "14",
-      "province_name_th": "พระนครศรีอยุธยา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "140906",
-      "subdistrict_name_th": "ไผ่ล้อม",
       "district_name_th": "ภาชี",
       "province_code": "14",
       "province_name_th": "พระนครศรีอยุธยา",
@@ -6885,15 +5472,6 @@
     {
       "subdistrict_code": "141001",
       "subdistrict_name_th": "ลาดบัวหลวง",
-      "district_name_th": "ลาดบัวหลวง",
-      "province_code": "14",
-      "province_name_th": "พระนครศรีอยุธยา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "141002",
-      "subdistrict_name_th": "หลักชัย",
       "district_name_th": "ลาดบัวหลวง",
       "province_code": "14",
       "province_name_th": "พระนครศรีอยุธยา",
@@ -6955,35 +5533,8 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "141103",
-      "subdistrict_name_th": "วังน้อย",
-      "district_name_th": "วังน้อย",
-      "province_code": "14",
-      "province_name_th": "พระนครศรีอยุธยา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "141104",
       "subdistrict_name_th": "ลำไทร",
-      "district_name_th": "วังน้อย",
-      "province_code": "14",
-      "province_name_th": "พระนครศรีอยุธยา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "141105",
-      "subdistrict_name_th": "สนับทึบ",
-      "district_name_th": "วังน้อย",
-      "province_code": "14",
-      "province_name_th": "พระนครศรีอยุธยา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "141106",
-      "subdistrict_name_th": "พยอม",
       "district_name_th": "วังน้อย",
       "province_code": "14",
       "province_name_th": "พระนครศรีอยุธยา",
@@ -7012,24 +5563,6 @@
       "subdistrict_code": "141109",
       "subdistrict_name_th": "ข้าวงาม",
       "district_name_th": "วังน้อย",
-      "province_code": "14",
-      "province_name_th": "พระนครศรีอยุธยา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "141110",
-      "subdistrict_name_th": "ชะแมบ",
-      "district_name_th": "วังน้อย",
-      "province_code": "14",
-      "province_name_th": "พระนครศรีอยุธยา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "141201",
-      "subdistrict_name_th": "เสนา",
-      "district_name_th": "เสนา",
       "province_code": "14",
       "province_name_th": "พระนครศรีอยุธยา",
       "value": 0.0,
@@ -7153,15 +5686,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "141217",
-      "subdistrict_name_th": "เจ้าเสด็จ",
-      "district_name_th": "เสนา",
-      "province_code": "14",
-      "province_name_th": "พระนครศรีอยุธยา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "141301",
       "subdistrict_name_th": "บางซ้าย",
       "district_name_th": "บางซ้าย",
@@ -7216,42 +5740,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "141401",
-      "subdistrict_name_th": "คานหาม",
-      "district_name_th": "อุทัย",
-      "province_code": "14",
-      "province_name_th": "พระนครศรีอยุธยา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "141402",
-      "subdistrict_name_th": "บ้านช้าง",
-      "district_name_th": "อุทัย",
-      "province_code": "14",
-      "province_name_th": "พระนครศรีอยุธยา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "141403",
-      "subdistrict_name_th": "สามบัณฑิต",
-      "district_name_th": "อุทัย",
-      "province_code": "14",
-      "province_name_th": "พระนครศรีอยุธยา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "141404",
-      "subdistrict_name_th": "บ้านหีบ",
-      "district_name_th": "อุทัย",
-      "province_code": "14",
-      "province_name_th": "พระนครศรีอยุธยา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "141405",
       "subdistrict_name_th": "หนองไม้ซุง",
       "district_name_th": "อุทัย",
@@ -7261,44 +5749,8 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "141406",
-      "subdistrict_name_th": "อุทัย",
-      "district_name_th": "อุทัย",
-      "province_code": "14",
-      "province_name_th": "พระนครศรีอยุธยา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "141407",
-      "subdistrict_name_th": "เสนา",
-      "district_name_th": "อุทัย",
-      "province_code": "14",
-      "province_name_th": "พระนครศรีอยุธยา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "141408",
       "subdistrict_name_th": "หนองน้ำส้ม",
-      "district_name_th": "อุทัย",
-      "province_code": "14",
-      "province_name_th": "พระนครศรีอยุธยา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "141409",
-      "subdistrict_name_th": "โพสาวหาญ",
-      "district_name_th": "อุทัย",
-      "province_code": "14",
-      "province_name_th": "พระนครศรีอยุธยา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "141410",
-      "subdistrict_name_th": "ธนู",
       "district_name_th": "อุทัย",
       "province_code": "14",
       "province_name_th": "พระนครศรีอยุธยา",
@@ -7369,33 +5821,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "141507",
-      "subdistrict_name_th": "เจ้าปลุก",
-      "district_name_th": "มหาราช",
-      "province_code": "14",
-      "province_name_th": "พระนครศรีอยุธยา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "141508",
-      "subdistrict_name_th": "พิตเพียน",
-      "district_name_th": "มหาราช",
-      "province_code": "14",
-      "province_name_th": "พระนครศรีอยุธยา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "141509",
-      "subdistrict_name_th": "บ้านนา",
-      "district_name_th": "มหาราช",
-      "province_code": "14",
-      "province_name_th": "พระนครศรีอยุธยา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "141510",
       "subdistrict_name_th": "บ้านขวาง",
       "district_name_th": "มหาราช",
@@ -7419,69 +5844,6 @@
       "district_name_th": "มหาราช",
       "province_code": "14",
       "province_name_th": "พระนครศรีอยุธยา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "141601",
-      "subdistrict_name_th": "บ้านแพรก",
-      "district_name_th": "บ้านแพรก",
-      "province_code": "14",
-      "province_name_th": "พระนครศรีอยุธยา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "141602",
-      "subdistrict_name_th": "บ้านใหม่",
-      "district_name_th": "บ้านแพรก",
-      "province_code": "14",
-      "province_name_th": "พระนครศรีอยุธยา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "141603",
-      "subdistrict_name_th": "สำพะเนียง",
-      "district_name_th": "บ้านแพรก",
-      "province_code": "14",
-      "province_name_th": "พระนครศรีอยุธยา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "141604",
-      "subdistrict_name_th": "คลองน้อย",
-      "district_name_th": "บ้านแพรก",
-      "province_code": "14",
-      "province_name_th": "พระนครศรีอยุธยา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "141605",
-      "subdistrict_name_th": "สองห้อง",
-      "district_name_th": "บ้านแพรก",
-      "province_code": "14",
-      "province_name_th": "พระนครศรีอยุธยา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "150101",
-      "subdistrict_name_th": "ตลาดหลวง",
-      "district_name_th": "เมืองอ่างทอง",
-      "province_code": "15",
-      "province_name_th": "อ่างทอง",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "150102",
-      "subdistrict_name_th": "บางแก้ว",
-      "district_name_th": "เมืองอ่างทอง",
-      "province_code": "15",
-      "province_name_th": "อ่างทอง",
       "value": 0.0,
       "display_value": "0"
     },
@@ -7594,24 +5956,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "150201",
-      "subdistrict_name_th": "จรเข้ร้อง",
-      "district_name_th": "ไชโย",
-      "province_code": "15",
-      "province_name_th": "อ่างทอง",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "150202",
-      "subdistrict_name_th": "ไชยภูมิ",
-      "district_name_th": "ไชโย",
-      "province_code": "15",
-      "province_name_th": "อ่างทอง",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "150203",
       "subdistrict_name_th": "ชัยฤทธิ์",
       "district_name_th": "ไชโย",
@@ -7642,51 +5986,6 @@
       "subdistrict_code": "150206",
       "subdistrict_name_th": "ไชโย",
       "district_name_th": "ไชโย",
-      "province_code": "15",
-      "province_name_th": "อ่างทอง",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "150207",
-      "subdistrict_name_th": "หลักฟ้า",
-      "district_name_th": "ไชโย",
-      "province_code": "15",
-      "province_name_th": "อ่างทอง",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "150208",
-      "subdistrict_name_th": "ชะไว",
-      "district_name_th": "ไชโย",
-      "province_code": "15",
-      "province_name_th": "อ่างทอง",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "150209",
-      "subdistrict_name_th": "ตรีณรงค์",
-      "district_name_th": "ไชโย",
-      "province_code": "15",
-      "province_name_th": "อ่างทอง",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "150301",
-      "subdistrict_name_th": "บางปลากด",
-      "district_name_th": "ป่าโมก",
-      "province_code": "15",
-      "province_name_th": "อ่างทอง",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "150302",
-      "subdistrict_name_th": "ป่าโมก",
-      "district_name_th": "ป่าโมก",
       "province_code": "15",
       "province_name_th": "อ่างทอง",
       "value": 0.0,
@@ -8125,15 +6424,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "160102",
-      "subdistrict_name_th": "ท่าหิน",
-      "district_name_th": "เมืองลพบุรี",
-      "province_code": "16",
-      "province_name_th": "ลพบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "160103",
       "subdistrict_name_th": "กกโก",
       "district_name_th": "เมืองลพบุรี",
@@ -8154,15 +6444,6 @@
     {
       "subdistrict_code": "160105",
       "subdistrict_name_th": "เขาพระงาม",
-      "district_name_th": "เมืองลพบุรี",
-      "province_code": "16",
-      "province_name_th": "ลพบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "160106",
-      "subdistrict_name_th": "เขาสามยอด",
       "district_name_th": "เมืองลพบุรี",
       "province_code": "16",
       "province_name_th": "ลพบุรี",
@@ -8584,15 +6865,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "160408",
-      "subdistrict_name_th": "มะกอกหวาน",
-      "district_name_th": "ชัยบาดาล",
-      "province_code": "16",
-      "province_name_th": "ลพบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "160409",
       "subdistrict_name_th": "ซับตะเคียน",
       "district_name_th": "ชัยบาดาล",
@@ -8935,15 +7207,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "160619",
-      "subdistrict_name_th": "บ้านหมี่",
-      "district_name_th": "บ้านหมี่",
-      "province_code": "16",
-      "province_name_th": "ลพบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "160620",
       "subdistrict_name_th": "เชียงงา",
       "district_name_th": "บ้านหมี่",
@@ -9223,15 +7486,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "170101",
-      "subdistrict_name_th": "บางพุทรา",
-      "district_name_th": "เมืองสิงห์บุรี",
-      "province_code": "17",
-      "province_name_th": "สิงห์บุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "170102",
       "subdistrict_name_th": "บางมัญ",
       "district_name_th": "เมืองสิงห์บุรี",
@@ -9270,15 +7524,6 @@
     {
       "subdistrict_code": "170106",
       "subdistrict_name_th": "ต้นโพธิ์",
-      "district_name_th": "เมืองสิงห์บุรี",
-      "province_code": "17",
-      "province_name_th": "สิงห์บุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "170107",
-      "subdistrict_name_th": "จักรสีห์",
       "district_name_th": "เมืองสิงห์บุรี",
       "province_code": "17",
       "province_name_th": "สิงห์บุรี",
@@ -9439,15 +7684,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "170403",
-      "subdistrict_name_th": "บางน้ำเชี่ยว",
-      "district_name_th": "พรหมบุรี",
-      "province_code": "17",
-      "province_name_th": "สิงห์บุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "170404",
       "subdistrict_name_th": "บ้านหม้อ",
       "district_name_th": "พรหมบุรี",
@@ -9592,15 +7828,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "180101",
-      "subdistrict_name_th": "ในเมือง",
-      "district_name_th": "เมืองชัยนาท",
-      "province_code": "18",
-      "province_name_th": "ชัยนาท",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "180102",
       "subdistrict_name_th": "บ้านกล้วย",
       "district_name_th": "เมืองชัยนาท",
@@ -9730,15 +7957,6 @@
       "subdistrict_code": "180207",
       "subdistrict_name_th": "อู่ตะเภา",
       "district_name_th": "มโนรมย์",
-      "province_code": "18",
-      "province_name_th": "ชัยนาท",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "180301",
-      "subdistrict_name_th": "วัดสิงห์",
-      "district_name_th": "วัดสิงห์",
       "province_code": "18",
       "province_name_th": "ชัยนาท",
       "value": 0.0,
@@ -10051,15 +8269,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "190101",
-      "subdistrict_name_th": "ปากเพรียว",
-      "district_name_th": "เมืองสระบุรี",
-      "province_code": "19",
-      "province_name_th": "สระบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "190105",
       "subdistrict_name_th": "ดาวเรือง",
       "district_name_th": "เมืองสระบุรี",
@@ -10144,15 +8353,6 @@
       "subdistrict_code": "190114",
       "subdistrict_name_th": "ตะกุด",
       "district_name_th": "เมืองสระบุรี",
-      "province_code": "19",
-      "province_name_th": "สระบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "190201",
-      "subdistrict_name_th": "แก่งคอย",
-      "district_name_th": "แก่งคอย",
       "province_code": "19",
       "province_name_th": "สระบุรี",
       "value": 0.0,
@@ -10276,15 +8476,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "190301",
-      "subdistrict_name_th": "หนองแค",
-      "district_name_th": "หนองแค",
-      "province_code": "19",
-      "province_name_th": "สระบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "190302",
       "subdistrict_name_th": "กุ่มหัก",
       "district_name_th": "หนองแค",
@@ -10375,15 +8566,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "190312",
-      "subdistrict_name_th": "หนองแขม",
-      "district_name_th": "หนองแค",
-      "province_code": "19",
-      "province_name_th": "สระบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "190313",
       "subdistrict_name_th": "หนองจิก",
       "district_name_th": "หนองแค",
@@ -10395,15 +8577,6 @@
     {
       "subdistrict_code": "190314",
       "subdistrict_name_th": "หนองจรเข้",
-      "district_name_th": "หนองแค",
-      "province_code": "19",
-      "province_name_th": "สระบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "190315",
-      "subdistrict_name_th": "หนองนาก",
       "district_name_th": "หนองแค",
       "province_code": "19",
       "province_name_th": "สระบุรี",
@@ -10726,24 +8899,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "190901",
-      "subdistrict_name_th": "พระพุทธบาท",
-      "district_name_th": "พระพุทธบาท",
-      "province_code": "19",
-      "province_name_th": "สระบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "190902",
-      "subdistrict_name_th": "ขุนโขลน",
-      "district_name_th": "พระพุทธบาท",
-      "province_code": "19",
-      "province_name_th": "สระบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "190903",
       "subdistrict_name_th": "ธารเกษม",
       "district_name_th": "พระพุทธบาท",
@@ -11050,51 +9205,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "200101",
-      "subdistrict_name_th": "บางปลาสร้อย",
-      "district_name_th": "เมืองชลบุรี",
-      "province_code": "20",
-      "province_name_th": "ชลบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "200102",
-      "subdistrict_name_th": "มะขามหย่ง",
-      "district_name_th": "เมืองชลบุรี",
-      "province_code": "20",
-      "province_name_th": "ชลบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "200103",
-      "subdistrict_name_th": "บ้านโขด",
-      "district_name_th": "เมืองชลบุรี",
-      "province_code": "20",
-      "province_name_th": "ชลบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "200104",
-      "subdistrict_name_th": "แสนสุข",
-      "district_name_th": "เมืองชลบุรี",
-      "province_code": "20",
-      "province_name_th": "ชลบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "200105",
-      "subdistrict_name_th": "บ้านสวน",
-      "district_name_th": "เมืองชลบุรี",
-      "province_code": "20",
-      "province_name_th": "ชลบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "200106",
       "subdistrict_name_th": "หนองรี",
       "district_name_th": "เมืองชลบุรี",
@@ -11167,15 +9277,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "200114",
-      "subdistrict_name_th": "บ้านปึก",
-      "district_name_th": "เมืองชลบุรี",
-      "province_code": "20",
-      "province_name_th": "ชลบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "200115",
       "subdistrict_name_th": "ห้วยกะปิ",
       "district_name_th": "เมืองชลบุรี",
@@ -11223,15 +9324,6 @@
     {
       "subdistrict_code": "200202",
       "subdistrict_name_th": "คลองกิ่ว",
-      "district_name_th": "บ้านบึง",
-      "province_code": "20",
-      "province_name_th": "ชลบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "200203",
-      "subdistrict_name_th": "มาบไผ่",
       "district_name_th": "บ้านบึง",
       "province_code": "20",
       "province_name_th": "ชลบุรี",
@@ -11302,26 +9394,8 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "200303",
-      "subdistrict_name_th": "หนองเสือช้าง",
-      "district_name_th": "หนองใหญ่",
-      "province_code": "20",
-      "province_name_th": "ชลบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "200304",
       "subdistrict_name_th": "ห้างสูง",
-      "district_name_th": "หนองใหญ่",
-      "province_code": "20",
-      "province_name_th": "ชลบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "200305",
-      "subdistrict_name_th": "เขาซก",
       "district_name_th": "หนองใหญ่",
       "province_code": "20",
       "province_name_th": "ชลบุรี",
@@ -11338,35 +9412,8 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "200402",
-      "subdistrict_name_th": "หนองปรือ",
-      "district_name_th": "บางละมุง",
-      "province_code": "20",
-      "province_name_th": "ชลบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "200403",
       "subdistrict_name_th": "หนองปลาไหล",
-      "district_name_th": "บางละมุง",
-      "province_code": "20",
-      "province_name_th": "ชลบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "200404",
-      "subdistrict_name_th": "โป่ง",
-      "district_name_th": "บางละมุง",
-      "province_code": "20",
-      "province_name_th": "ชลบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "200405",
-      "subdistrict_name_th": "เขาไม้แก้ว",
       "district_name_th": "บางละมุง",
       "province_code": "20",
       "province_name_th": "ชลบุรี",
@@ -11385,15 +9432,6 @@
     {
       "subdistrict_code": "200407",
       "subdistrict_name_th": "ตะเคียนเตี้ย",
-      "district_name_th": "บางละมุง",
-      "province_code": "20",
-      "province_name_th": "ชลบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "200408",
-      "subdistrict_name_th": "นาเกลือ",
       "district_name_th": "บางละมุง",
       "province_code": "20",
       "province_name_th": "ชลบุรี",
@@ -11455,54 +9493,9 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "200507",
-      "subdistrict_name_th": "บ้านเก่า",
-      "district_name_th": "พานทอง",
-      "province_code": "20",
-      "province_name_th": "ชลบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "200508",
       "subdistrict_name_th": "หน้าประดู่",
       "district_name_th": "พานทอง",
-      "province_code": "20",
-      "province_name_th": "ชลบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "200509",
-      "subdistrict_name_th": "บางนาง",
-      "district_name_th": "พานทอง",
-      "province_code": "20",
-      "province_name_th": "ชลบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "200510",
-      "subdistrict_name_th": "เกาะลอย",
-      "district_name_th": "พานทอง",
-      "province_code": "20",
-      "province_name_th": "ชลบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "200511",
-      "subdistrict_name_th": "บางหัก",
-      "district_name_th": "พานทอง",
-      "province_code": "20",
-      "province_name_th": "ชลบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "200601",
-      "subdistrict_name_th": "พนัสนิคม",
-      "district_name_th": "พนัสนิคม",
       "province_code": "20",
       "province_name_th": "ชลบุรี",
       "value": 0.0,
@@ -11662,15 +9655,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "200621",
-      "subdistrict_name_th": "ไร่หลักทอง",
-      "district_name_th": "พนัสนิคม",
-      "province_code": "20",
-      "province_name_th": "ชลบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "200622",
       "subdistrict_name_th": "นามะตูม",
       "district_name_th": "พนัสนิคม",
@@ -11680,26 +9664,8 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "200701",
-      "subdistrict_name_th": "ศรีราชา",
-      "district_name_th": "ศรีราชา",
-      "province_code": "20",
-      "province_name_th": "ชลบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "200702",
       "subdistrict_name_th": "สุรศักดิ์",
-      "district_name_th": "ศรีราชา",
-      "province_code": "20",
-      "province_name_th": "ชลบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "200703",
-      "subdistrict_name_th": "ทุ่งสุขลา",
       "district_name_th": "ศรีราชา",
       "province_code": "20",
       "province_name_th": "ชลบุรี",
@@ -11842,15 +9808,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "210101",
-      "subdistrict_name_th": "ท่าประดู่",
-      "district_name_th": "เมืองระยอง",
-      "province_code": "21",
-      "province_name_th": "ระยอง",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "210102",
       "subdistrict_name_th": "เชิงเนิน",
       "district_name_th": "เมืองระยอง",
@@ -11862,15 +9819,6 @@
     {
       "subdistrict_code": "210103",
       "subdistrict_name_th": "ตะพง",
-      "district_name_th": "เมืองระยอง",
-      "province_code": "21",
-      "province_name_th": "ระยอง",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "210104",
-      "subdistrict_name_th": "ปากน้ำ",
       "district_name_th": "เมืองระยอง",
       "province_code": "21",
       "province_name_th": "ระยอง",
@@ -11950,24 +9898,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "210113",
-      "subdistrict_name_th": "ห้วยโป่ง",
-      "district_name_th": "เมืองระยอง",
-      "province_code": "21",
-      "province_name_th": "ระยอง",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "210114",
-      "subdistrict_name_th": "มาบตาพุด",
-      "district_name_th": "เมืองระยอง",
-      "province_code": "21",
-      "province_name_th": "ระยอง",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "210115",
       "subdistrict_name_th": "สำนักทอง",
       "district_name_th": "เมืองระยอง",
@@ -12015,15 +9945,6 @@
     {
       "subdistrict_code": "210302",
       "subdistrict_name_th": "วังหว้า",
-      "district_name_th": "แกลง",
-      "province_code": "21",
-      "province_name_th": "ระยอง",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "210303",
-      "subdistrict_name_th": "ชากโดน",
       "district_name_th": "แกลง",
       "province_code": "21",
       "province_name_th": "ระยอง",
@@ -12364,24 +10285,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "220101",
-      "subdistrict_name_th": "ตลาด",
-      "district_name_th": "เมืองจันทบุรี",
-      "province_code": "22",
-      "province_name_th": "จันทบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "220102",
-      "subdistrict_name_th": "วัดใหม่",
-      "district_name_th": "เมืองจันทบุรี",
-      "province_code": "22",
-      "province_name_th": "จันทบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "220103",
       "subdistrict_name_th": "คลองนารายณ์",
       "district_name_th": "เมืองจันทบุรี",
@@ -12457,15 +10360,6 @@
       "subdistrict_code": "220111",
       "subdistrict_name_th": "พลับพลา",
       "district_name_th": "เมืองจันทบุรี",
-      "province_code": "22",
-      "province_name_th": "จันทบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "220201",
-      "subdistrict_name_th": "ขลุง",
-      "district_name_th": "ขลุง",
       "province_code": "22",
       "province_name_th": "จันทบุรี",
       "value": 0.0,
@@ -12556,33 +10450,6 @@
       "subdistrict_code": "220212",
       "subdistrict_name_th": "บ่อเวฬุ",
       "district_name_th": "ขลุง",
-      "province_code": "22",
-      "province_name_th": "จันทบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "220301",
-      "subdistrict_name_th": "ท่าใหม่",
-      "district_name_th": "ท่าใหม่",
-      "province_code": "22",
-      "province_name_th": "จันทบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "220302",
-      "subdistrict_name_th": "ยายร้า",
-      "district_name_th": "ท่าใหม่",
-      "province_code": "22",
-      "province_name_th": "จันทบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "220303",
-      "subdistrict_name_th": "สีพยา",
-      "district_name_th": "ท่าใหม่",
       "province_code": "22",
       "province_name_th": "จันทบุรี",
       "value": 0.0,
@@ -12769,15 +10636,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "220606",
-      "subdistrict_name_th": "บางสระเก้า",
-      "district_name_th": "แหลมสิงห์",
-      "province_code": "22",
-      "province_name_th": "จันทบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "220701",
       "subdistrict_name_th": "ปะตง",
       "district_name_th": "สอยดาว",
@@ -12936,15 +10794,6 @@
       "district_name_th": "เขาคิชฌกูฏ",
       "province_code": "22",
       "province_name_th": "จันทบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "230101",
-      "subdistrict_name_th": "บางพระ",
-      "district_name_th": "เมืองตราด",
-      "province_code": "23",
-      "province_name_th": "ตราด",
       "value": 0.0,
       "display_value": "0"
     },
@@ -13228,35 +11077,8 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "230702",
-      "subdistrict_name_th": "เกาะช้างใต้",
-      "district_name_th": "เกาะช้าง",
-      "province_code": "23",
-      "province_name_th": "ตราด",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "240101",
-      "subdistrict_name_th": "หน้าเมือง",
-      "district_name_th": "เมืองฉะเชิงเทรา",
-      "province_code": "24",
-      "province_name_th": "ฉะเชิงเทรา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "240102",
       "subdistrict_name_th": "ท่าไข่",
-      "district_name_th": "เมืองฉะเชิงเทรา",
-      "province_code": "24",
-      "province_name_th": "ฉะเชิงเทรา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "240103",
-      "subdistrict_name_th": "บ้านใหม่",
       "district_name_th": "เมืองฉะเชิงเทรา",
       "province_code": "24",
       "province_name_th": "ฉะเชิงเทรา",
@@ -13327,24 +11149,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "240111",
-      "subdistrict_name_th": "วังตะเคียน",
-      "district_name_th": "เมืองฉะเชิงเทรา",
-      "province_code": "24",
-      "province_name_th": "ฉะเชิงเทรา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "240112",
-      "subdistrict_name_th": "โสธร",
-      "district_name_th": "เมืองฉะเชิงเทรา",
-      "province_code": "24",
-      "province_name_th": "ฉะเชิงเทรา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "240113",
       "subdistrict_name_th": "บางพระ",
       "district_name_th": "เมืองฉะเชิงเทรา",
@@ -13402,24 +11206,6 @@
       "subdistrict_code": "240119",
       "subdistrict_name_th": "บางเตย",
       "district_name_th": "เมืองฉะเชิงเทรา",
-      "province_code": "24",
-      "province_name_th": "ฉะเชิงเทรา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "240201",
-      "subdistrict_name_th": "บางคล้า",
-      "district_name_th": "บางคล้า",
-      "province_code": "24",
-      "province_name_th": "ฉะเชิงเทรา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "240204",
-      "subdistrict_name_th": "บางสวน",
-      "district_name_th": "บางคล้า",
       "province_code": "24",
       "province_name_th": "ฉะเชิงเทรา",
       "value": 0.0,
@@ -13597,15 +11383,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "240403",
-      "subdistrict_name_th": "บางวัว",
-      "district_name_th": "บางปะกง",
-      "province_code": "24",
-      "province_name_th": "ฉะเชิงเทรา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "240404",
       "subdistrict_name_th": "บางสมัคร",
       "district_name_th": "บางปะกง",
@@ -13651,15 +11428,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "240409",
-      "subdistrict_name_th": "พิมพา",
-      "district_name_th": "บางปะกง",
-      "province_code": "24",
-      "province_name_th": "ฉะเชิงเทรา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "240410",
       "subdistrict_name_th": "ท่าข้าม",
       "district_name_th": "บางปะกง",
@@ -13672,24 +11440,6 @@
       "subdistrict_code": "240411",
       "subdistrict_name_th": "หอมศีล",
       "district_name_th": "บางปะกง",
-      "province_code": "24",
-      "province_name_th": "ฉะเชิงเทรา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "240412",
-      "subdistrict_name_th": "เขาดิน",
-      "district_name_th": "บางปะกง",
-      "province_code": "24",
-      "province_name_th": "ฉะเชิงเทรา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "240501",
-      "subdistrict_name_th": "บ้านโพธิ์",
-      "district_name_th": "บ้านโพธิ์",
       "province_code": "24",
       "province_name_th": "ฉะเชิงเทรา",
       "value": 0.0,
@@ -13714,26 +11464,8 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "240504",
-      "subdistrict_name_th": "คลองบ้านโพธิ์",
-      "district_name_th": "บ้านโพธิ์",
-      "province_code": "24",
-      "province_name_th": "ฉะเชิงเทรา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "240505",
       "subdistrict_name_th": "คลองประเวศ",
-      "district_name_th": "บ้านโพธิ์",
-      "province_code": "24",
-      "province_name_th": "ฉะเชิงเทรา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "240506",
-      "subdistrict_name_th": "ดอนทราย",
       "district_name_th": "บ้านโพธิ์",
       "province_code": "24",
       "province_name_th": "ฉะเชิงเทรา",
@@ -13750,35 +11482,8 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "240508",
-      "subdistrict_name_th": "ท่าพลับ",
-      "district_name_th": "บ้านโพธิ์",
-      "province_code": "24",
-      "province_name_th": "ฉะเชิงเทรา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "240509",
       "subdistrict_name_th": "หนองตีนนก",
-      "district_name_th": "บ้านโพธิ์",
-      "province_code": "24",
-      "province_name_th": "ฉะเชิงเทรา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "240510",
-      "subdistrict_name_th": "หนองบัว",
-      "district_name_th": "บ้านโพธิ์",
-      "province_code": "24",
-      "province_name_th": "ฉะเชิงเทรา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "240511",
-      "subdistrict_name_th": "บางซ่อน",
       "district_name_th": "บ้านโพธิ์",
       "province_code": "24",
       "province_name_th": "ฉะเชิงเทรา",
@@ -13797,24 +11502,6 @@
     {
       "subdistrict_code": "240513",
       "subdistrict_name_th": "แหลมประดู่",
-      "district_name_th": "บ้านโพธิ์",
-      "province_code": "24",
-      "province_name_th": "ฉะเชิงเทรา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "240514",
-      "subdistrict_name_th": "ลาดขวาง",
-      "district_name_th": "บ้านโพธิ์",
-      "province_code": "24",
-      "province_name_th": "ฉะเชิงเทรา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "240515",
-      "subdistrict_name_th": "สนามจันทร์",
       "district_name_th": "บ้านโพธิ์",
       "province_code": "24",
       "province_name_th": "ฉะเชิงเทรา",
@@ -14056,33 +11743,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "250101",
-      "subdistrict_name_th": "หน้าเมือง",
-      "district_name_th": "เมืองปราจีนบุรี",
-      "province_code": "25",
-      "province_name_th": "ปราจีนบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "250102",
-      "subdistrict_name_th": "รอบเมือง",
-      "district_name_th": "เมืองปราจีนบุรี",
-      "province_code": "25",
-      "province_name_th": "ปราจีนบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "250103",
-      "subdistrict_name_th": "วัดโบสถ์",
-      "district_name_th": "เมืองปราจีนบุรี",
-      "province_code": "25",
-      "province_name_th": "ปราจีนบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "250104",
       "subdistrict_name_th": "บางเดชะ",
       "district_name_th": "เมืองปราจีนบุรี",
@@ -14103,15 +11763,6 @@
     {
       "subdistrict_code": "250106",
       "subdistrict_name_th": "บางบริบูรณ์",
-      "district_name_th": "เมืองปราจีนบุรี",
-      "province_code": "25",
-      "province_name_th": "ปราจีนบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "250107",
-      "subdistrict_name_th": "ดงพระราม",
       "district_name_th": "เมืองปราจีนบุรี",
       "province_code": "25",
       "province_name_th": "ปราจีนบุรี",
@@ -14398,15 +12049,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "250609",
-      "subdistrict_name_th": "กระทุ่มแพ้ว",
-      "district_name_th": "บ้านสร้าง",
-      "province_code": "25",
-      "province_name_th": "ปราจีนบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "250701",
       "subdistrict_name_th": "ประจันตคาม",
       "district_name_th": "ประจันตคาม",
@@ -14418,15 +12060,6 @@
     {
       "subdistrict_code": "250702",
       "subdistrict_name_th": "เกาะลอย",
-      "district_name_th": "ประจันตคาม",
-      "province_code": "25",
-      "province_name_th": "ปราจีนบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "250703",
-      "subdistrict_name_th": "บ้านหอย",
       "district_name_th": "ประจันตคาม",
       "province_code": "25",
       "province_name_th": "ปราจีนบุรี",
@@ -14610,15 +12243,6 @@
       "district_name_th": "ศรีมโหสถ",
       "province_code": "25",
       "province_name_th": "ปราจีนบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "260101",
-      "subdistrict_name_th": "นครนายก",
-      "district_name_th": "เมืองนครนายก",
-      "province_code": "26",
-      "province_name_th": "นครนายก",
       "value": 0.0,
       "display_value": "0"
     },
@@ -14839,15 +12463,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "260307",
-      "subdistrict_name_th": "พิกุลออก",
-      "district_name_th": "บ้านนา",
-      "province_code": "26",
-      "province_name_th": "นครนายก",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "260308",
       "subdistrict_name_th": "ป่าขะ",
       "district_name_th": "บ้านนา",
@@ -14875,35 +12490,8 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "260401",
-      "subdistrict_name_th": "พระอาจารย์",
-      "district_name_th": "องครักษ์",
-      "province_code": "26",
-      "province_name_th": "นครนายก",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "260402",
-      "subdistrict_name_th": "บึงศาล",
-      "district_name_th": "องครักษ์",
-      "province_code": "26",
-      "province_name_th": "นครนายก",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "260403",
       "subdistrict_name_th": "ศีรษะกระบือ",
-      "district_name_th": "องครักษ์",
-      "province_code": "26",
-      "province_name_th": "นครนายก",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "260404",
-      "subdistrict_name_th": "โพธิ์แทน",
       "district_name_th": "องครักษ์",
       "province_code": "26",
       "province_name_th": "นครนายก",
@@ -14958,15 +12546,6 @@
     {
       "subdistrict_code": "260410",
       "subdistrict_name_th": "ชุมพล",
-      "district_name_th": "องครักษ์",
-      "province_code": "26",
-      "province_name_th": "นครนายก",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "260411",
-      "subdistrict_name_th": "คลองใหญ่",
       "district_name_th": "องครักษ์",
       "province_code": "26",
       "province_name_th": "นครนายก",
@@ -15154,15 +12733,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "270401",
-      "subdistrict_name_th": "วังน้ำเย็น",
-      "district_name_th": "วังน้ำเย็น",
-      "province_code": "27",
-      "province_name_th": "สระแก้ว",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "270403",
       "subdistrict_name_th": "ตาหลังใน",
       "district_name_th": "วังน้ำเย็น",
@@ -15283,15 +12853,6 @@
       "subdistrict_code": "270511",
       "subdistrict_name_th": "ห้วยโจด",
       "district_name_th": "วัฒนานคร",
-      "province_code": "27",
-      "province_name_th": "สระแก้ว",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "270601",
-      "subdistrict_name_th": "อรัญประเทศ",
-      "district_name_th": "อรัญประเทศ",
       "province_code": "27",
       "province_name_th": "สระแก้ว",
       "value": 0.0,
@@ -15492,15 +13053,6 @@
       "district_name_th": "วังสมบูรณ์",
       "province_code": "27",
       "province_name_th": "สระแก้ว",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "300101",
-      "subdistrict_name_th": "ในเมือง",
-      "district_name_th": "เมืองนครราชสีมา",
-      "province_code": "30",
-      "province_name_th": "นครราชสีมา",
       "value": 0.0,
       "display_value": "0"
     },
@@ -16390,15 +13942,6 @@
       "subdistrict_code": "300914",
       "subdistrict_name_th": "มะค่า",
       "district_name_th": "โนนไทย",
-      "province_code": "30",
-      "province_name_th": "นครราชสีมา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "301001",
-      "subdistrict_name_th": "โนนสูง",
-      "district_name_th": "โนนสูง",
       "province_code": "30",
       "province_name_th": "นครราชสีมา",
       "value": 0.0,
@@ -17314,15 +14857,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "301811",
-      "subdistrict_name_th": "กุดจิก",
-      "district_name_th": "สูงเนิน",
-      "province_code": "30",
-      "province_name_th": "นครราชสีมา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "301901",
       "subdistrict_name_th": "ขามทะเลสอ",
       "district_name_th": "ขามทะเลสอ",
@@ -18061,15 +15595,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "310101",
-      "subdistrict_name_th": "ในเมือง",
-      "district_name_th": "เมืองบุรีรัมย์",
-      "province_code": "31",
-      "province_name_th": "บุรีรัมย์",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "310102",
       "subdistrict_name_th": "อิสาณ",
       "district_name_th": "เมืองบุรีรัมย์",
@@ -18153,15 +15678,6 @@
     {
       "subdistrict_code": "310117",
       "subdistrict_name_th": "ลุมปุ๊ก",
-      "district_name_th": "เมืองบุรีรัมย์",
-      "province_code": "31",
-      "province_name_th": "บุรีรัมย์",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "310118",
-      "subdistrict_name_th": "สองห้อง",
       "district_name_th": "เมืองบุรีรัมย์",
       "province_code": "31",
       "province_name_th": "บุรีรัมย์",
@@ -19744,15 +17260,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "320101",
-      "subdistrict_name_th": "ในเมือง",
-      "district_name_th": "เมืองสุรินทร์",
-      "province_code": "32",
-      "province_name_th": "สุรินทร์",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "320102",
       "subdistrict_name_th": "ตั้งใจ",
       "district_name_th": "เมืองสุรินทร์",
@@ -21103,24 +18610,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "330101",
-      "subdistrict_name_th": "เมืองเหนือ",
-      "district_name_th": "เมืองศรีสะเกษ",
-      "province_code": "33",
-      "province_name_th": "ศรีสะเกษ",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "330102",
-      "subdistrict_name_th": "เมืองใต้",
-      "district_name_th": "เมืองศรีสะเกษ",
-      "province_code": "33",
-      "province_name_th": "ศรีสะเกษ",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "330103",
       "subdistrict_name_th": "คูซอด",
       "district_name_th": "เมืองศรีสะเกษ",
@@ -21141,15 +18630,6 @@
     {
       "subdistrict_code": "330105",
       "subdistrict_name_th": "จาน",
-      "district_name_th": "เมืองศรีสะเกษ",
-      "province_code": "33",
-      "province_name_th": "ศรีสะเกษ",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "330106",
-      "subdistrict_name_th": "ตะดอบ",
       "district_name_th": "เมืองศรีสะเกษ",
       "province_code": "33",
       "province_name_th": "ศรีสะเกษ",
@@ -21949,15 +19429,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "330710",
-      "subdistrict_name_th": "พิมายเหนือ",
-      "district_name_th": "ปรางค์กู่",
-      "province_code": "33",
-      "province_name_th": "ศรีสะเกษ",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "330801",
       "subdistrict_name_th": "สิ",
       "district_name_th": "ขุนหาญ",
@@ -22111,15 +19582,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "330908",
-      "subdistrict_name_th": "ดู่",
-      "district_name_th": "ราษีไศล",
-      "province_code": "33",
-      "province_name_th": "ศรีสะเกษ",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "330909",
       "subdistrict_name_th": "หนองอึ่ง",
       "district_name_th": "ราษีไศล",
@@ -22149,15 +19611,6 @@
     {
       "subdistrict_code": "330912",
       "subdistrict_name_th": "ส้มป่อย",
-      "district_name_th": "ราษีไศล",
-      "province_code": "33",
-      "province_name_th": "ศรีสะเกษ",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "330913",
-      "subdistrict_name_th": "หนองหมี",
       "district_name_th": "ราษีไศล",
       "province_code": "33",
       "province_name_th": "ศรีสะเกษ",
@@ -22912,15 +20365,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "340101",
-      "subdistrict_name_th": "ในเมือง",
-      "district_name_th": "เมืองอุบลราชธานี",
-      "province_code": "34",
-      "province_name_th": "อุบลราชธานี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "340104",
       "subdistrict_name_th": "หัวเรือ",
       "district_name_th": "เมืองอุบลราชธานี",
@@ -22950,15 +20394,6 @@
     {
       "subdistrict_code": "340108",
       "subdistrict_name_th": "ขามใหญ่",
-      "district_name_th": "เมืองอุบลราชธานี",
-      "province_code": "34",
-      "province_name_th": "อุบลราชธานี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "340109",
-      "subdistrict_name_th": "แจระแม",
       "district_name_th": "เมืองอุบลราชธานี",
       "province_code": "34",
       "province_name_th": "อุบลราชธานี",
@@ -23830,15 +21265,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "341112",
-      "subdistrict_name_th": "ตากแดด",
-      "district_name_th": "ตระการพืชผล",
-      "province_code": "34",
-      "province_name_th": "อุบลราชธานี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "341113",
       "subdistrict_name_th": "ไหล่ทุ่ง",
       "district_name_th": "ตระการพืชผล",
@@ -24109,15 +21535,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "341501",
-      "subdistrict_name_th": "วารินชำราบ",
-      "district_name_th": "วารินชำราบ",
-      "province_code": "34",
-      "province_name_th": "อุบลราชธานี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "341502",
       "subdistrict_name_th": "ธาตุ",
       "district_name_th": "วารินชำราบ",
@@ -24253,15 +21670,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "341901",
-      "subdistrict_name_th": "พิบูล",
-      "district_name_th": "พิบูลมังสาหาร",
-      "province_code": "34",
-      "province_name_th": "อุบลราชธานี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "341902",
       "subdistrict_name_th": "กุดชมภู",
       "district_name_th": "พิบูลมังสาหาร",
@@ -24381,15 +21789,6 @@
     {
       "subdistrict_code": "342001",
       "subdistrict_name_th": "ตาลสุม",
-      "district_name_th": "ตาลสุม",
-      "province_code": "34",
-      "province_name_th": "อุบลราชธานี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "342002",
-      "subdistrict_name_th": "สำโรง",
       "district_name_th": "ตาลสุม",
       "province_code": "34",
       "province_name_th": "อุบลราชธานี",
@@ -24874,15 +22273,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "350101",
-      "subdistrict_name_th": "ในเมือง",
-      "district_name_th": "เมืองยโสธร",
-      "province_code": "35",
-      "province_name_th": "ยโสธร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "350102",
       "subdistrict_name_th": "น้ำคำใหญ่",
       "district_name_th": "เมืองยโสธร",
@@ -25063,15 +22453,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "350204",
-      "subdistrict_name_th": "นาเวียง",
-      "district_name_th": "ทรายมูล",
-      "province_code": "35",
-      "province_name_th": "ยโสธร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "350205",
       "subdistrict_name_th": "ไผ่",
       "district_name_th": "ทรายมูล",
@@ -25200,15 +22581,6 @@
     {
       "subdistrict_code": "350405",
       "subdistrict_name_th": "ทุ่งมน",
-      "district_name_th": "คำเขื่อนแก้ว",
-      "province_code": "35",
-      "province_name_th": "ยโสธร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "350406",
-      "subdistrict_name_th": "นาคำ",
       "district_name_th": "คำเขื่อนแก้ว",
       "province_code": "35",
       "province_name_th": "ยโสธร",
@@ -25576,15 +22948,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "360101",
-      "subdistrict_name_th": "ในเมือง",
-      "district_name_th": "เมืองชัยภูมิ",
-      "province_code": "36",
-      "province_name_th": "ชัยภูมิ",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "360102",
       "subdistrict_name_th": "รอบเมือง",
       "district_name_th": "เมืองชัยภูมิ",
@@ -25875,15 +23238,6 @@
     {
       "subdistrict_code": "360402",
       "subdistrict_name_th": "บ้านหัน",
-      "district_name_th": "เกษตรสมบูรณ์",
-      "province_code": "36",
-      "province_name_th": "ชัยภูมิ",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "360403",
-      "subdistrict_name_th": "บ้านเดื่อ",
       "district_name_th": "เกษตรสมบูรณ์",
       "province_code": "36",
       "province_name_th": "ชัยภูมิ",
@@ -26638,15 +23992,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "370101",
-      "subdistrict_name_th": "บุ่ง",
-      "district_name_th": "เมืองอำนาจเจริญ",
-      "province_code": "37",
-      "province_name_th": "อำนาจเจริญ",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "370102",
       "subdistrict_name_th": "ไก่คำ",
       "district_name_th": "เมืองอำนาจเจริญ",
@@ -27223,15 +24568,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "380112",
-      "subdistrict_name_th": "โป่งเปือย",
-      "district_name_th": "เมืองบึงกาฬ",
-      "province_code": "38",
-      "province_name_th": "บึงกาฬ",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "380201",
       "subdistrict_name_th": "ศรีชมภู",
       "district_name_th": "พรเจริญ",
@@ -27313,15 +24649,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "380303",
-      "subdistrict_name_th": "ศรีชมภู",
-      "district_name_th": "โซ่พิสัย",
-      "province_code": "38",
-      "province_name_th": "บึงกาฬ",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "380304",
       "subdistrict_name_th": "คำแก้ว",
       "district_name_th": "โซ่พิสัย",
@@ -27342,15 +24669,6 @@
     {
       "subdistrict_code": "380306",
       "subdistrict_name_th": "ถ้ำเจริญ",
-      "district_name_th": "โซ่พิสัย",
-      "province_code": "38",
-      "province_name_th": "บึงกาฬ",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "380307",
-      "subdistrict_name_th": "เหล่าทอง",
       "district_name_th": "โซ่พิสัย",
       "province_code": "38",
       "province_name_th": "บึงกาฬ",
@@ -27675,15 +24993,6 @@
     {
       "subdistrict_code": "390109",
       "subdistrict_name_th": "โนนขมิ้น",
-      "district_name_th": "เมืองหนองบัวลำภู",
-      "province_code": "39",
-      "province_name_th": "หนองบัวลำภู",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "390110",
-      "subdistrict_name_th": "ลำภู",
       "district_name_th": "เมืองหนองบัวลำภู",
       "province_code": "39",
       "province_name_th": "หนองบัวลำภู",
@@ -28128,15 +25437,6 @@
       "district_name_th": "นาวัง",
       "province_code": "39",
       "province_name_th": "หนองบัวลำภู",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "400101",
-      "subdistrict_name_th": "ในเมือง",
-      "district_name_th": "เมืองขอนแก่น",
-      "province_code": "40",
-      "province_name_th": "ขอนแก่น",
       "value": 0.0,
       "display_value": "0"
     },
@@ -28852,15 +26152,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "400906",
-      "subdistrict_name_th": "ห้วยยาง",
-      "district_name_th": "กระนวน",
-      "province_code": "40",
-      "province_name_th": "ขอนแก่น",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "400907",
       "subdistrict_name_th": "บ้านฝาง",
       "district_name_th": "กระนวน",
@@ -28881,24 +26172,6 @@
     {
       "subdistrict_code": "400910",
       "subdistrict_name_th": "หนองโน",
-      "district_name_th": "กระนวน",
-      "province_code": "40",
-      "province_name_th": "ขอนแก่น",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "400911",
-      "subdistrict_name_th": "น้ำอ้อม",
-      "district_name_th": "กระนวน",
-      "province_code": "40",
-      "province_name_th": "ขอนแก่น",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "400912",
-      "subdistrict_name_th": "หัวนาคำ",
       "district_name_th": "กระนวน",
       "province_code": "40",
       "province_name_th": "ขอนแก่น",
@@ -29626,15 +26899,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "402102",
-      "subdistrict_name_th": "คำแมด",
-      "district_name_th": "ซำสูง",
-      "province_code": "40",
-      "province_name_th": "ขอนแก่น",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "402103",
       "subdistrict_name_th": "บ้านโนน",
       "district_name_th": "ซำสูง",
@@ -29820,15 +27084,6 @@
       "district_name_th": "เวียงเก่า",
       "province_code": "40",
       "province_name_th": "ขอนแก่น",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "410101",
-      "subdistrict_name_th": "หมากแข้ง",
-      "district_name_th": "เมืองอุดรธานี",
-      "province_code": "41",
-      "province_name_th": "อุดรธานี",
       "value": 0.0,
       "display_value": "0"
     },
@@ -31183,15 +28438,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "420101",
-      "subdistrict_name_th": "กุดป่อง",
-      "district_name_th": "เมืองเลย",
-      "province_code": "42",
-      "province_name_th": "เลย",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "420102",
       "subdistrict_name_th": "เมือง",
       "district_name_th": "เมืองเลย",
@@ -31813,15 +29059,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "421102",
-      "subdistrict_name_th": "หนองคัน",
-      "district_name_th": "ภูหลวง",
-      "province_code": "42",
-      "province_name_th": "เลย",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "421104",
       "subdistrict_name_th": "ห้วยสีเสียด",
       "district_name_th": "ภูหลวง",
@@ -31833,15 +29070,6 @@
     {
       "subdistrict_code": "421105",
       "subdistrict_name_th": "เลยวังไสย์",
-      "district_name_th": "ภูหลวง",
-      "province_code": "42",
-      "province_name_th": "เลย",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "421106",
-      "subdistrict_name_th": "แก่งศรีภูมิ",
       "district_name_th": "ภูหลวง",
       "province_code": "42",
       "province_name_th": "เลย",
@@ -31921,15 +29149,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "421304",
-      "subdistrict_name_th": "ทรัพย์ไพวัลย์",
-      "district_name_th": "เอราวัณ",
-      "province_code": "42",
-      "province_name_th": "เลย",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "421401",
       "subdistrict_name_th": "หนองหิน",
       "district_name_th": "หนองหิน",
@@ -31953,24 +29172,6 @@
       "district_name_th": "หนองหิน",
       "province_code": "42",
       "province_name_th": "เลย",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "430101",
-      "subdistrict_name_th": "ในเมือง",
-      "district_name_th": "เมืองหนองคาย",
-      "province_code": "43",
-      "province_name_th": "หนองคาย",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "430102",
-      "subdistrict_name_th": "มีชัย",
-      "district_name_th": "เมืองหนองคาย",
-      "province_code": "43",
-      "province_name_th": "หนองคาย",
       "value": 0.0,
       "display_value": "0"
     },
@@ -32245,15 +29446,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "430509",
-      "subdistrict_name_th": "เซิม",
-      "district_name_th": "โพนพิสัย",
-      "province_code": "43",
-      "province_name_th": "หนองคาย",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "430513",
       "subdistrict_name_th": "บ้านโพธิ์",
       "district_name_th": "โพนพิสัย",
@@ -32493,15 +29685,6 @@
       "district_name_th": "โพธิ์ตาก",
       "province_code": "43",
       "province_name_th": "หนองคาย",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "440101",
-      "subdistrict_name_th": "ตลาด",
-      "district_name_th": "เมืองมหาสารคาม",
-      "province_code": "44",
-      "province_name_th": "มหาสารคาม",
       "value": 0.0,
       "display_value": "0"
     },
@@ -33181,15 +30364,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "440710",
-      "subdistrict_name_th": "สันป่าตอง",
-      "district_name_th": "นาเชือก",
-      "province_code": "44",
-      "province_name_th": "มหาสารคาม",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "440801",
       "subdistrict_name_th": "ปะหลาน",
       "district_name_th": "พยัคฆภูมิพิสัย",
@@ -33672,15 +30846,6 @@
       "district_name_th": "ชื่นชม",
       "province_code": "44",
       "province_name_th": "มหาสารคาม",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "450101",
-      "subdistrict_name_th": "ในเมือง",
-      "district_name_th": "เมืองร้อยเอ็ด",
-      "province_code": "45",
-      "province_name_th": "ร้อยเอ็ด",
       "value": 0.0,
       "display_value": "0"
     },
@@ -34486,15 +31651,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "450806",
-      "subdistrict_name_th": "คำพอุง",
-      "district_name_th": "โพธิ์ชัย",
-      "province_code": "45",
-      "province_name_th": "ร้อยเอ็ด",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "450807",
       "subdistrict_name_th": "หนองตาไก้",
       "district_name_th": "โพธิ์ชัย",
@@ -34513,26 +31669,8 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "450809",
-      "subdistrict_name_th": "โพธิ์ศรี",
-      "district_name_th": "โพธิ์ชัย",
-      "province_code": "45",
-      "province_name_th": "ร้อยเอ็ด",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "450901",
       "subdistrict_name_th": "หนองพอก",
-      "district_name_th": "หนองพอก",
-      "province_code": "45",
-      "province_name_th": "ร้อยเอ็ด",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "450902",
-      "subdistrict_name_th": "บึงงาม",
       "district_name_th": "หนองพอก",
       "province_code": "45",
       "province_name_th": "ร้อยเอ็ด",
@@ -34828,15 +31966,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "451109",
-      "subdistrict_name_th": "หัวช้าง",
-      "district_name_th": "สุวรรณภูมิ",
-      "province_code": "45",
-      "province_name_th": "ร้อยเอ็ด",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "451110",
       "subdistrict_name_th": "น้ำคำ",
       "district_name_th": "สุวรรณภูมิ",
@@ -34848,15 +31977,6 @@
     {
       "subdistrict_code": "451111",
       "subdistrict_name_th": "ห้วยหินลาด",
-      "district_name_th": "สุวรรณภูมิ",
-      "province_code": "45",
-      "province_name_th": "ร้อยเอ็ด",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "451112",
-      "subdistrict_name_th": "ช้างเผือก",
       "district_name_th": "สุวรรณภูมิ",
       "province_code": "45",
       "province_name_th": "ร้อยเอ็ด",
@@ -35382,15 +32502,6 @@
       "district_name_th": "ทุ่งเขาหลวง",
       "province_code": "45",
       "province_name_th": "ร้อยเอ็ด",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "460101",
-      "subdistrict_name_th": "กาฬสินธุ์",
-      "district_name_th": "เมืองกาฬสินธุ์",
-      "province_code": "46",
-      "province_name_th": "กาฬสินธุ์",
       "value": 0.0,
       "display_value": "0"
     },
@@ -36565,15 +33676,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "470101",
-      "subdistrict_name_th": "ธาตุเชิงชุม",
-      "district_name_th": "เมืองสกลนคร",
-      "province_code": "47",
-      "province_name_th": "สกลนคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "470102",
       "subdistrict_name_th": "ขมิ้น",
       "district_name_th": "เมืองสกลนคร",
@@ -37663,24 +34765,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "480101",
-      "subdistrict_name_th": "ในเมือง",
-      "district_name_th": "เมืองนครพนม",
-      "province_code": "48",
-      "province_name_th": "นครพนม",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "480102",
-      "subdistrict_name_th": "หนองแสง",
-      "district_name_th": "เมืองนครพนม",
-      "province_code": "48",
-      "province_name_th": "นครพนม",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "480103",
       "subdistrict_name_th": "นาทราย",
       "district_name_th": "เมืองนครพนม",
@@ -38536,26 +35620,8 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "481204",
-      "subdistrict_name_th": "หนองโพธิ์",
-      "district_name_th": "วังยาง",
-      "province_code": "48",
-      "province_name_th": "นครพนม",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "490101",
       "subdistrict_name_th": "มุกดาหาร",
-      "district_name_th": "เมืองมุกดาหาร",
-      "province_code": "49",
-      "province_name_th": "มุกดาหาร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "490102",
-      "subdistrict_name_th": "ศรีบุญเรือง",
       "district_name_th": "เมืองมุกดาหาร",
       "province_code": "49",
       "province_name_th": "มุกดาหาร",
@@ -38941,15 +36007,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "490605",
-      "subdistrict_name_th": "ดงหมู",
-      "district_name_th": "หว้านใหญ่",
-      "province_code": "49",
-      "province_name_th": "มุกดาหาร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "490701",
       "subdistrict_name_th": "หนองสูง",
       "district_name_th": "หนองสูง",
@@ -38982,60 +36039,6 @@
       "district_name_th": "หนองสูง",
       "province_code": "49",
       "province_name_th": "มุกดาหาร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "500101",
-      "subdistrict_name_th": "ศรีภูมิ",
-      "district_name_th": "เมืองเชียงใหม่",
-      "province_code": "50",
-      "province_name_th": "เชียงใหม่",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "500102",
-      "subdistrict_name_th": "พระสิงห์",
-      "district_name_th": "เมืองเชียงใหม่",
-      "province_code": "50",
-      "province_name_th": "เชียงใหม่",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "500103",
-      "subdistrict_name_th": "หายยา",
-      "district_name_th": "เมืองเชียงใหม่",
-      "province_code": "50",
-      "province_name_th": "เชียงใหม่",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "500104",
-      "subdistrict_name_th": "ช้างม่อย",
-      "district_name_th": "เมืองเชียงใหม่",
-      "province_code": "50",
-      "province_name_th": "เชียงใหม่",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "500105",
-      "subdistrict_name_th": "ช้างคลาน",
-      "district_name_th": "เมืองเชียงใหม่",
-      "province_code": "50",
-      "province_name_th": "เชียงใหม่",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "500106",
-      "subdistrict_name_th": "วัดเกต",
-      "district_name_th": "เมืองเชียงใหม่",
-      "province_code": "50",
-      "province_name_th": "เชียงใหม่",
       "value": 0.0,
       "display_value": "0"
     },
@@ -39105,15 +36108,6 @@
     {
       "subdistrict_code": "500114",
       "subdistrict_name_th": "ฟ้าฮ่าม",
-      "district_name_th": "เมืองเชียงใหม่",
-      "province_code": "50",
-      "province_name_th": "เชียงใหม่",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "500115",
-      "subdistrict_name_th": "ป่าตัน",
       "district_name_th": "เมืองเชียงใหม่",
       "province_code": "50",
       "province_name_th": "เชียงใหม่",
@@ -39330,15 +36324,6 @@
     {
       "subdistrict_code": "500503",
       "subdistrict_name_th": "ลวงเหนือ",
-      "district_name_th": "ดอยสะเก็ด",
-      "province_code": "50",
-      "province_name_th": "เชียงใหม่",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "500504",
-      "subdistrict_name_th": "ป่าป้อง",
       "district_name_th": "ดอยสะเก็ด",
       "province_code": "50",
       "province_name_th": "เชียงใหม่",
@@ -40012,15 +36997,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "501303",
-      "subdistrict_name_th": "ร้องวัวแดง",
-      "district_name_th": "สันกำแพง",
-      "province_code": "50",
-      "province_name_th": "เชียงใหม่",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "501304",
       "subdistrict_name_th": "บวกค้าง",
       "district_name_th": "สันกำแพง",
@@ -40642,15 +37618,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "502303",
-      "subdistrict_name_th": "บ้านสหกรณ์",
-      "district_name_th": "แม่ออน",
-      "province_code": "50",
-      "province_name_th": "เชียงใหม่",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "502305",
       "subdistrict_name_th": "แม่ทา",
       "district_name_th": "แม่ออน",
@@ -40728,15 +37695,6 @@
       "district_name_th": "กัลยาณิวัฒนา",
       "province_code": "50",
       "province_name_th": "เชียงใหม่",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "510101",
-      "subdistrict_name_th": "ในเมือง",
-      "district_name_th": "เมืองลำพูน",
-      "province_code": "51",
-      "province_name_th": "ลำพูน",
       "value": 0.0,
       "display_value": "0"
     },
@@ -41191,78 +38149,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "520101",
-      "subdistrict_name_th": "เวียงเหนือ",
-      "district_name_th": "เมืองลำปาง",
-      "province_code": "52",
-      "province_name_th": "ลำปาง",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "520102",
-      "subdistrict_name_th": "หัวเวียง",
-      "district_name_th": "เมืองลำปาง",
-      "province_code": "52",
-      "province_name_th": "ลำปาง",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "520103",
-      "subdistrict_name_th": "สวนดอก",
-      "district_name_th": "เมืองลำปาง",
-      "province_code": "52",
-      "province_name_th": "ลำปาง",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "520104",
-      "subdistrict_name_th": "สบตุ๋ย",
-      "district_name_th": "เมืองลำปาง",
-      "province_code": "52",
-      "province_name_th": "ลำปาง",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "520105",
-      "subdistrict_name_th": "พระบาท",
-      "district_name_th": "เมืองลำปาง",
-      "province_code": "52",
-      "province_name_th": "ลำปาง",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "520106",
-      "subdistrict_name_th": "ชมพู",
-      "district_name_th": "เมืองลำปาง",
-      "province_code": "52",
-      "province_name_th": "ลำปาง",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "520107",
-      "subdistrict_name_th": "กล้วยแพะ",
-      "district_name_th": "เมืองลำปาง",
-      "province_code": "52",
-      "province_name_th": "ลำปาง",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "520108",
-      "subdistrict_name_th": "ปงแสนทอง",
-      "district_name_th": "เมืองลำปาง",
-      "province_code": "52",
-      "province_name_th": "ลำปาง",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "520109",
       "subdistrict_name_th": "บ้านแลง",
       "district_name_th": "เมืองลำปาง",
@@ -41347,15 +38233,6 @@
       "subdistrict_code": "520119",
       "subdistrict_name_th": "บุญนาคพัฒนา",
       "district_name_th": "เมืองลำปาง",
-      "province_code": "52",
-      "province_name_th": "ลำปาง",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "520200",
-      "subdistrict_name_th": 0.0,
-      "district_name_th": 0.0,
       "province_code": "52",
       "province_name_th": "ลำปาง",
       "value": 0.0,
@@ -42055,15 +38932,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "530101",
-      "subdistrict_name_th": "ท่าอิฐ",
-      "district_name_th": "เมืองอุตรดิตถ์",
-      "province_code": "53",
-      "province_name_th": "อุตรดิตถ์",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "530102",
       "subdistrict_name_th": "ท่าเสา",
       "district_name_th": "เมืองอุตรดิตถ์",
@@ -42532,15 +39400,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "530801",
-      "subdistrict_name_th": "ศรีพนมมาศ",
-      "district_name_th": "ลับแล",
-      "province_code": "53",
-      "province_name_th": "อุตรดิตถ์",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "530802",
       "subdistrict_name_th": "แม่พูล",
       "district_name_th": "ลับแล",
@@ -42636,15 +39495,6 @@
       "district_name_th": "ทองแสนขัน",
       "province_code": "53",
       "province_name_th": "อุตรดิตถ์",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "540101",
-      "subdistrict_name_th": "ในเวียง",
-      "district_name_th": "เมืองแพร่",
-      "province_code": "54",
-      "province_name_th": "แพร่",
       "value": 0.0,
       "display_value": "0"
     },
@@ -43302,15 +40152,6 @@
       "district_name_th": "หนองม่วงไข่",
       "province_code": "54",
       "province_name_th": "แพร่",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "550101",
-      "subdistrict_name_th": "ในเวียง",
-      "district_name_th": "เมืองน่าน",
-      "province_code": "55",
-      "province_name_th": "น่าน",
       "value": 0.0,
       "display_value": "0"
     },
@@ -44134,24 +40975,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "560101",
-      "subdistrict_name_th": "เวียง",
-      "district_name_th": "เมืองพะเยา",
-      "province_code": "56",
-      "province_name_th": "พะเยา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "560102",
-      "subdistrict_name_th": "แม่ต๋ำ",
-      "district_name_th": "เมืองพะเยา",
-      "province_code": "56",
-      "province_name_th": "พะเยา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "560104",
       "subdistrict_name_th": "แม่นาเรือ",
       "district_name_th": "เมืองพะเยา",
@@ -44512,24 +41335,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "560510",
-      "subdistrict_name_th": "บุญเกิด",
-      "district_name_th": "ดอกคำใต้",
-      "province_code": "56",
-      "province_name_th": "พะเยา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "560511",
-      "subdistrict_name_th": "สว่างอารมณ์",
-      "district_name_th": "ดอกคำใต้",
-      "province_code": "56",
-      "province_name_th": "พะเยา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "560512",
       "subdistrict_name_th": "คือเวียง",
       "district_name_th": "ดอกคำใต้",
@@ -44715,15 +41520,6 @@
       "district_name_th": "ภูกามยาว",
       "province_code": "56",
       "province_name_th": "พะเยา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "570101",
-      "subdistrict_name_th": "เวียง",
-      "district_name_th": "เมืองเชียงราย",
-      "province_code": "57",
-      "province_name_th": "เชียงราย",
       "value": 0.0,
       "display_value": "0"
     },
@@ -45763,15 +42559,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "580101",
-      "subdistrict_name_th": "จองคำ",
-      "district_name_th": "เมืองแม่ฮ่องสอน",
-      "province_code": "58",
-      "province_name_th": "แม่ฮ่องสอน",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "580102",
       "subdistrict_name_th": "ห้วยโป่ง",
       "district_name_th": "เมืองแม่ฮ่องสอน",
@@ -45817,15 +42604,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "580202",
-      "subdistrict_name_th": "แม่เงา",
-      "district_name_th": "ขุนยวม",
-      "province_code": "58",
-      "province_name_th": "แม่ฮ่องสอน",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "580203",
       "subdistrict_name_th": "เมืองปอน",
       "district_name_th": "ขุนยวม",
@@ -45837,15 +42615,6 @@
     {
       "subdistrict_code": "580204",
       "subdistrict_name_th": "แม่ยวมน้อย",
-      "district_name_th": "ขุนยวม",
-      "province_code": "58",
-      "province_name_th": "แม่ฮ่องสอน",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "580205",
-      "subdistrict_name_th": "แม่กิ๊",
       "district_name_th": "ขุนยวม",
       "province_code": "58",
       "province_name_th": "แม่ฮ่องสอน",
@@ -46132,15 +42901,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "600101",
-      "subdistrict_name_th": "ปากน้ำโพ",
-      "district_name_th": "เมืองนครสวรรค์",
-      "province_code": "60",
-      "province_name_th": "นครสวรรค์",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "600102",
       "subdistrict_name_th": "กลางแดด",
       "district_name_th": "เมืองนครสวรรค์",
@@ -46357,15 +43117,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "600301",
-      "subdistrict_name_th": "ชุมแสง",
-      "district_name_th": "ชุมแสง",
-      "province_code": "60",
-      "province_name_th": "นครสวรรค์",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "600302",
       "subdistrict_name_th": "ทับกฤช",
       "district_name_th": "ชุมแสง",
@@ -46485,15 +43236,6 @@
     {
       "subdistrict_code": "600404",
       "subdistrict_name_th": "ห้วยร่วม",
-      "district_name_th": "หนองบัว",
-      "province_code": "60",
-      "province_name_th": "นครสวรรค์",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "600405",
-      "subdistrict_name_th": "ห้วยถั่วใต้",
       "district_name_th": "หนองบัว",
       "province_code": "60",
       "province_name_th": "นครสวรรค์",
@@ -46656,15 +43398,6 @@
     {
       "subdistrict_code": "600601",
       "subdistrict_name_th": "มหาโพธิ",
-      "district_name_th": "เก้าเลี้ยว",
-      "province_code": "60",
-      "province_name_th": "นครสวรรค์",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "600602",
-      "subdistrict_name_th": "เก้าเลี้ยว",
       "district_name_th": "เก้าเลี้ยว",
       "province_code": "60",
       "province_name_th": "นครสวรรค์",
@@ -47275,15 +44008,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "610101",
-      "subdistrict_name_th": "อุทัยใหม่",
-      "district_name_th": "เมืองอุทัยธานี",
-      "province_code": "61",
-      "province_name_th": "อุทัยธานี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "610102",
       "subdistrict_name_th": "น้ำซึม",
       "district_name_th": "เมืองอุทัยธานี",
@@ -47455,6 +44179,15 @@
       "display_value": "0"
     },
     {
+      "subdistrict_code": "610207",
+      "subdistrict_name_th": "หนองกลางดง",
+      "district_name_th": "ทัพทัน",
+      "province_code": "61",
+      "province_name_th": "อุทัยธานี",
+      "value": 0.0,
+      "display_value": "0"
+    },
+    {
       "subdistrict_code": "610208",
       "subdistrict_name_th": "หนองกระทุ่ม",
       "district_name_th": "ทัพทัน",
@@ -47590,15 +44323,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "610408",
-      "subdistrict_name_th": "ทุ่งพง",
-      "district_name_th": "หนองฉาง",
-      "province_code": "61",
-      "province_name_th": "อุทัยธานี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "610409",
       "subdistrict_name_th": "เขาบางแกรก",
       "district_name_th": "หนองฉาง",
@@ -47664,15 +44388,6 @@
     {
       "subdistrict_code": "610506",
       "subdistrict_name_th": "ท่าโพ",
-      "district_name_th": "หนองขาหย่าง",
-      "province_code": "61",
-      "province_name_th": "อุทัยธานี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "610507",
-      "subdistrict_name_th": "หมกแถว",
       "district_name_th": "หนองขาหย่าง",
       "province_code": "61",
       "province_name_th": "อุทัยธานี",
@@ -47874,15 +44589,6 @@
       "district_name_th": "ห้วยคต",
       "province_code": "61",
       "province_name_th": "อุทัยธานี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "620101",
-      "subdistrict_name_th": "ในเมือง",
-      "district_name_th": "เมืองกำแพงเพชร",
-      "province_code": "62",
-      "province_name_th": "กำแพงเพชร",
       "value": 0.0,
       "display_value": "0"
     },
@@ -48562,42 +45268,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "630101",
-      "subdistrict_name_th": "ระแหง",
-      "district_name_th": "เมืองตาก",
-      "province_code": "63",
-      "province_name_th": "ตาก",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "630102",
-      "subdistrict_name_th": "หนองหลวง",
-      "district_name_th": "เมืองตาก",
-      "province_code": "63",
-      "province_name_th": "ตาก",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "630103",
-      "subdistrict_name_th": "เชียงเงิน",
-      "district_name_th": "เมืองตาก",
-      "province_code": "63",
-      "province_name_th": "ตาก",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "630104",
-      "subdistrict_name_th": "หัวเดียด",
-      "district_name_th": "เมืองตาก",
-      "province_code": "63",
-      "province_name_th": "ตาก",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "630105",
       "subdistrict_name_th": "หนองบัวเหนือ",
       "district_name_th": "เมืองตาก",
@@ -48778,15 +45448,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "630305",
-      "subdistrict_name_th": "บ้านนา",
-      "district_name_th": "สามเงา",
-      "province_code": "63",
-      "province_name_th": "ตาก",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "630306",
       "subdistrict_name_th": "วังจันทร์",
       "district_name_th": "สามเงา",
@@ -48898,15 +45559,6 @@
       "subdistrict_code": "630506",
       "subdistrict_name_th": "แม่อุสุ",
       "district_name_th": "ท่าสองยาง",
-      "province_code": "63",
-      "province_name_th": "ตาก",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "630601",
-      "subdistrict_name_th": "แม่สอด",
-      "district_name_th": "แม่สอด",
       "province_code": "63",
       "province_name_th": "ตาก",
       "value": 0.0,
@@ -49089,15 +45741,6 @@
       "district_name_th": "วังเจ้า",
       "province_code": "63",
       "province_name_th": "ตาก",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "640101",
-      "subdistrict_name_th": "ธานี",
-      "district_name_th": "เมืองสุโขทัย",
-      "province_code": "64",
-      "province_name_th": "สุโขทัย",
       "value": 0.0,
       "display_value": "0"
     },
@@ -49633,15 +46276,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "640701",
-      "subdistrict_name_th": "เมืองสวรรคโลก",
-      "district_name_th": "สวรรคโลก",
-      "province_code": "64",
-      "province_name_th": "สุโขทัย",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "640702",
       "subdistrict_name_th": "ในเมือง",
       "district_name_th": "สวรรคโลก",
@@ -49836,15 +46470,6 @@
       "district_name_th": "ทุ่งเสลี่ยม",
       "province_code": "64",
       "province_name_th": "สุโขทัย",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "650101",
-      "subdistrict_name_th": "ในเมือง",
-      "district_name_th": "เมืองพิษณุโลก",
-      "province_code": "65",
-      "province_name_th": "พิษณุโลก",
       "value": 0.0,
       "display_value": "0"
     },
@@ -50641,15 +47266,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "660101",
-      "subdistrict_name_th": "ในเมือง",
-      "district_name_th": "เมืองพิจิตร",
-      "province_code": "66",
-      "province_name_th": "พิจิตร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "660102",
       "subdistrict_name_th": "ไผ่ขวาง",
       "district_name_th": "เมืองพิจิตร",
@@ -50884,15 +47500,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "660401",
-      "subdistrict_name_th": "ตะพานหิน",
-      "district_name_th": "ตะพานหิน",
-      "province_code": "66",
-      "province_name_th": "พิจิตร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "660402",
       "subdistrict_name_th": "งิ้วราย",
       "district_name_th": "ตะพานหิน",
@@ -50995,15 +47602,6 @@
       "subdistrict_code": "660413",
       "subdistrict_name_th": "ไผ่หลวง",
       "district_name_th": "ตะพานหิน",
-      "province_code": "66",
-      "province_name_th": "พิจิตร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "660501",
-      "subdistrict_name_th": "บางมูลนาก",
-      "district_name_th": "บางมูลนาก",
       "province_code": "66",
       "province_name_th": "พิจิตร",
       "value": 0.0,
@@ -51424,15 +48022,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "670101",
-      "subdistrict_name_th": "ในเมือง",
-      "district_name_th": "เมืองเพชรบูรณ์",
-      "province_code": "67",
-      "province_name_th": "เพชรบูรณ์",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "670102",
       "subdistrict_name_th": "ตะเบาะ",
       "district_name_th": "เมืองเพชรบูรณ์",
@@ -51643,15 +48232,6 @@
       "subdistrict_code": "670210",
       "subdistrict_name_th": "ศาลาลาย",
       "district_name_th": "ชนแดน",
-      "province_code": "67",
-      "province_name_th": "เพชรบูรณ์",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "670301",
-      "subdistrict_name_th": "หล่มสัก",
-      "district_name_th": "หล่มสัก",
       "province_code": "67",
       "province_name_th": "เพชรบูรณ์",
       "value": 0.0,
@@ -52396,15 +48976,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "671102",
-      "subdistrict_name_th": "แคมป์สน",
-      "district_name_th": "เขาค้อ",
-      "province_code": "67",
-      "province_name_th": "เพชรบูรณ์",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "671103",
       "subdistrict_name_th": "เขาค้อ",
       "district_name_th": "เขาค้อ",
@@ -52446,15 +49017,6 @@
       "district_name_th": "เขาค้อ",
       "province_code": "67",
       "province_name_th": "เพชรบูรณ์",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "700101",
-      "subdistrict_name_th": "หน้าเมือง",
-      "district_name_th": "เมืองราชบุรี",
-      "province_code": "70",
-      "province_name_th": "ราชบุรี",
       "value": 0.0,
       "display_value": "0"
     },
@@ -52533,15 +49095,6 @@
     {
       "subdistrict_code": "700110",
       "subdistrict_name_th": "สามเรือน",
-      "district_name_th": "เมืองราชบุรี",
-      "province_code": "70",
-      "province_name_th": "ราชบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "700111",
-      "subdistrict_name_th": "พิกุลทอง",
       "district_name_th": "เมืองราชบุรี",
       "province_code": "70",
       "province_name_th": "ราชบุรี",
@@ -52711,15 +49264,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "700302",
-      "subdistrict_name_th": "ป่าหวาย",
-      "district_name_th": "สวนผึ้ง",
-      "province_code": "70",
-      "province_name_th": "ราชบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "700304",
       "subdistrict_name_th": "ท่าเคย",
       "district_name_th": "สวนผึ้ง",
@@ -52819,15 +49363,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "700410",
-      "subdistrict_name_th": "สี่หมื่น",
-      "district_name_th": "ดำเนินสะดวก",
-      "province_code": "70",
-      "province_name_th": "ราชบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "700411",
       "subdistrict_name_th": "ท่านัด",
       "district_name_th": "ดำเนินสะดวก",
@@ -52849,15 +49384,6 @@
       "subdistrict_code": "700413",
       "subdistrict_name_th": "ดอนไผ่",
       "district_name_th": "ดำเนินสะดวก",
-      "province_code": "70",
-      "province_name_th": "ราชบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "700501",
-      "subdistrict_name_th": "บ้านโป่ง",
-      "district_name_th": "บ้านโป่ง",
       "province_code": "70",
       "province_name_th": "ราชบุรี",
       "value": 0.0,
@@ -52918,24 +49444,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "700509",
-      "subdistrict_name_th": "นครชุมน์",
-      "district_name_th": "บ้านโป่ง",
-      "province_code": "70",
-      "province_name_th": "ราชบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "700510",
-      "subdistrict_name_th": "บ้านม่วง",
-      "district_name_th": "บ้านโป่ง",
-      "province_code": "70",
-      "province_name_th": "ราชบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "700511",
       "subdistrict_name_th": "คุ้งพยอม",
       "district_name_th": "บ้านโป่ง",
@@ -52956,15 +49464,6 @@
     {
       "subdistrict_code": "700513",
       "subdistrict_name_th": "เขาขลุง",
-      "district_name_th": "บ้านโป่ง",
-      "province_code": "70",
-      "province_name_th": "ราชบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "700514",
-      "subdistrict_name_th": "เบิกไพร",
       "district_name_th": "บ้านโป่ง",
       "province_code": "70",
       "province_name_th": "ราชบุรี",
@@ -53038,15 +49537,6 @@
       "subdistrict_code": "700607",
       "subdistrict_name_th": "โพหัก",
       "district_name_th": "บางแพ",
-      "province_code": "70",
-      "province_name_th": "ราชบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "700701",
-      "subdistrict_name_th": "โพธาราม",
-      "district_name_th": "โพธาราม",
       "province_code": "70",
       "province_name_th": "ราชบุรี",
       "value": 0.0,
@@ -53136,15 +49626,6 @@
     {
       "subdistrict_code": "700711",
       "subdistrict_name_th": "ชำแระ",
-      "district_name_th": "โพธาราม",
-      "province_code": "70",
-      "province_name_th": "ราชบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "700712",
-      "subdistrict_name_th": "สร้อยฟ้า",
       "district_name_th": "โพธาราม",
       "province_code": "70",
       "province_name_th": "ราชบุรี",
@@ -53364,24 +49845,6 @@
       "district_name_th": "บ้านคา",
       "province_code": "70",
       "province_name_th": "ราชบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "710101",
-      "subdistrict_name_th": "บ้านเหนือ",
-      "district_name_th": "เมืองกาญจนบุรี",
-      "province_code": "71",
-      "province_name_th": "กาญจนบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "710102",
-      "subdistrict_name_th": "บ้านใต้",
-      "district_name_th": "เมืองกาญจนบุรี",
-      "province_code": "71",
-      "province_name_th": "กาญจนบุรี",
       "value": 0.0,
       "display_value": "0"
     },
@@ -53703,15 +50166,6 @@
     {
       "subdistrict_code": "710506",
       "subdistrict_name_th": "ท่ามะกา",
-      "district_name_th": "ท่ามะกา",
-      "province_code": "71",
-      "province_name_th": "กาญจนบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "710507",
-      "subdistrict_name_th": "ท่าเรือ",
       "district_name_th": "ท่ามะกา",
       "province_code": "71",
       "province_name_th": "กาญจนบุรี",
@@ -54232,15 +50686,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "720101",
-      "subdistrict_name_th": "ท่าพี่เลี้ยง",
-      "district_name_th": "เมืองสุพรรณบุรี",
-      "province_code": "72",
-      "province_name_th": "สุพรรณบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "720102",
       "subdistrict_name_th": "รั้วใหญ่",
       "district_name_th": "เมืองสุพรรณบุรี",
@@ -54351,15 +50796,6 @@
     {
       "subdistrict_code": "720114",
       "subdistrict_name_th": "ตลิ่งชัน",
-      "district_name_th": "เมืองสุพรรณบุรี",
-      "province_code": "72",
-      "province_name_th": "สุพรรณบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "720115",
-      "subdistrict_name_th": "บางกุ้ง",
       "district_name_th": "เมืองสุพรรณบุรี",
       "province_code": "72",
       "province_name_th": "สุพรรณบุรี",
@@ -54495,15 +50931,6 @@
     {
       "subdistrict_code": "720210",
       "subdistrict_name_th": "บ่อกรุ",
-      "district_name_th": "เดิมบางนางบวช",
-      "province_code": "72",
-      "province_name_th": "สุพรรณบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "720211",
-      "subdistrict_name_th": "วังศรีราช",
       "district_name_th": "เดิมบางนางบวช",
       "province_code": "72",
       "province_name_th": "สุพรรณบุรี",
@@ -54847,15 +51274,6 @@
       "subdistrict_code": "720605",
       "subdistrict_name_th": "ทะเลบก",
       "district_name_th": "ดอนเจดีย์",
-      "province_code": "72",
-      "province_name_th": "สุพรรณบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "720701",
-      "subdistrict_name_th": "สองพี่น้อง",
-      "district_name_th": "สองพี่น้อง",
       "province_code": "72",
       "province_name_th": "สุพรรณบุรี",
       "value": 0.0,
@@ -55222,15 +51640,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "730101",
-      "subdistrict_name_th": "พระปฐมเจดีย์",
-      "district_name_th": "เมืองนครปฐม",
-      "province_code": "73",
-      "province_name_th": "นครปฐม",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "730103",
       "subdistrict_name_th": "พระประโทน",
       "district_name_th": "เมืองนครปฐม",
@@ -55294,24 +51703,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "730110",
-      "subdistrict_name_th": "บ่อพลับ",
-      "district_name_th": "เมืองนครปฐม",
-      "province_code": "73",
-      "province_name_th": "นครปฐม",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "730111",
-      "subdistrict_name_th": "นครปฐม",
-      "district_name_th": "เมืองนครปฐม",
-      "province_code": "73",
-      "province_name_th": "นครปฐม",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "730112",
       "subdistrict_name_th": "วังตะกู",
       "district_name_th": "เมืองนครปฐม",
@@ -55332,15 +51723,6 @@
     {
       "subdistrict_code": "730114",
       "subdistrict_name_th": "สามควายเผือก",
-      "district_name_th": "เมืองนครปฐม",
-      "province_code": "73",
-      "province_name_th": "นครปฐม",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "730115",
-      "subdistrict_name_th": "ทุ่งน้อย",
       "district_name_th": "เมืองนครปฐม",
       "province_code": "73",
       "province_name_th": "นครปฐม",
@@ -56068,15 +52450,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "730610",
-      "subdistrict_name_th": "กระทุ่มล้ม",
-      "district_name_th": "สามพราน",
-      "province_code": "73",
-      "province_name_th": "นครปฐม",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "730611",
       "subdistrict_name_th": "คลองใหม่",
       "district_name_th": "สามพราน",
@@ -56158,33 +52531,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "740101",
-      "subdistrict_name_th": "มหาชัย",
-      "district_name_th": "เมืองสมุทรสาคร",
-      "province_code": "74",
-      "province_name_th": "สมุทรสาคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "740102",
-      "subdistrict_name_th": "ท่าฉลอม",
-      "district_name_th": "เมืองสมุทรสาคร",
-      "province_code": "74",
-      "province_name_th": "สมุทรสาคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "740103",
-      "subdistrict_name_th": "โกรกกราก",
-      "district_name_th": "เมืองสมุทรสาคร",
-      "province_code": "74",
-      "province_name_th": "สมุทรสาคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "740104",
       "subdistrict_name_th": "บ้านบ่อ",
       "district_name_th": "เมืองสมุทรสาคร",
@@ -56241,15 +52587,6 @@
     {
       "subdistrict_code": "740110",
       "subdistrict_name_th": "ท่าทราย",
-      "district_name_th": "เมืองสมุทรสาคร",
-      "province_code": "74",
-      "province_name_th": "สมุทรสาคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "740111",
-      "subdistrict_name_th": "คอกกระบือ",
       "district_name_th": "เมืองสมุทรสาคร",
       "province_code": "74",
       "province_name_th": "สมุทรสาคร",
@@ -56320,24 +52657,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "740201",
-      "subdistrict_name_th": "ตลาดกระทุ่มแบน",
-      "district_name_th": "กระทุ่มแบน",
-      "province_code": "74",
-      "province_name_th": "สมุทรสาคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "740202",
-      "subdistrict_name_th": "อ้อมน้อย",
-      "district_name_th": "กระทุ่มแบน",
-      "province_code": "74",
-      "province_name_th": "สมุทรสาคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "740203",
       "subdistrict_name_th": "ท่าไม้",
       "district_name_th": "กระทุ่มแบน",
@@ -56358,15 +52677,6 @@
     {
       "subdistrict_code": "740205",
       "subdistrict_name_th": "บางยาง",
-      "district_name_th": "กระทุ่มแบน",
-      "province_code": "74",
-      "province_name_th": "สมุทรสาคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "740206",
-      "subdistrict_name_th": "คลองมะเดื่อ",
       "district_name_th": "กระทุ่มแบน",
       "province_code": "74",
       "province_name_th": "สมุทรสาคร",
@@ -56514,15 +52824,6 @@
       "district_name_th": "บ้านแพ้ว",
       "province_code": "74",
       "province_name_th": "สมุทรสาคร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "750101",
-      "subdistrict_name_th": "แม่กลอง",
-      "district_name_th": "เมืองสมุทรสงคราม",
-      "province_code": "75",
-      "province_name_th": "สมุทรสงคราม",
       "value": 0.0,
       "display_value": "0"
     },
@@ -56734,15 +53035,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "750301",
-      "subdistrict_name_th": "อัมพวา",
-      "district_name_th": "อัมพวา",
-      "province_code": "75",
-      "province_name_th": "สมุทรสงคราม",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "750302",
       "subdistrict_name_th": "สวนหลวง",
       "district_name_th": "อัมพวา",
@@ -56842,35 +53134,8 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "760101",
-      "subdistrict_name_th": "ท่าราบ",
-      "district_name_th": "เมืองเพชรบุรี",
-      "province_code": "76",
-      "province_name_th": "เพชรบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "760102",
-      "subdistrict_name_th": "คลองกระแชง",
-      "district_name_th": "เมืองเพชรบุรี",
-      "province_code": "76",
-      "province_name_th": "เพชรบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "760103",
       "subdistrict_name_th": "บางจาน",
-      "district_name_th": "เมืองเพชรบุรี",
-      "province_code": "76",
-      "province_name_th": "เพชรบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "760104",
-      "subdistrict_name_th": "นาพันสาม",
       "district_name_th": "เมืองเพชรบุรี",
       "province_code": "76",
       "province_name_th": "เพชรบุรี",
@@ -56941,15 +53206,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "760112",
-      "subdistrict_name_th": "ต้นมะม่วง",
-      "district_name_th": "เมืองเพชรบุรี",
-      "province_code": "76",
-      "province_name_th": "เพชรบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "760113",
       "subdistrict_name_th": "ช่องสะแก",
       "district_name_th": "เมืองเพชรบุรี",
@@ -56961,15 +53217,6 @@
     {
       "subdistrict_code": "760114",
       "subdistrict_name_th": "นาวุ้ง",
-      "district_name_th": "เมืองเพชรบุรี",
-      "province_code": "76",
-      "province_name_th": "เพชรบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "760115",
-      "subdistrict_name_th": "สำมะโรง",
       "district_name_th": "เมืองเพชรบุรี",
       "province_code": "76",
       "province_name_th": "เพชรบุรี",
@@ -57015,24 +53262,6 @@
     {
       "subdistrict_code": "760120",
       "subdistrict_name_th": "วังตะโก",
-      "district_name_th": "เมืองเพชรบุรี",
-      "province_code": "76",
-      "province_name_th": "เพชรบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "760121",
-      "subdistrict_name_th": "โพไร่หวาน",
-      "district_name_th": "เมืองเพชรบุรี",
-      "province_code": "76",
-      "province_name_th": "เพชรบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "760122",
-      "subdistrict_name_th": "ดอนยาง",
       "district_name_th": "เมืองเพชรบุรี",
       "province_code": "76",
       "province_name_th": "เพชรบุรี",
@@ -57121,15 +53350,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "760208",
-      "subdistrict_name_th": "ห้วยโรง",
-      "district_name_th": "เขาย้อย",
-      "province_code": "76",
-      "province_name_th": "เพชรบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "760209",
       "subdistrict_name_th": "ห้วยท่าช้าง",
       "district_name_th": "เขาย้อย",
@@ -57178,15 +53398,6 @@
       "subdistrict_code": "760304",
       "subdistrict_name_th": "ท่าตะคร้อ",
       "district_name_th": "หนองหญ้าปล้อง",
-      "province_code": "76",
-      "province_name_th": "เพชรบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "760401",
-      "subdistrict_name_th": "ชะอำ",
-      "district_name_th": "ชะอำ",
       "province_code": "76",
       "province_name_th": "เพชรบุรี",
       "value": 0.0,
@@ -57382,15 +53593,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "760602",
-      "subdistrict_name_th": "บ้านหาด",
-      "district_name_th": "บ้านลาด",
-      "province_code": "76",
-      "province_name_th": "เพชรบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "760603",
       "subdistrict_name_th": "บ้านทาน",
       "district_name_th": "บ้านลาด",
@@ -57436,15 +53638,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "760608",
-      "subdistrict_name_th": "หนองกระเจ็ด",
-      "district_name_th": "บ้านลาด",
-      "province_code": "76",
-      "province_name_th": "เพชรบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "760609",
       "subdistrict_name_th": "หนองกะปุ",
       "district_name_th": "บ้านลาด",
@@ -57465,15 +53658,6 @@
     {
       "subdistrict_code": "760611",
       "subdistrict_name_th": "สะพานไกร",
-      "district_name_th": "บ้านลาด",
-      "province_code": "76",
-      "province_name_th": "เพชรบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "760612",
-      "subdistrict_name_th": "ไร่โคก",
       "district_name_th": "บ้านลาด",
       "province_code": "76",
       "province_name_th": "เพชรบุรี",
@@ -57517,15 +53701,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "760617",
-      "subdistrict_name_th": "ถ้ำรงค์",
-      "district_name_th": "บ้านลาด",
-      "province_code": "76",
-      "province_name_th": "เพชรบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "760618",
       "subdistrict_name_th": "ห้วยลึก",
       "district_name_th": "บ้านลาด",
@@ -57546,15 +53721,6 @@
     {
       "subdistrict_code": "760702",
       "subdistrict_name_th": "บางขุนไทร",
-      "district_name_th": "บ้านแหลม",
-      "province_code": "76",
-      "province_name_th": "เพชรบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "760703",
-      "subdistrict_name_th": "ปากทะเล",
       "district_name_th": "บ้านแหลม",
       "province_code": "76",
       "province_name_th": "เพชรบุรี",
@@ -57600,15 +53766,6 @@
     {
       "subdistrict_code": "760709",
       "subdistrict_name_th": "ท่าแร้ง",
-      "district_name_th": "บ้านแหลม",
-      "province_code": "76",
-      "province_name_th": "เพชรบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "760710",
-      "subdistrict_name_th": "ท่าแร้งออก",
       "district_name_th": "บ้านแหลม",
       "province_code": "76",
       "province_name_th": "เพชรบุรี",
@@ -57666,15 +53823,6 @@
       "district_name_th": "แก่งกระจาน",
       "province_code": "76",
       "province_name_th": "เพชรบุรี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "770101",
-      "subdistrict_name_th": "ประจวบคีรีขันธ์",
-      "district_name_th": "เมืองประจวบคีรีขันธ์",
-      "province_code": "77",
-      "province_name_th": "ประจวบคีรีขันธ์",
       "value": 0.0,
       "display_value": "0"
     },
@@ -57895,15 +54043,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "770505",
-      "subdistrict_name_th": "ไชยราช",
-      "district_name_th": "บางสะพานน้อย",
-      "province_code": "77",
-      "province_name_th": "ประจวบคีรีขันธ์",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "770601",
       "subdistrict_name_th": "ปราณบุรี",
       "district_name_th": "ปราณบุรี",
@@ -57952,24 +54091,6 @@
       "subdistrict_code": "770609",
       "subdistrict_name_th": "เขาจ้าว",
       "district_name_th": "ปราณบุรี",
-      "province_code": "77",
-      "province_name_th": "ประจวบคีรีขันธ์",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "770701",
-      "subdistrict_name_th": "หัวหิน",
-      "district_name_th": "หัวหิน",
-      "province_code": "77",
-      "province_name_th": "ประจวบคีรีขันธ์",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "770702",
-      "subdistrict_name_th": "หนองแก",
-      "district_name_th": "หัวหิน",
       "province_code": "77",
       "province_name_th": "ประจวบคีรีขันธ์",
       "value": 0.0,
@@ -58053,33 +54174,6 @@
       "district_name_th": "สามร้อยยอด",
       "province_code": "77",
       "province_name_th": "ประจวบคีรีขันธ์",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "800101",
-      "subdistrict_name_th": "ในเมือง",
-      "district_name_th": "เมืองนครศรีธรรมราช",
-      "province_code": "80",
-      "province_name_th": "นครศรีธรรมราช",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "800102",
-      "subdistrict_name_th": "ท่าวัง",
-      "district_name_th": "เมืองนครศรีธรรมราช",
-      "province_code": "80",
-      "province_name_th": "นครศรีธรรมราช",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "800103",
-      "subdistrict_name_th": "คลัง",
-      "district_name_th": "เมืองนครศรีธรรมราช",
-      "province_code": "80",
-      "province_name_th": "นครศรีธรรมราช",
       "value": 0.0,
       "display_value": "0"
     },
@@ -58633,15 +54727,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "800901",
-      "subdistrict_name_th": "ปากแพรก",
-      "district_name_th": "ทุ่งสง",
-      "province_code": "80",
-      "province_name_th": "นครศรีธรรมราช",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "800902",
       "subdistrict_name_th": "ชะมาย",
       "district_name_th": "ทุ่งสง",
@@ -58825,15 +54910,6 @@
       "subdistrict_code": "801107",
       "subdistrict_name_th": "กรุงหยัน",
       "district_name_th": "ทุ่งใหญ่",
-      "province_code": "80",
-      "province_name_th": "นครศรีธรรมราช",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "801201",
-      "subdistrict_name_th": "ปากพนัง",
-      "district_name_th": "ปากพนัง",
       "province_code": "80",
       "province_name_th": "นครศรีธรรมราช",
       "value": 0.0,
@@ -59434,24 +55510,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "810101",
-      "subdistrict_name_th": "ปากน้ำ",
-      "district_name_th": "เมืองกระบี่",
-      "province_code": "81",
-      "province_name_th": "กระบี่",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "810102",
-      "subdistrict_name_th": "กระบี่ใหญ่",
-      "district_name_th": "เมืองกระบี่",
-      "province_code": "81",
-      "province_name_th": "กระบี่",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "810103",
       "subdistrict_name_th": "กระบี่น้อย",
       "district_name_th": "เมืองกระบี่",
@@ -59875,15 +55933,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "820101",
-      "subdistrict_name_th": "ท้ายช้าง",
-      "district_name_th": "เมืองพังงา",
-      "province_code": "82",
-      "province_name_th": "พังงา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "820102",
       "subdistrict_name_th": "นบปริง",
       "district_name_th": "เมืองพังงา",
@@ -60082,15 +56131,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "820501",
-      "subdistrict_name_th": "ตะกั่วป่า",
-      "district_name_th": "ตะกั่วป่า",
-      "province_code": "82",
-      "province_name_th": "พังงา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "820502",
       "subdistrict_name_th": "บางนายสี",
       "district_name_th": "ตะกั่วป่า",
@@ -60280,24 +56320,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "830101",
-      "subdistrict_name_th": "ตลาดใหญ่",
-      "district_name_th": "เมืองภูเก็ต",
-      "province_code": "83",
-      "province_name_th": "ภูเก็ต",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "830102",
-      "subdistrict_name_th": "ตลาดเหนือ",
-      "district_name_th": "เมืองภูเก็ต",
-      "province_code": "83",
-      "province_name_th": "ภูเก็ต",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "830103",
       "subdistrict_name_th": "เกาะแก้ว",
       "district_name_th": "เมืองภูเก็ต",
@@ -60337,24 +56359,6 @@
       "subdistrict_code": "830107",
       "subdistrict_name_th": "ราไวย์",
       "district_name_th": "เมืองภูเก็ต",
-      "province_code": "83",
-      "province_name_th": "ภูเก็ต",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "830201",
-      "subdistrict_name_th": "กะทู้",
-      "district_name_th": "กะทู้",
-      "province_code": "83",
-      "province_name_th": "ภูเก็ต",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "830202",
-      "subdistrict_name_th": "ป่าตอง",
-      "district_name_th": "กะทู้",
       "province_code": "83",
       "province_name_th": "ภูเก็ต",
       "value": 0.0,
@@ -60424,15 +56428,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "840101",
-      "subdistrict_name_th": "ตลาด",
-      "district_name_th": "เมืองสุราษฎร์ธานี",
-      "province_code": "84",
-      "province_name_th": "สุราษฎร์ธานี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "840102",
       "subdistrict_name_th": "มะขามเตี้ย",
       "district_name_th": "เมืองสุราษฎร์ธานี",
@@ -60489,15 +56484,6 @@
     {
       "subdistrict_code": "840109",
       "subdistrict_name_th": "บางโพธิ์",
-      "district_name_th": "เมืองสุราษฎร์ธานี",
-      "province_code": "84",
-      "province_name_th": "สุราษฎร์ธานี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "840110",
-      "subdistrict_name_th": "บางกุ้ง",
       "district_name_th": "เมืองสุราษฎร์ธานี",
       "province_code": "84",
       "province_name_th": "สุราษฎร์ธานี",
@@ -61027,15 +57013,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "841201",
-      "subdistrict_name_th": "นาสาร",
-      "district_name_th": "บ้านนาสาร",
-      "province_code": "84",
-      "province_name_th": "สุราษฎร์ธานี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "841202",
       "subdistrict_name_th": "พรุพี",
       "district_name_th": "บ้านนาสาร",
@@ -61495,15 +57472,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "850101",
-      "subdistrict_name_th": "เขานิเวศน์",
-      "district_name_th": "เมืองระนอง",
-      "province_code": "85",
-      "province_name_th": "ระนอง",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "850102",
       "subdistrict_name_th": "ราชกรูด",
       "district_name_th": "เมืองระนอง",
@@ -61720,15 +57688,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "860101",
-      "subdistrict_name_th": "ท่าตะเภา",
-      "district_name_th": "เมืองชุมพร",
-      "province_code": "86",
-      "province_name_th": "ชุมพร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "860102",
       "subdistrict_name_th": "ปากน้ำ",
       "district_name_th": "เมืองชุมพร",
@@ -61749,6 +57708,15 @@
     {
       "subdistrict_code": "860104",
       "subdistrict_name_th": "บางหมาก",
+      "district_name_th": "เมืองชุมพร",
+      "province_code": "86",
+      "province_name_th": "ชุมพร",
+      "value": 0.0,
+      "display_value": "0"
+    },
+    {
+      "subdistrict_code": "860105",
+      "subdistrict_name_th": "นาทุ่ง",
       "district_name_th": "เมืองชุมพร",
       "province_code": "86",
       "province_name_th": "ชุมพร",
@@ -61993,24 +57961,6 @@
       "subdistrict_code": "860307",
       "subdistrict_name_th": "เขาไชยราช",
       "district_name_th": "ปะทิว",
-      "province_code": "86",
-      "province_name_th": "ชุมพร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "860401",
-      "subdistrict_name_th": "หลังสวน",
-      "district_name_th": "หลังสวน",
-      "province_code": "86",
-      "province_name_th": "ชุมพร",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "860402",
-      "subdistrict_name_th": "ขันเงิน",
-      "district_name_th": "หลังสวน",
       "province_code": "86",
       "province_name_th": "ชุมพร",
       "value": 0.0,
@@ -62305,15 +58255,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "900101",
-      "subdistrict_name_th": "บ่อยาง",
-      "district_name_th": "เมืองสงขลา",
-      "province_code": "90",
-      "province_name_th": "สงขลา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "900102",
       "subdistrict_name_th": "เขารูปช้าง",
       "district_name_th": "เมืองสงขลา",
@@ -62452,6 +58393,15 @@
       "subdistrict_code": "900211",
       "subdistrict_name_th": "บ่อดาน",
       "district_name_th": "สทิงพระ",
+      "province_code": "90",
+      "province_name_th": "สงขลา",
+      "value": 0.0,
+      "display_value": "0"
+    },
+    {
+      "subdistrict_code": "900301",
+      "subdistrict_name_th": "บ้านนา",
+      "district_name_th": "จะนะ",
       "province_code": "90",
       "province_name_th": "สงขลา",
       "value": 0.0,
@@ -62935,15 +58885,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "901001",
-      "subdistrict_name_th": "สะเดา",
-      "district_name_th": "สะเดา",
-      "province_code": "90",
-      "province_name_th": "สงขลา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "901002",
       "subdistrict_name_th": "ปริก",
       "district_name_th": "สะเดา",
@@ -62998,44 +58939,8 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "901101",
-      "subdistrict_name_th": "หาดใหญ่",
-      "district_name_th": "หาดใหญ่",
-      "province_code": "90",
-      "province_name_th": "สงขลา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "901102",
-      "subdistrict_name_th": "ควนลัง",
-      "district_name_th": "หาดใหญ่",
-      "province_code": "90",
-      "province_name_th": "สงขลา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "901103",
       "subdistrict_name_th": "คูเต่า",
-      "district_name_th": "หาดใหญ่",
-      "province_code": "90",
-      "province_name_th": "สงขลา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "901104",
-      "subdistrict_name_th": "คอหงส์",
-      "district_name_th": "หาดใหญ่",
-      "province_code": "90",
-      "province_name_th": "สงขลา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "901105",
-      "subdistrict_name_th": "คลองแห",
       "district_name_th": "หาดใหญ่",
       "province_code": "90",
       "province_name_th": "สงขลา",
@@ -63214,15 +59119,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "901502",
-      "subdistrict_name_th": "สทิงหม้อ",
-      "district_name_th": "สิงหนคร",
-      "province_code": "90",
-      "province_name_th": "สงขลา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "901503",
       "subdistrict_name_th": "ทำนบ",
       "district_name_th": "สิงหนคร",
@@ -63270,15 +59166,6 @@
     {
       "subdistrict_code": "901508",
       "subdistrict_name_th": "ป่าขาด",
-      "district_name_th": "สิงหนคร",
-      "province_code": "90",
-      "province_name_th": "สงขลา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "901509",
-      "subdistrict_name_th": "หัวเขา",
       "district_name_th": "สิงหนคร",
       "province_code": "90",
       "province_name_th": "สงขลา",
@@ -63336,15 +59223,6 @@
       "district_name_th": "คลองหอยโข่ง",
       "province_code": "90",
       "province_name_th": "สงขลา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "910101",
-      "subdistrict_name_th": "พิมาน",
-      "district_name_th": "เมืองสตูล",
-      "province_code": "91",
-      "province_name_th": "สตูล",
       "value": 0.0,
       "display_value": "0"
     },
@@ -63664,15 +59542,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "920101",
-      "subdistrict_name_th": "ทับเที่ยง",
-      "district_name_th": "เมืองตรัง",
-      "province_code": "92",
-      "province_name_th": "ตรัง",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "920104",
       "subdistrict_name_th": "นาพละ",
       "district_name_th": "เมืองตรัง",
@@ -63775,15 +59644,6 @@
       "subdistrict_code": "920120",
       "subdistrict_name_th": "นาท่ามใต้",
       "district_name_th": "เมืองตรัง",
-      "province_code": "92",
-      "province_name_th": "ตรัง",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "920201",
-      "subdistrict_name_th": "กันตัง",
-      "district_name_th": "กันตัง",
       "province_code": "92",
       "province_name_th": "ตรัง",
       "value": 0.0,
@@ -64393,15 +60253,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "930101",
-      "subdistrict_name_th": "คูหาสวรรค์",
-      "district_name_th": "เมืองพัทลุง",
-      "province_code": "93",
-      "province_name_th": "พัทลุง",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "930103",
       "subdistrict_name_th": "เขาเจียก",
       "district_name_th": "เมืองพัทลุง",
@@ -64942,33 +60793,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "940101",
-      "subdistrict_name_th": "สะบารัง",
-      "district_name_th": "เมืองปัตตานี",
-      "province_code": "94",
-      "province_name_th": "ปัตตานี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "940102",
-      "subdistrict_name_th": "อาเนาะรู",
-      "district_name_th": "เมืองปัตตานี",
-      "province_code": "94",
-      "province_name_th": "ปัตตานี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "940103",
-      "subdistrict_name_th": "จะบังติกอ",
-      "district_name_th": "เมืองปัตตานี",
-      "province_code": "94",
-      "province_name_th": "ปัตตานี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "940105",
       "subdistrict_name_th": "ตันหยงลุโละ",
       "district_name_th": "เมืองปัตตานี",
@@ -65464,15 +61288,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "940701",
-      "subdistrict_name_th": "ตะลุบัน",
-      "district_name_th": "สายบุรี",
-      "province_code": "94",
-      "province_name_th": "ปัตตานี",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "940703",
       "subdistrict_name_th": "ปะเสยะวอ",
       "district_name_th": "สายบุรี",
@@ -65860,15 +61675,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "950101",
-      "subdistrict_name_th": "สะเตง",
-      "district_name_th": "เมืองยะลา",
-      "province_code": "95",
-      "province_name_th": "ยะลา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "950102",
       "subdistrict_name_th": "บุดี",
       "district_name_th": "เมืองยะลา",
@@ -65962,15 +61768,6 @@
       "subdistrict_code": "950115",
       "subdistrict_name_th": "บันนังสาเรง",
       "district_name_th": "เมืองยะลา",
-      "province_code": "95",
-      "province_name_th": "ยะลา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "950201",
-      "subdistrict_name_th": "เบตง",
-      "district_name_th": "เบตง",
       "province_code": "95",
       "province_name_th": "ยะลา",
       "value": 0.0,
@@ -66315,15 +62112,6 @@
       "district_name_th": "กรงปินัง",
       "province_code": "95",
       "province_name_th": "ยะลา",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
-      "subdistrict_code": "960101",
-      "subdistrict_name_th": "บางนาค",
-      "district_name_th": "เมืองนราธิวาส",
-      "province_code": "96",
-      "province_name_th": "นราธิวาส",
       "value": 0.0,
       "display_value": "0"
     },
@@ -66823,15 +62611,6 @@
       "display_value": "0"
     },
     {
-      "subdistrict_code": "961001",
-      "subdistrict_name_th": "สุไหงโก-ลก",
-      "district_name_th": "สุไหงโก-ลก",
-      "province_code": "96",
-      "province_name_th": "นราธิวาส",
-      "value": 0.0,
-      "display_value": "0"
-    },
-    {
       "subdistrict_code": "961002",
       "subdistrict_name_th": "ปาเสมัส",
       "district_name_th": "สุไหงโก-ลก",
@@ -67043,83 +62822,83 @@
     ],
     "national_bottom_10": [
       {
-        "subdistrict_code": "100101",
-        "subdistrict_name_th": "พระบรมมหาราชวัง",
-        "value": 0.0,
-        "display_value": "0",
-        "rank_desc": 281,
-        "province_name_th": "กรุงเทพมหานคร"
-      },
-      {
-        "subdistrict_code": "100102",
-        "subdistrict_name_th": "วังบูรพาภิรมย์",
-        "value": 0.0,
-        "display_value": "0",
-        "rank_desc": 281,
-        "province_name_th": "กรุงเทพมหานคร"
-      },
-      {
-        "subdistrict_code": "100103",
-        "subdistrict_name_th": "วัดราชบพิธ",
-        "value": 0.0,
-        "display_value": "0",
-        "rank_desc": 281,
-        "province_name_th": "กรุงเทพมหานคร"
-      },
-      {
-        "subdistrict_code": "100104",
-        "subdistrict_name_th": "สำราญราษฎร์",
-        "value": 0.0,
-        "display_value": "0",
-        "rank_desc": 281,
-        "province_name_th": "กรุงเทพมหานคร"
-      },
-      {
-        "subdistrict_code": "100105",
-        "subdistrict_name_th": "ศาลเจ้าพ่อเสือ",
-        "value": 0.0,
-        "display_value": "0",
-        "rank_desc": 281,
-        "province_name_th": "กรุงเทพมหานคร"
-      },
-      {
         "subdistrict_code": "100106",
         "subdistrict_name_th": "เสาชิงช้า",
         "value": 0.0,
         "display_value": "0",
-        "rank_desc": 281,
+        "rank_desc": 278,
         "province_name_th": "กรุงเทพมหานคร"
       },
       {
-        "subdistrict_code": "100107",
-        "subdistrict_name_th": "บวรนิเวศ",
+        "subdistrict_code": "100112",
+        "subdistrict_name_th": "วัดสามพระยา",
         "value": 0.0,
         "display_value": "0",
-        "rank_desc": 281,
+        "rank_desc": 278,
         "province_name_th": "กรุงเทพมหานคร"
       },
       {
-        "subdistrict_code": "100108",
-        "subdistrict_name_th": "ตลาดยอด",
+        "subdistrict_code": "100202",
+        "subdistrict_name_th": "วชิรพยาบาล",
         "value": 0.0,
         "display_value": "0",
-        "rank_desc": 281,
+        "rank_desc": 278,
         "province_name_th": "กรุงเทพมหานคร"
       },
       {
-        "subdistrict_code": "100109",
-        "subdistrict_name_th": "ชนะสงคราม",
+        "subdistrict_code": "100206",
+        "subdistrict_name_th": "ถนนนครไชยศรี",
         "value": 0.0,
         "display_value": "0",
-        "rank_desc": 281,
+        "rank_desc": 278,
         "province_name_th": "กรุงเทพมหานคร"
       },
       {
-        "subdistrict_code": "100110",
-        "subdistrict_name_th": "บ้านพานถม",
+        "subdistrict_code": "100301",
+        "subdistrict_name_th": "กระทุ่มราย",
         "value": 0.0,
         "display_value": "0",
-        "rank_desc": 281,
+        "rank_desc": 278,
+        "province_name_th": "กรุงเทพมหานคร"
+      },
+      {
+        "subdistrict_code": "100302",
+        "subdistrict_name_th": "หนองจอก",
+        "value": 0.0,
+        "display_value": "0",
+        "rank_desc": 278,
+        "province_name_th": "กรุงเทพมหานคร"
+      },
+      {
+        "subdistrict_code": "100303",
+        "subdistrict_name_th": "คลองสิบ",
+        "value": 0.0,
+        "display_value": "0",
+        "rank_desc": 278,
+        "province_name_th": "กรุงเทพมหานคร"
+      },
+      {
+        "subdistrict_code": "100304",
+        "subdistrict_name_th": "คลองสิบสอง",
+        "value": 0.0,
+        "display_value": "0",
+        "rank_desc": 278,
+        "province_name_th": "กรุงเทพมหานคร"
+      },
+      {
+        "subdistrict_code": "100305",
+        "subdistrict_name_th": "โคกแฝด",
+        "value": 0.0,
+        "display_value": "0",
+        "rank_desc": 278,
+        "province_name_th": "กรุงเทพมหานคร"
+      },
+      {
+        "subdistrict_code": "100306",
+        "subdistrict_name_th": "คู้ฝั่งเหนือ",
+        "value": 0.0,
+        "display_value": "0",
+        "rank_desc": 278,
         "province_name_th": "กรุงเทพมหานคร"
       }
     ]

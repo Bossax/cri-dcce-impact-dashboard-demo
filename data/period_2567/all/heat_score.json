@@ -1,20 +1,20 @@
 {
-  "metric_key": "heat_injured",
-  "metric_label": "Heat-Related Injured",
+  "metric_key": "heat_score",
+  "metric_label": "Heatwave Casualty Score",
   "period_key": "period_2567",
   "period_label": "2567 only",
-  "unit_label": "Annual injuries",
+  "unit_label": "Score [0-1]",
   "source_mode": "single_year",
   "unit_metadata": {
-    "primary_unit": "Annual injuries",
+    "primary_unit": "Score [0-1]",
     "is_rate": false,
     "is_normalized_score": false
   },
   "legend": {
     "min": 0.0,
-    "max": 3.0,
+    "max": 0.6111111111111112,
     "display_min": "0",
-    "display_max": "3",
+    "display_max": "0.611111",
     "color_scheme": "OrRd"
   },
   "records": [
@@ -26,7 +26,7 @@
       "normalized_score": null,
       "value": 0.0,
       "display_value": "0.0000",
-      "rank_desc": 5,
+      "rank_desc": 33,
       "normalized_value": null
     },
     {
@@ -37,7 +37,7 @@
       "normalized_score": null,
       "value": 0.0,
       "display_value": "0.0000",
-      "rank_desc": 5,
+      "rank_desc": 33,
       "normalized_value": null
     },
     {
@@ -48,7 +48,7 @@
       "normalized_score": null,
       "value": 0.0,
       "display_value": "0.0000",
-      "rank_desc": 5,
+      "rank_desc": 33,
       "normalized_value": null
     },
     {
@@ -59,7 +59,7 @@
       "normalized_score": null,
       "value": 0.0,
       "display_value": "0.0000",
-      "rank_desc": 5,
+      "rank_desc": 33,
       "normalized_value": null
     },
     {
@@ -70,18 +70,18 @@
       "normalized_score": null,
       "value": 0.0,
       "display_value": "0.0000",
-      "rank_desc": 5,
+      "rank_desc": 33,
       "normalized_value": null
     },
     {
       "province_code": "40",
       "province_name_th": "ขอนแก่น",
       "province_name_en": null,
-      "raw_value": 0.0,
+      "raw_value": 0.16666666666666666,
       "normalized_score": null,
-      "value": 0.0,
-      "display_value": "0.0000",
-      "rank_desc": 5,
+      "value": 0.16666666666666666,
+      "display_value": "0.1667",
+      "rank_desc": 8,
       "normalized_value": null
     },
     {
@@ -92,51 +92,51 @@
       "normalized_score": null,
       "value": 0.0,
       "display_value": "0.0000",
-      "rank_desc": 5,
+      "rank_desc": 33,
       "normalized_value": null
     },
     {
       "province_code": "24",
       "province_name_th": "ฉะเชิงเทรา",
       "province_name_en": null,
-      "raw_value": 0.0,
+      "raw_value": 0.05555555555555555,
       "normalized_score": null,
-      "value": 0.0,
-      "display_value": "0.0000",
-      "rank_desc": 5,
+      "value": 0.05555555555555555,
+      "display_value": "0.0556",
+      "rank_desc": 18,
       "normalized_value": null
     },
     {
       "province_code": "20",
       "province_name_th": "ชลบุรี",
       "province_name_en": null,
-      "raw_value": 1.0,
+      "raw_value": 0.2777777777777778,
       "normalized_score": null,
-      "value": 1.0,
-      "display_value": "1.0000",
-      "rank_desc": 2,
+      "value": 0.2777777777777778,
+      "display_value": "0.2778",
+      "rank_desc": 3,
       "normalized_value": null
     },
     {
       "province_code": "18",
       "province_name_th": "ชัยนาท",
       "province_name_en": null,
-      "raw_value": 0.0,
+      "raw_value": 0.1111111111111111,
       "normalized_score": null,
-      "value": 0.0,
-      "display_value": "0.0000",
-      "rank_desc": 5,
+      "value": 0.1111111111111111,
+      "display_value": "0.1111",
+      "rank_desc": 13,
       "normalized_value": null
     },
     {
       "province_code": "36",
       "province_name_th": "ชัยภูมิ",
       "province_name_en": null,
-      "raw_value": 0.0,
+      "raw_value": 0.2222222222222222,
       "normalized_score": null,
-      "value": 0.0,
-      "display_value": "0.0000",
-      "rank_desc": 5,
+      "value": 0.2222222222222222,
+      "display_value": "0.2222",
+      "rank_desc": 4,
       "normalized_value": null
     },
     {
@@ -147,7 +147,7 @@
       "normalized_score": null,
       "value": 0.0,
       "display_value": "0.0000",
-      "rank_desc": 5,
+      "rank_desc": 33,
       "normalized_value": null
     },
     {
@@ -158,18 +158,18 @@
       "normalized_score": null,
       "value": 0.0,
       "display_value": "0.0000",
-      "rank_desc": 5,
+      "rank_desc": 33,
       "normalized_value": null
     },
     {
       "province_code": "50",
       "province_name_th": "เชียงใหม่",
       "province_name_en": null,
-      "raw_value": 0.0,
+      "raw_value": 0.05555555555555555,
       "normalized_score": null,
-      "value": 0.0,
-      "display_value": "0.0000",
-      "rank_desc": 5,
+      "value": 0.05555555555555555,
+      "display_value": "0.0556",
+      "rank_desc": 18,
       "normalized_value": null
     },
     {
@@ -180,7 +180,7 @@
       "normalized_score": null,
       "value": 0.0,
       "display_value": "0.0000",
-      "rank_desc": 5,
+      "rank_desc": 33,
       "normalized_value": null
     },
     {
@@ -191,7 +191,7 @@
       "normalized_score": null,
       "value": 0.0,
       "display_value": "0.0000",
-      "rank_desc": 5,
+      "rank_desc": 33,
       "normalized_value": null
     },
     {
@@ -202,18 +202,18 @@
       "normalized_score": null,
       "value": 0.0,
       "display_value": "0.0000",
-      "rank_desc": 5,
+      "rank_desc": 33,
       "normalized_value": null
     },
     {
       "province_code": "26",
       "province_name_th": "นครนายก",
       "province_name_en": null,
-      "raw_value": 0.0,
+      "raw_value": 0.05555555555555555,
       "normalized_score": null,
-      "value": 0.0,
-      "display_value": "0.0000",
-      "rank_desc": 5,
+      "value": 0.05555555555555555,
+      "display_value": "0.0556",
+      "rank_desc": 18,
       "normalized_value": null
     },
     {
@@ -224,40 +224,40 @@
       "normalized_score": null,
       "value": 0.0,
       "display_value": "0.0000",
-      "rank_desc": 5,
+      "rank_desc": 33,
       "normalized_value": null
     },
     {
       "province_code": "48",
       "province_name_th": "นครพนม",
       "province_name_en": null,
-      "raw_value": 1.0,
+      "raw_value": 0.16666666666666666,
       "normalized_score": null,
-      "value": 1.0,
-      "display_value": "1.0000",
-      "rank_desc": 2,
+      "value": 0.16666666666666666,
+      "display_value": "0.1667",
+      "rank_desc": 8,
       "normalized_value": null
     },
     {
       "province_code": "30",
       "province_name_th": "นครราชสีมา",
       "province_name_en": null,
-      "raw_value": 0.0,
+      "raw_value": 0.2222222222222222,
       "normalized_score": null,
-      "value": 0.0,
-      "display_value": "0.0000",
-      "rank_desc": 5,
+      "value": 0.2222222222222222,
+      "display_value": "0.2222",
+      "rank_desc": 4,
       "normalized_value": null
     },
     {
       "province_code": "80",
       "province_name_th": "นครศรีธรรมราช",
       "province_name_en": null,
-      "raw_value": 0.0,
+      "raw_value": 0.05555555555555555,
       "normalized_score": null,
-      "value": 0.0,
-      "display_value": "0.0000",
-      "rank_desc": 5,
+      "value": 0.05555555555555555,
+      "display_value": "0.0556",
+      "rank_desc": 18,
       "normalized_value": null
     },
     {
@@ -268,7 +268,7 @@
       "normalized_score": null,
       "value": 0.0,
       "display_value": "0.0000",
-      "rank_desc": 5,
+      "rank_desc": 33,
       "normalized_value": null
     },
     {
@@ -279,7 +279,7 @@
       "normalized_score": null,
       "value": 0.0,
       "display_value": "0.0000",
-      "rank_desc": 5,
+      "rank_desc": 33,
       "normalized_value": null
     },
     {
@@ -290,18 +290,18 @@
       "normalized_score": null,
       "value": 0.0,
       "display_value": "0.0000",
-      "rank_desc": 5,
+      "rank_desc": 33,
       "normalized_value": null
     },
     {
       "province_code": "55",
       "province_name_th": "น่าน",
       "province_name_en": null,
-      "raw_value": 0.0,
+      "raw_value": 0.05555555555555555,
       "normalized_score": null,
-      "value": 0.0,
-      "display_value": "0.0000",
-      "rank_desc": 5,
+      "value": 0.05555555555555555,
+      "display_value": "0.0556",
+      "rank_desc": 18,
       "normalized_value": null
     },
     {
@@ -312,50 +312,50 @@
       "normalized_score": null,
       "value": 0.0,
       "display_value": "0.0000",
-      "rank_desc": 5,
+      "rank_desc": 33,
       "normalized_value": null
     },
     {
       "province_code": "31",
       "province_name_th": "บุรีรัมย์",
       "province_name_en": null,
-      "raw_value": 0.0,
+      "raw_value": 0.16666666666666666,
       "normalized_score": null,
-      "value": 0.0,
-      "display_value": "0.0000",
-      "rank_desc": 5,
+      "value": 0.16666666666666666,
+      "display_value": "0.1667",
+      "rank_desc": 8,
       "normalized_value": null
     },
     {
       "province_code": "13",
       "province_name_th": "ปทุมธานี",
       "province_name_en": null,
-      "raw_value": 0.0,
+      "raw_value": 0.05555555555555555,
       "normalized_score": null,
-      "value": 0.0,
-      "display_value": "0.0000",
-      "rank_desc": 5,
+      "value": 0.05555555555555555,
+      "display_value": "0.0556",
+      "rank_desc": 18,
       "normalized_value": null
     },
     {
       "province_code": "77",
       "province_name_th": "ประจวบคีรีขันธ์",
       "province_name_en": null,
-      "raw_value": 0.0,
+      "raw_value": 0.05555555555555555,
       "normalized_score": null,
-      "value": 0.0,
-      "display_value": "0.0000",
-      "rank_desc": 5,
+      "value": 0.05555555555555555,
+      "display_value": "0.0556",
+      "rank_desc": 18,
       "normalized_value": null
     },
     {
       "province_code": "25",
       "province_name_th": "ปราจีนบุรี",
       "province_name_en": null,
-      "raw_value": 3.0,
+      "raw_value": 0.6111111111111112,
       "normalized_score": null,
-      "value": 3.0,
-      "display_value": "3.0000",
+      "value": 0.6111111111111112,
+      "display_value": "0.6111",
       "rank_desc": 1,
       "normalized_value": null
     },
@@ -367,29 +367,29 @@
       "normalized_score": null,
       "value": 0.0,
       "display_value": "0.0000",
-      "rank_desc": 5,
+      "rank_desc": 33,
       "normalized_value": null
     },
     {
       "province_code": "14",
       "province_name_th": "พระนครศรีอยุธยา",
       "province_name_en": null,
-      "raw_value": 0.0,
+      "raw_value": 0.05555555555555555,
       "normalized_score": null,
-      "value": 0.0,
-      "display_value": "0.0000",
-      "rank_desc": 5,
+      "value": 0.05555555555555555,
+      "display_value": "0.0556",
+      "rank_desc": 18,
       "normalized_value": null
     },
     {
       "province_code": "56",
       "province_name_th": "พะเยา",
       "province_name_en": null,
-      "raw_value": 0.0,
+      "raw_value": 0.05555555555555555,
       "normalized_score": null,
-      "value": 0.0,
-      "display_value": "0.0000",
-      "rank_desc": 5,
+      "value": 0.05555555555555555,
+      "display_value": "0.0556",
+      "rank_desc": 18,
       "normalized_value": null
     },
     {
@@ -400,7 +400,7 @@
       "normalized_score": null,
       "value": 0.0,
       "display_value": "0.0000",
-      "rank_desc": 5,
+      "rank_desc": 33,
       "normalized_value": null
     },
     {
@@ -411,7 +411,7 @@
       "normalized_score": null,
       "value": 0.0,
       "display_value": "0.0000",
-      "rank_desc": 5,
+      "rank_desc": 33,
       "normalized_value": null
     },
     {
@@ -422,7 +422,7 @@
       "normalized_score": null,
       "value": 0.0,
       "display_value": "0.0000",
-      "rank_desc": 5,
+      "rank_desc": 33,
       "normalized_value": null
     },
     {
@@ -433,7 +433,7 @@
       "normalized_score": null,
       "value": 0.0,
       "display_value": "0.0000",
-      "rank_desc": 5,
+      "rank_desc": 33,
       "normalized_value": null
     },
     {
@@ -444,7 +444,7 @@
       "normalized_score": null,
       "value": 0.0,
       "display_value": "0.0000",
-      "rank_desc": 5,
+      "rank_desc": 33,
       "normalized_value": null
     },
     {
@@ -455,18 +455,18 @@
       "normalized_score": null,
       "value": 0.0,
       "display_value": "0.0000",
-      "rank_desc": 5,
+      "rank_desc": 33,
       "normalized_value": null
     },
     {
       "province_code": "54",
       "province_name_th": "แพร่",
       "province_name_en": null,
-      "raw_value": 0.0,
+      "raw_value": 0.1111111111111111,
       "normalized_score": null,
-      "value": 0.0,
-      "display_value": "0.0000",
-      "rank_desc": 5,
+      "value": 0.1111111111111111,
+      "display_value": "0.1111",
+      "rank_desc": 13,
       "normalized_value": null
     },
     {
@@ -477,40 +477,40 @@
       "normalized_score": null,
       "value": 0.0,
       "display_value": "0.0000",
-      "rank_desc": 5,
+      "rank_desc": 33,
       "normalized_value": null
     },
     {
       "province_code": "44",
       "province_name_th": "มหาสารคาม",
       "province_name_en": null,
-      "raw_value": 0.0,
+      "raw_value": 0.05555555555555555,
       "normalized_score": null,
-      "value": 0.0,
-      "display_value": "0.0000",
-      "rank_desc": 5,
+      "value": 0.05555555555555555,
+      "display_value": "0.0556",
+      "rank_desc": 18,
       "normalized_value": null
     },
     {
       "province_code": "49",
       "province_name_th": "มุกดาหาร",
       "province_name_en": null,
-      "raw_value": 0.0,
+      "raw_value": 0.05555555555555555,
       "normalized_score": null,
-      "value": 0.0,
-      "display_value": "0.0000",
-      "rank_desc": 5,
+      "value": 0.05555555555555555,
+      "display_value": "0.0556",
+      "rank_desc": 18,
       "normalized_value": null
     },
     {
       "province_code": "58",
       "province_name_th": "แม่ฮ่องสอน",
       "province_name_en": null,
-      "raw_value": 0.0,
+      "raw_value": 0.05555555555555555,
       "normalized_score": null,
-      "value": 0.0,
-      "display_value": "0.0000",
-      "rank_desc": 5,
+      "value": 0.05555555555555555,
+      "display_value": "0.0556",
+      "rank_desc": 18,
       "normalized_value": null
     },
     {
@@ -521,7 +521,7 @@
       "normalized_score": null,
       "value": 0.0,
       "display_value": "0.0000",
-      "rank_desc": 5,
+      "rank_desc": 33,
       "normalized_value": null
     },
     {
@@ -532,7 +532,7 @@
       "normalized_score": null,
       "value": 0.0,
       "display_value": "0.0000",
-      "rank_desc": 5,
+      "rank_desc": 33,
       "normalized_value": null
     },
     {
@@ -543,7 +543,7 @@
       "normalized_score": null,
       "value": 0.0,
       "display_value": "0.0000",
-      "rank_desc": 5,
+      "rank_desc": 33,
       "normalized_value": null
     },
     {
@@ -554,18 +554,18 @@
       "normalized_score": null,
       "value": 0.0,
       "display_value": "0.0000",
-      "rank_desc": 5,
+      "rank_desc": 33,
       "normalized_value": null
     },
     {
       "province_code": "21",
       "province_name_th": "ระยอง",
       "province_name_en": null,
-      "raw_value": 0.0,
+      "raw_value": 0.05555555555555555,
       "normalized_score": null,
-      "value": 0.0,
-      "display_value": "0.0000",
-      "rank_desc": 5,
+      "value": 0.05555555555555555,
+      "display_value": "0.0556",
+      "rank_desc": 18,
       "normalized_value": null
     },
     {
@@ -576,7 +576,7 @@
       "normalized_score": null,
       "value": 0.0,
       "display_value": "0.0000",
-      "rank_desc": 5,
+      "rank_desc": 33,
       "normalized_value": null
     },
     {
@@ -587,29 +587,29 @@
       "normalized_score": null,
       "value": 0.0,
       "display_value": "0.0000",
-      "rank_desc": 5,
+      "rank_desc": 33,
       "normalized_value": null
     },
     {
       "province_code": "52",
       "province_name_th": "ลำปาง",
       "province_name_en": null,
-      "raw_value": 0.0,
+      "raw_value": 0.1111111111111111,
       "normalized_score": null,
-      "value": 0.0,
-      "display_value": "0.0000",
-      "rank_desc": 5,
+      "value": 0.1111111111111111,
+      "display_value": "0.1111",
+      "rank_desc": 13,
       "normalized_value": null
     },
     {
       "province_code": "51",
       "province_name_th": "ลำพูน",
       "province_name_en": null,
-      "raw_value": 0.0,
+      "raw_value": 0.1111111111111111,
       "normalized_score": null,
-      "value": 0.0,
-      "display_value": "0.0000",
-      "rank_desc": 5,
+      "value": 0.1111111111111111,
+      "display_value": "0.1111",
+      "rank_desc": 13,
       "normalized_value": null
     },
     {
@@ -620,18 +620,18 @@
       "normalized_score": null,
       "value": 0.0,
       "display_value": "0.0000",
-      "rank_desc": 5,
+      "rank_desc": 33,
       "normalized_value": null
     },
     {
       "province_code": "33",
       "province_name_th": "ศรีสะเกษ",
       "province_name_en": null,
-      "raw_value": 0.0,
+      "raw_value": 0.2222222222222222,
       "normalized_score": null,
-      "value": 0.0,
-      "display_value": "0.0000",
-      "rank_desc": 5,
+      "value": 0.2222222222222222,
+      "display_value": "0.2222",
+      "rank_desc": 4,
       "normalized_value": null
     },
     {
@@ -642,7 +642,7 @@
       "normalized_score": null,
       "value": 0.0,
       "display_value": "0.0000",
-      "rank_desc": 5,
+      "rank_desc": 33,
       "normalized_value": null
     },
     {
@@ -653,7 +653,7 @@
       "normalized_score": null,
       "value": 0.0,
       "display_value": "0.0000",
-      "rank_desc": 5,
+      "rank_desc": 33,
       "normalized_value": null
     },
     {
@@ -664,29 +664,29 @@
       "normalized_score": null,
       "value": 0.0,
       "display_value": "0.0000",
-      "rank_desc": 5,
+      "rank_desc": 33,
       "normalized_value": null
     },
     {
       "province_code": "11",
       "province_name_th": "สมุทรปราการ",
       "province_name_en": null,
-      "raw_value": 0.0,
+      "raw_value": 0.05555555555555555,
       "normalized_score": null,
-      "value": 0.0,
-      "display_value": "0.0000",
-      "rank_desc": 5,
+      "value": 0.05555555555555555,
+      "display_value": "0.0556",
+      "rank_desc": 18,
       "normalized_value": null
     },
     {
       "province_code": "75",
       "province_name_th": "สมุทรสงคราม",
       "province_name_en": null,
-      "raw_value": 0.0,
+      "raw_value": 0.16666666666666666,
       "normalized_score": null,
-      "value": 0.0,
-      "display_value": "0.0000",
-      "rank_desc": 5,
+      "value": 0.16666666666666666,
+      "display_value": "0.1667",
+      "rank_desc": 8,
       "normalized_value": null
     },
     {
@@ -697,7 +697,7 @@
       "normalized_score": null,
       "value": 0.0,
       "display_value": "0.0000",
-      "rank_desc": 5,
+      "rank_desc": 33,
       "normalized_value": null
     },
     {
@@ -708,7 +708,7 @@
       "normalized_score": null,
       "value": 0.0,
       "display_value": "0.0000",
-      "rank_desc": 5,
+      "rank_desc": 33,
       "normalized_value": null
     },
     {
@@ -719,7 +719,7 @@
       "normalized_score": null,
       "value": 0.0,
       "display_value": "0.0000",
-      "rank_desc": 5,
+      "rank_desc": 33,
       "normalized_value": null
     },
     {
@@ -730,7 +730,7 @@
       "normalized_score": null,
       "value": 0.0,
       "display_value": "0.0000",
-      "rank_desc": 5,
+      "rank_desc": 33,
       "normalized_value": null
     },
     {
@@ -741,7 +741,7 @@
       "normalized_score": null,
       "value": 0.0,
       "display_value": "0.0000",
-      "rank_desc": 5,
+      "rank_desc": 33,
       "normalized_value": null
     },
     {
@@ -752,29 +752,29 @@
       "normalized_score": null,
       "value": 0.0,
       "display_value": "0.0000",
-      "rank_desc": 5,
+      "rank_desc": 33,
       "normalized_value": null
     },
     {
       "province_code": "84",
       "province_name_th": "สุราษฎร์ธานี",
       "province_name_en": null,
-      "raw_value": 0.0,
+      "raw_value": 0.1111111111111111,
       "normalized_score": null,
-      "value": 0.0,
-      "display_value": "0.0000",
-      "rank_desc": 5,
+      "value": 0.1111111111111111,
+      "display_value": "0.1111",
+      "rank_desc": 13,
       "normalized_value": null
     },
     {
       "province_code": "32",
       "province_name_th": "สุรินทร์",
       "province_name_en": null,
-      "raw_value": 0.0,
+      "raw_value": 0.16666666666666666,
       "normalized_score": null,
-      "value": 0.0,
-      "display_value": "0.0000",
-      "rank_desc": 5,
+      "value": 0.16666666666666666,
+      "display_value": "0.1667",
+      "rank_desc": 8,
       "normalized_value": null
     },
     {
@@ -785,7 +785,7 @@
       "normalized_score": null,
       "value": 0.0,
       "display_value": "0.0000",
-      "rank_desc": 5,
+      "rank_desc": 33,
       "normalized_value": null
     },
     {
@@ -796,7 +796,7 @@
       "normalized_score": null,
       "value": 0.0,
       "display_value": "0.0000",
-      "rank_desc": 5,
+      "rank_desc": 33,
       "normalized_value": null
     },
     {
@@ -807,29 +807,29 @@
       "normalized_score": null,
       "value": 0.0,
       "display_value": "0.0000",
-      "rank_desc": 5,
+      "rank_desc": 33,
       "normalized_value": null
     },
     {
       "province_code": "37",
       "province_name_th": "อำนาจเจริญ",
       "province_name_en": null,
-      "raw_value": 0.0,
+      "raw_value": 0.05555555555555555,
       "normalized_score": null,
-      "value": 0.0,
-      "display_value": "0.0000",
-      "rank_desc": 5,
+      "value": 0.05555555555555555,
+      "display_value": "0.0556",
+      "rank_desc": 18,
       "normalized_value": null
     },
     {
       "province_code": "41",
       "province_name_th": "อุดรธานี",
       "province_name_en": null,
-      "raw_value": 0.0,
+      "raw_value": 0.5,
       "normalized_score": null,
-      "value": 0.0,
-      "display_value": "0.0000",
-      "rank_desc": 5,
+      "value": 0.5,
+      "display_value": "0.5000",
+      "rank_desc": 2,
       "normalized_value": null
     },
     {
@@ -840,7 +840,7 @@
       "normalized_score": null,
       "value": 0.0,
       "display_value": "0.0000",
-      "rank_desc": 5,
+      "rank_desc": 33,
       "normalized_value": null
     },
     {
@@ -851,18 +851,18 @@
       "normalized_score": null,
       "value": 0.0,
       "display_value": "0.0000",
-      "rank_desc": 5,
+      "rank_desc": 33,
       "normalized_value": null
     },
     {
       "province_code": "34",
       "province_name_th": "อุบลราชธานี",
       "province_name_en": null,
-      "raw_value": 1.0,
+      "raw_value": 0.2222222222222222,
       "normalized_score": null,
-      "value": 1.0,
-      "display_value": "1.0000",
-      "rank_desc": 2,
+      "value": 0.2222222222222222,
+      "display_value": "0.2222",
+      "rank_desc": 4,
       "normalized_value": null
     }
   ],
@@ -871,81 +871,81 @@
       {
         "province_code": "25",
         "province_name_th": "ปราจีนบุรี",
-        "value": 3.0,
-        "display_value": "3.0000",
+        "value": 0.6111111111111112,
+        "display_value": "0.6111",
         "rank_desc": 1,
+        "province_name_en": null
+      },
+      {
+        "province_code": "41",
+        "province_name_th": "อุดรธานี",
+        "value": 0.5,
+        "display_value": "0.5000",
+        "rank_desc": 2,
         "province_name_en": null
       },
       {
         "province_code": "20",
         "province_name_th": "ชลบุรี",
-        "value": 1.0,
-        "display_value": "1.0000",
-        "rank_desc": 2,
+        "value": 0.2777777777777778,
+        "display_value": "0.2778",
+        "rank_desc": 3,
+        "province_name_en": null
+      },
+      {
+        "province_code": "30",
+        "province_name_th": "นครราชสีมา",
+        "value": 0.2222222222222222,
+        "display_value": "0.2222",
+        "rank_desc": 4,
+        "province_name_en": null
+      },
+      {
+        "province_code": "33",
+        "province_name_th": "ศรีสะเกษ",
+        "value": 0.2222222222222222,
+        "display_value": "0.2222",
+        "rank_desc": 4,
         "province_name_en": null
       },
       {
         "province_code": "34",
         "province_name_th": "อุบลราชธานี",
-        "value": 1.0,
-        "display_value": "1.0000",
-        "rank_desc": 2,
+        "value": 0.2222222222222222,
+        "display_value": "0.2222",
+        "rank_desc": 4,
         "province_name_en": null
       },
       {
-        "province_code": "48",
-        "province_name_th": "นครพนม",
-        "value": 1.0,
-        "display_value": "1.0000",
-        "rank_desc": 2,
+        "province_code": "36",
+        "province_name_th": "ชัยภูมิ",
+        "value": 0.2222222222222222,
+        "display_value": "0.2222",
+        "rank_desc": 4,
         "province_name_en": null
       },
       {
-        "province_code": "10",
-        "province_name_th": "กรุงเทพมหานคร",
-        "value": 0.0,
-        "display_value": "0.0000",
-        "rank_desc": 5,
+        "province_code": "31",
+        "province_name_th": "บุรีรัมย์",
+        "value": 0.16666666666666666,
+        "display_value": "0.1667",
+        "rank_desc": 8,
         "province_name_en": null
       },
       {
-        "province_code": "11",
-        "province_name_th": "สมุทรปราการ",
-        "value": 0.0,
-        "display_value": "0.0000",
-        "rank_desc": 5,
+        "province_code": "32",
+        "province_name_th": "สุรินทร์",
+        "value": 0.16666666666666666,
+        "display_value": "0.1667",
+        "rank_desc": 8,
         "province_name_en": null
       },
       {
-        "province_code": "12",
-        "province_name_th": "นนทบุรี",
-        "value": 0.0,
-        "display_value": "0.0000",
-        "rank_desc": 5,
-        "province_name_en": null
-      },
-      {
-        "province_code": "13",
-        "province_name_th": "ปทุมธานี",
-        "value": 0.0,
-        "display_value": "0.0000",
-        "rank_desc": 5,
-        "province_name_en": null
-      },
-      {
-        "province_code": "14",
-        "province_name_th": "พระนครศรีอยุธยา",
-        "value": 0.0,
-        "display_value": "0.0000",
-        "rank_desc": 5,
-        "province_name_en": null
-      },
-      {
-        "province_code": "15",
-        "province_name_th": "อ่างทอง",
-        "value": 0.0,
-        "display_value": "0.0000",
-        "rank_desc": 5,
+        "province_code": "40",
+        "province_name_th": "ขอนแก่น",
+        "value": 0.16666666666666666,
+        "display_value": "0.1667",
+        "rank_desc": 8,
         "province_name_en": null
       }
     ],
@@ -955,15 +955,7 @@
         "province_name_th": "กรุงเทพมหานคร",
         "value": 0.0,
         "display_value": "0.0000",
-        "rank_desc": 5,
-        "province_name_en": null
-      },
-      {
-        "province_code": "11",
-        "province_name_th": "สมุทรปราการ",
-        "value": 0.0,
-        "display_value": "0.0000",
-        "rank_desc": 5,
+        "rank_desc": 33,
         "province_name_en": null
       },
       {
@@ -971,23 +963,7 @@
         "province_name_th": "นนทบุรี",
         "value": 0.0,
         "display_value": "0.0000",
-        "rank_desc": 5,
-        "province_name_en": null
-      },
-      {
-        "province_code": "13",
-        "province_name_th": "ปทุมธานี",
-        "value": 0.0,
-        "display_value": "0.0000",
-        "rank_desc": 5,
-        "province_name_en": null
-      },
-      {
-        "province_code": "14",
-        "province_name_th": "พระนครศรีอยุธยา",
-        "value": 0.0,
-        "display_value": "0.0000",
-        "rank_desc": 5,
+        "rank_desc": 33,
         "province_name_en": null
       },
       {
@@ -995,7 +971,7 @@
         "province_name_th": "อ่างทอง",
         "value": 0.0,
         "display_value": "0.0000",
-        "rank_desc": 5,
+        "rank_desc": 33,
         "province_name_en": null
       },
       {
@@ -1003,7 +979,7 @@
         "province_name_th": "ลพบุรี",
         "value": 0.0,
         "display_value": "0.0000",
-        "rank_desc": 5,
+        "rank_desc": 33,
         "province_name_en": null
       },
       {
@@ -1011,15 +987,7 @@
         "province_name_th": "สิงห์บุรี",
         "value": 0.0,
         "display_value": "0.0000",
-        "rank_desc": 5,
-        "province_name_en": null
-      },
-      {
-        "province_code": "18",
-        "province_name_th": "ชัยนาท",
-        "value": 0.0,
-        "display_value": "0.0000",
-        "rank_desc": 5,
+        "rank_desc": 33,
         "province_name_en": null
       },
       {
@@ -1027,7 +995,39 @@
         "province_name_th": "สระบุรี",
         "value": 0.0,
         "display_value": "0.0000",
-        "rank_desc": 5,
+        "rank_desc": 33,
+        "province_name_en": null
+      },
+      {
+        "province_code": "22",
+        "province_name_th": "จันทบุรี",
+        "value": 0.0,
+        "display_value": "0.0000",
+        "rank_desc": 33,
+        "province_name_en": null
+      },
+      {
+        "province_code": "23",
+        "province_name_th": "ตราด",
+        "value": 0.0,
+        "display_value": "0.0000",
+        "rank_desc": 33,
+        "province_name_en": null
+      },
+      {
+        "province_code": "27",
+        "province_name_th": "สระแก้ว",
+        "value": 0.0,
+        "display_value": "0.0000",
+        "rank_desc": 33,
+        "province_name_en": null
+      },
+      {
+        "province_code": "35",
+        "province_name_th": "ยโสธร",
+        "value": 0.0,
+        "display_value": "0.0000",
+        "rank_desc": 33,
         "province_name_en": null
       }
     ]

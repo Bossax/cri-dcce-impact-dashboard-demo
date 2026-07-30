@@ -7,13 +7,22 @@
   "source_mode": "average_window",
   "records": [
     {
+      "subdistrict_code": "571504",
+      "subdistrict_name_th": "แม่ฟ้าหลวง",
+      "district_name_th": "แม่ฟ้าหลวง",
+      "province_code": "57",
+      "province_name_th": "เชียงราย",
+      "value": 872.081505499396,
+      "display_value": "872.081505"
+    },
+    {
       "subdistrict_code": "570112",
       "subdistrict_name_th": "ห้วยชมภู",
       "district_name_th": "เมืองเชียงราย",
       "province_code": "57",
       "province_name_th": "เชียงราย",
-      "value": 220.4900474819237,
-      "display_value": "220.490047"
+      "value": 219.79082917445797,
+      "display_value": "219.790829"
     },
     {
       "subdistrict_code": "571502",
@@ -34,15 +43,6 @@
       "display_value": "100.420477"
     },
     {
-      "subdistrict_code": "571503",
-      "subdistrict_name_th": "แม่สลองนอก",
-      "district_name_th": "แม่ฟ้าหลวง",
-      "province_code": "57",
-      "province_name_th": "เชียงราย",
-      "value": 90.06037663490415,
-      "display_value": "90.060377"
-    },
-    {
       "subdistrict_code": "950404",
       "subdistrict_name_th": "คีรีเขต",
       "district_name_th": "ธารโต",
@@ -50,6 +50,15 @@
       "province_name_th": "ยะลา",
       "value": 86.59813084112149,
       "display_value": "86.598131"
+    },
+    {
+      "subdistrict_code": "571503",
+      "subdistrict_name_th": "แม่สลองนอก",
+      "district_name_th": "แม่ฟ้าหลวง",
+      "province_code": "57",
+      "province_name_th": "เชียงราย",
+      "value": 84.08812256473675,
+      "display_value": "84.088123"
     },
     {
       "subdistrict_code": "630803",
@@ -75,8 +84,8 @@
       "district_name_th": "สิชล",
       "province_code": "80",
       "province_name_th": "นครศรีธรรมราช",
-      "value": 50.91791517197721,
-      "display_value": "50.917915"
+      "value": 50.51698670605613,
+      "display_value": "50.516987"
     },
     {
       "subdistrict_code": "570106",
@@ -183,8 +192,8 @@
       "district_name_th": "แม่สรวย",
       "province_code": "57",
       "province_name_th": "เชียงราย",
-      "value": 15.60040793766257,
-      "display_value": "15.600408"
+      "value": 15.208889283800074,
+      "display_value": "15.208889"
     },
     {
       "subdistrict_code": "502002",
@@ -223,15 +232,6 @@
       "display_value": "11.203523"
     },
     {
-      "subdistrict_code": "801404",
-      "subdistrict_name_th": "เสาเภา",
-      "district_name_th": "สิชล",
-      "province_code": "80",
-      "province_name_th": "นครศรีธรรมราช",
-      "value": 10.983804793781042,
-      "display_value": "10.983805"
-    },
-    {
       "subdistrict_code": "801401",
       "subdistrict_name_th": "สิชล",
       "district_name_th": "สิชล",
@@ -239,6 +239,15 @@
       "province_name_th": "นครศรีธรรมราช",
       "value": 10.537406064231503,
       "display_value": "10.537406"
+    },
+    {
+      "subdistrict_code": "801404",
+      "subdistrict_name_th": "เสาเภา",
+      "district_name_th": "สิชล",
+      "province_code": "80",
+      "province_name_th": "นครศรีธรรมราช",
+      "value": 10.22630101489959,
+      "display_value": "10.226301"
     },
     {
       "subdistrict_code": "660111",
@@ -572,15 +581,6 @@
       "province_name_th": "เพชรบุรี",
       "value": 2.504731861198738,
       "display_value": "2.504732"
-    },
-    {
-      "subdistrict_code": "571504",
-      "subdistrict_name_th": "แม่ฟ้าหลวง",
-      "district_name_th": "แม่ฟ้าหลวง",
-      "province_code": "57",
-      "province_name_th": "เชียงราย",
-      "value": 2.4728209040625595,
-      "display_value": "2.472821"
     },
     {
       "subdistrict_code": "571001",
@@ -2377,11 +2377,19 @@
   "rankings": {
     "national_top_10": [
       {
+        "subdistrict_code": "571504",
+        "subdistrict_name_th": "แม่ฟ้าหลวง",
+        "value": 872.081505499396,
+        "display_value": "872.081505",
+        "rank_desc": 1,
+        "province_name_th": "เชียงราย"
+      },
+      {
         "subdistrict_code": "570112",
         "subdistrict_name_th": "ห้วยชมภู",
-        "value": 220.4900474819237,
-        "display_value": "220.490047",
-        "rank_desc": 1,
+        "value": 219.79082917445797,
+        "display_value": "219.790829",
+        "rank_desc": 2,
         "province_name_th": "เชียงราย"
       },
       {
@@ -2389,7 +2397,7 @@
         "subdistrict_name_th": "แม่สลองใน",
         "value": 182.77628465011216,
         "display_value": "182.776285",
-        "rank_desc": 2,
+        "rank_desc": 3,
         "province_name_th": "เชียงราย"
       },
       {
@@ -2397,16 +2405,8 @@
         "subdistrict_name_th": "แม่หวาด",
         "value": 100.4204766536965,
         "display_value": "100.420477",
-        "rank_desc": 3,
-        "province_name_th": "ยะลา"
-      },
-      {
-        "subdistrict_code": "571503",
-        "subdistrict_name_th": "แม่สลองนอก",
-        "value": 90.06037663490415,
-        "display_value": "90.060377",
         "rank_desc": 4,
-        "province_name_th": "เชียงราย"
+        "province_name_th": "ยะลา"
       },
       {
         "subdistrict_code": "950404",
@@ -2417,11 +2417,19 @@
         "province_name_th": "ยะลา"
       },
       {
+        "subdistrict_code": "571503",
+        "subdistrict_name_th": "แม่สลองนอก",
+        "value": 84.08812256473675,
+        "display_value": "84.088123",
+        "rank_desc": 6,
+        "province_name_th": "เชียงราย"
+      },
+      {
         "subdistrict_code": "630803",
         "subdistrict_name_th": "โมโกร",
         "value": 65.42587963853104,
         "display_value": "65.42588",
-        "rank_desc": 6,
+        "rank_desc": 7,
         "province_name_th": "ตาก"
       },
       {
@@ -2429,15 +2437,15 @@
         "subdistrict_name_th": "เทพราช",
         "value": 52.391351351351354,
         "display_value": "52.391351",
-        "rank_desc": 7,
+        "rank_desc": 8,
         "province_name_th": "นครศรีธรรมราช"
       },
       {
         "subdistrict_code": "801405",
         "subdistrict_name_th": "เปลี่ยน",
-        "value": 50.91791517197721,
-        "display_value": "50.917915",
-        "rank_desc": 8,
+        "value": 50.51698670605613,
+        "display_value": "50.516987",
+        "rank_desc": 9,
         "province_name_th": "นครศรีธรรมราช"
       },
       {
@@ -2445,16 +2453,8 @@
         "subdistrict_name_th": "แม่ยาว",
         "value": 48.13755611910914,
         "display_value": "48.137556",
-        "rank_desc": 9,
-        "province_name_th": "เชียงราย"
-      },
-      {
-        "subdistrict_code": "760706",
-        "subdistrict_name_th": "บางตะบูน",
-        "value": 47.11684055931217,
-        "display_value": "47.116841",
         "rank_desc": 10,
-        "province_name_th": "เพชรบุรี"
+        "province_name_th": "เชียงราย"
       }
     ],
     "national_bottom_10": [

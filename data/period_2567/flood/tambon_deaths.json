@@ -349,15 +349,6 @@
       "display_value": "1"
     },
     {
-      "subdistrict_code": "900301",
-      "subdistrict_name_th": "บ้านนา",
-      "district_name_th": "จะนะ",
-      "province_code": "90",
-      "province_name_th": "สงขลา",
-      "value": 1.0,
-      "display_value": "1"
-    },
-    {
       "subdistrict_code": "900402",
       "subdistrict_name_th": "ฉาง",
       "district_name_th": "นาทวี",
@@ -41623,6 +41614,15 @@
       "display_value": "0"
     },
     {
+      "subdistrict_code": "900301",
+      "subdistrict_name_th": "บ้านนา",
+      "district_name_th": "จะนะ",
+      "province_code": "90",
+      "province_name_th": "สงขลา",
+      "value": 0.0,
+      "display_value": "0"
+    },
+    {
       "subdistrict_code": "900302",
       "subdistrict_name_th": "ป่าชิง",
       "district_name_th": "จะนะ",
@@ -46185,7 +46185,7 @@
         "subdistrict_name_th": "วัดสามพระยา",
         "value": 0.0,
         "display_value": "0",
-        "rank_desc": 60,
+        "rank_desc": 59,
         "province_name_th": "กรุงเทพมหานคร"
       },
       {
@@ -46193,7 +46193,7 @@
         "subdistrict_name_th": "วชิรพยาบาล",
         "value": 0.0,
         "display_value": "0",
-        "rank_desc": 60,
+        "rank_desc": 59,
         "province_name_th": "กรุงเทพมหานคร"
       },
       {
@@ -46201,7 +46201,7 @@
         "subdistrict_name_th": "ถนนนครไชยศรี",
         "value": 0.0,
         "display_value": "0",
-        "rank_desc": 60,
+        "rank_desc": 59,
         "province_name_th": "กรุงเทพมหานคร"
       },
       {
@@ -46209,7 +46209,7 @@
         "subdistrict_name_th": "โคกแฝด",
         "value": 0.0,
         "display_value": "0",
-        "rank_desc": 60,
+        "rank_desc": 59,
         "province_name_th": "กรุงเทพมหานคร"
       },
       {
@@ -46217,7 +46217,7 @@
         "subdistrict_name_th": "ลำผักชี",
         "value": 0.0,
         "display_value": "0",
-        "rank_desc": 60,
+        "rank_desc": 59,
         "province_name_th": "กรุงเทพมหานคร"
       },
       {
@@ -46225,7 +46225,7 @@
         "subdistrict_name_th": "ลำต้อยติ่ง",
         "value": 0.0,
         "display_value": "0",
-        "rank_desc": 60,
+        "rank_desc": 59,
         "province_name_th": "กรุงเทพมหานคร"
       },
       {
@@ -46233,7 +46233,7 @@
         "subdistrict_name_th": "อนุสาวรีย์",
         "value": 0.0,
         "display_value": "0",
-        "rank_desc": 60,
+        "rank_desc": 59,
         "province_name_th": "กรุงเทพมหานคร"
       },
       {
@@ -46241,7 +46241,7 @@
         "subdistrict_name_th": "หัวหมาก",
         "value": 0.0,
         "display_value": "0",
-        "rank_desc": 60,
+        "rank_desc": 59,
         "province_name_th": "กรุงเทพมหานคร"
       },
       {
@@ -46249,7 +46249,7 @@
         "subdistrict_name_th": "บางจาก",
         "value": 0.0,
         "display_value": "0",
-        "rank_desc": 60,
+        "rank_desc": 59,
         "province_name_th": "กรุงเทพมหานคร"
       },
       {
@@ -46257,7 +46257,7 @@
         "subdistrict_name_th": "พระโขนงใต้",
         "value": 0.0,
         "display_value": "0",
-        "rank_desc": 60,
+        "rank_desc": 59,
         "province_name_th": "กรุงเทพมหานคร"
       }
     ]

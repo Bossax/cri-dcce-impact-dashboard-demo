@@ -36,17 +36,17 @@ def _apply_global_style() -> None:
 
 
 def main() -> None:
-    st.set_page_config(page_title="CRI Impact Index", page_icon="🌏", layout="wide", initial_sidebar_state="collapsed")
+    st.set_page_config(page_title="ดัชนีผลกระทบจากความเสี่ยงจากภูมิอากาศ (CRI Impact Index)", page_icon="🌏", layout="wide", initial_sidebar_state="collapsed")
     _apply_global_style()
 
-    st.title("CRI Impact Index")
-    st.caption("v4.3 | 30 July 2026") # release version and date
+    st.title("Thailand Climate Risk Index (CRI)")
+    st.caption("v4.4 | 31 July 2026")
 
     tabs = st.tabs([
-        "Methodology",
-        "CRI",
-        "Tambon-Level Human Impact",
-        "Heat Casualties",
+        "ระเบียบวิธี (Methodology)",
+        "ดัชนี CRI ระดับจังหวัด (Province-Level CRI)",
+        "ผลกระทบต่อมนุษย์ระดับตำบล (Tambon Human Impact)",
+        "ผลกระทบจากความร้อน (Heat Casualties)",
     ])
 
     with tabs[0]:

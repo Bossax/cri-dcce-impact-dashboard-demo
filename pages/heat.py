@@ -9,7 +9,7 @@ from runtime import data
 
 
 def render() -> None:
-    st.header("Heat-Related Casualties & Impact")
+    st.header("ผลกระทบจากความร้อน (Heat-Related Casualties)")
     
     # 1. Setup Columns
     col_ctrl, col_map = st.columns([1, 2])
@@ -17,18 +17,18 @@ def render() -> None:
     with col_ctrl:
         # Time Period
         period_options = [
-            PeriodOption("period_2561_2567", "2561-2567 Average"),
-            PeriodOption("period_2567", "2567 Only"),
+            PeriodOption("period_2561_2567", "ค่าเฉลี่ยปี 2561–2567"),
+            PeriodOption("period_2567", "เฉพาะปี 2567"),
         ]
         period_key = render_period_choice(control_key="heat", options=period_options, default_key="period_2561_2567")
 
         # Metric Selector
         metric_options = {
-            "Heat Casualty Score": "heat_score",
-            "Heat-Related Deaths": "heat_deaths",
-            "Heat-Related Injuries": "heat_injured",
+            "คะแนนผลกระทบจากความร้อน": "heat_score",
+            "จำนวนผู้เสียชีวิตจากความร้อน": "heat_deaths",
+            "จำนวนผู้ได้รับบาดเจ็บจากความร้อน": "heat_injured",
         }
-        selected_label = st.selectbox("Metric Selector", options=list(metric_options.keys()), key="heat_metric_selector")
+        selected_label = st.selectbox("เลือกตัวชี้วัด", options=list(metric_options.keys()), key="heat_metric_selector")
         selected_metric = metric_options[selected_label]
 
 
@@ -37,7 +37,7 @@ def render() -> None:
         rank_rows = data.ranking_rows(dataset)
         summary = data.metric_summary(dataset)
 
-        st.markdown(f"**Ranking: {summary['metric_label']}**")
+        st.markdown(f"**การจัดอันดับ: {summary['metric_label']}**")
         st.caption(f"{summary['unit_label']}")
         st.table(rank_rows)
 
@@ -71,7 +71,7 @@ def render() -> None:
             df_export = df_export.sort_values(by="Rank").reset_index(drop=True)
             csv_data = df_export.to_csv(index=False, encoding="utf-8-sig")
             st.download_button(
-                label="Download All 77 Provinces CSV",
+                label="ดาวน์โหลดข้อมูล 77 จังหวัด (CSV)",
                 data=csv_data,
                 file_name=f"all_provinces_heat_{selected_metric}_{period_key}.csv",
                 mime="text/csv",

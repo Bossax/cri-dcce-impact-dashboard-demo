@@ -9,7 +9,7 @@ from runtime import data
 
 
 def render() -> None:
-    st.header("Province-Level Impact (CRI)")
+    st.header("ผลกระทบระดับจังหวัด (CRI Impact Index)")
     
     # 1. Setup Columns
     col_ctrl, col_map = st.columns([1, 2])
@@ -17,15 +17,15 @@ def render() -> None:
     with col_ctrl:
         # Time Period
         period_options = [
-            PeriodOption("period_2561_2567", "2561-2567 Average"),
-            PeriodOption("period_2567", "2567 Only"),
+            PeriodOption("period_2561_2567", "ค่าเฉลี่ยปี 2561–2567"),
+            PeriodOption("period_2567", "เฉพาะปี 2567"),
         ]
         period_key = render_period_choice(control_key="cri", options=period_options, default_key="period_2561_2567")
 
         # Hazard Selector
         hazard_options = data.available_hazard_options()
         selected_hazard = st.selectbox(
-            "Hazard Selector",
+            "เลือกประเภทภัยพิบัติ",
             options=hazard_options,
             format_func=lambda x: x["hazard_label"],
             key="cri_hazard_selector"
@@ -36,18 +36,18 @@ def render() -> None:
         metric_options = {}
         # Only complete hazards have CRI score
         if hazard_key not in ["landslide", "wildfire", "cold_spell"]:
-            metric_options["CRI Score"] = "cri_score"
+            metric_options["คะแนน CRI ภาพรวม"] = "cri_score"
             
         metric_options.update({
-            "Deaths (Score)": "deaths_abs",
-            "Death Rate (Score)": "deaths_rate",
-            "Affected People (Score)": "affected_ppl_abs",
-            "Affected People Rate (Score)": "affected_ppl_rate",
-            "Economic Loss (Score)": "loss_abs",
-            "Economic Loss per GPP (Score)": "loss_per_gpp",
+            "จำนวนผู้เสียชีวิต (คะแนน)": "deaths_abs",
+            "อัตราการเสียชีวิต (คะแนน)": "deaths_rate",
+            "จำนวนผู้ได้รับผลกระทบ (คะแนน)": "affected_ppl_abs",
+            "อัตราส่วนผู้ได้รับผลกระทบ (คะแนน)": "affected_ppl_rate",
+            "มูลค่าเงินเยียวยา (คะแนน)": "loss_abs",
+            "มูลค่าเงินเยียวยาต่อ GPP (คะแนน)": "loss_per_gpp",
         })
         
-        selected_label = st.selectbox("Metric Selector", options=list(metric_options.keys()), key="cri_metric_selector")
+        selected_label = st.selectbox("เลือกตัวชี้วัด", options=list(metric_options.keys()), key="cri_metric_selector")
         selected_metric = metric_options[selected_label]
 
         # Check constraints
@@ -57,20 +57,20 @@ def render() -> None:
         
         if hazard_key == "wildfire" and period_key == "period_2561_2567":
             data_available = False
-            warning_msg = "Long-term historical wildfire average is not available. Please select '2567 Only'."
+            warning_msg = "ไม่มีข้อมูลค่าเฉลี่ยสะสมระยะยาวสำหรับไฟป่า กรุณาเลือก 'เฉพาะปี 2567'"
             warning_type = "warning"
         elif (hazard_key in ["landslide", "wildfire", "cold_spell"]) and (selected_metric in ["loss_abs", "loss_per_gpp"]):
             data_available = False
-            warning_msg = f"Economic damage data is not recorded/available for {selected_hazard['hazard_label']}."
+            warning_msg = f"ไม่มีการลงบันทึกข้อมูลความเสียหายทางเศรษฐกิจสำหรับภัย{selected_hazard['hazard_label']}"
             warning_type = "info"
 
         if data_available:
             # Load Data for Ranking
             dataset = data.load_metric(selected_metric, period_key, hazard_key)
-            rank_rows = data.ranking_rows(dataset)
-            summary = data.metric_summary(dataset)
+            rank_rows = data.ranking_rows(dataset, use_score=True)
+            summary = data.metric_summary(dataset, use_score=True)
 
-            st.markdown(f"**Ranking: {summary['metric_label']}**")
+            st.markdown(f"**การจัดอันดับ: {summary['metric_label']}**")
             st.caption(f"{summary['unit_label']}")
             st.table(rank_rows)
 
@@ -104,7 +104,7 @@ def render() -> None:
                 df_export = df_export.sort_values(by="Rank").reset_index(drop=True)
                 csv_data = df_export.to_csv(index=False, encoding="utf-8-sig")
                 st.download_button(
-                    label="Download All 77 Provinces CSV",
+                    label="ดาวน์โหลดข้อมูล 77 จังหวัด (CSV)",
                     data=csv_data,
                     file_name=f"all_provinces_{selected_metric}_{period_key}_{hazard_key}.csv",
                     mime="text/csv",
@@ -119,8 +119,8 @@ def render() -> None:
     with col_map:
         if data_available:
             # Map and Vertical Colorbar
-            summary = data.metric_summary(dataset)
-            geojson = data.build_province_geojson_cached(selected_metric, period_key, hazard_key)
+            summary = data.metric_summary(dataset, use_score=True)
+            geojson = data.build_province_geojson_cached(selected_metric, period_key, hazard_key, use_score=True)
 
             st.markdown(f'<div class="cri-section-title" style="margin-bottom:0px;">{summary["metric_label"]}</div>', unsafe_allow_html=True)
             st.caption(f"{summary['period_label']}")

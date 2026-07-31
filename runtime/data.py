@@ -54,22 +54,48 @@ def available_hazard_options() -> list[dict[str, str]]:
     return list(load_manifest().get("hazards", []))
 
 
-def ranking_rows(dataset: dict[str, Any], ranking_key: str = "top_10") -> list[dict[str, Any]]:
+def ranking_rows(dataset: dict[str, Any], ranking_key: str = "top_10", use_score: bool = False) -> list[dict[str, Any]]:
     rankings = dataset.get("rankings") or {}
+    records = dataset.get("records") or []
+    record_score_map = {
+        str(r.get("province_code")).zfill(2): r.get("normalized_score") if r.get("normalized_score") is not None else r.get("normalized_value")
+        for r in records if r.get("province_code")
+    }
+    
     rows: list[dict[str, Any]] = []
     for item in rankings.get(ranking_key, []):
+        code = str(item.get("province_code") or "").zfill(2)
+        norm_score = record_score_map.get(code)
+        if use_score and norm_score is not None:
+            disp_val = f"{float(norm_score):.4f}"
+        else:
+            disp_val = item.get("display_value") if item.get("display_value") is not None else item.get("value", "-")
         rows.append(
             {
                 "rank": item.get("rank_desc") or item.get("rank") or "-",
                 "thai_name": item.get("province_name_th") or item.get("thai_name") or "-",
-                "value": item.get("display_value") if item.get("display_value") is not None else item.get("value", "-"),
+                "value": disp_val,
             }
         )
     return rows
 
 
-def metric_summary(dataset: dict[str, Any]) -> dict[str, Any]:
+def metric_summary(dataset: dict[str, Any], use_score: bool = False) -> dict[str, Any]:
     legend = dataset.get("legend") or {}
+    records = dataset.get("records", [])
+    if use_score and records and any(r.get("normalized_score") is not None for r in records):
+        scores = [float(r["normalized_score"]) for r in records if r.get("normalized_score") is not None]
+        min_score = min(scores, default=0.0)
+        max_score = max(scores, default=1.0)
+        return {
+            "metric_label": dataset.get("metric_label", "Metric"),
+            "period_label": dataset.get("period_label", ""),
+            "unit_label": "Score [0-1]",
+            "source_mode": dataset.get("source_mode", ""),
+            "legend_min": f"{min_score:.4f}",
+            "legend_max": f"{max_score:.4f}",
+            "legend_scheme": "OrRd" if dataset.get("metric_key") != "cri_score" else "GnBu",
+        }
     return {
         "metric_label": dataset.get("metric_label", "Metric"),
         "period_label": dataset.get("period_label", ""),
@@ -82,41 +108,49 @@ def metric_summary(dataset: dict[str, Any]) -> dict[str, Any]:
 
 
 @st.cache_data
-def build_province_geojson_cached(metric_key: str, period_key: str, hazard_key: str = "all") -> dict[str, Any]:
+def build_province_geojson_cached(metric_key: str, period_key: str, hazard_key: str = "all", use_score: bool = False) -> dict[str, Any]:
     dataset = load_metric(metric_key, period_key, hazard_key)
     spatial_manifest = load_spatial_manifest()
     province_asset = str((load_manifest().get("assets") or {}).get("province_geometry", "spatial/province_boundaries.geojson"))
     base_geojson = load_stage1_json(province_asset)
     record_map = {str(item.get("province_code") or ""): item for item in dataset.get("records", []) if item.get("province_code")}
 
-    # Color Scaling
-    max_val = max([float(r.get("value") or 0) for r in record_map.values()], default=0.0)
+    def get_val(rec):
+        if use_score and rec.get("normalized_score") is not None:
+            return float(rec["normalized_score"])
+        return float(rec.get("value") or 0)
+
+    max_val = max([get_val(r) for r in record_map.values()], default=0.0)
     color_scheme = (dataset.get("legend") or {}).get("color_scheme", "OrRd")
+    if metric_key == "cri_score":
+        color_scheme = "GnBu"
 
     new_features = []
     for feature in base_geojson.get("features", []):
         old_props = feature.get("properties", {})
         code = str(old_props.get("prov_code") or old_props.get("province_code") or "")
         record = record_map.get(code, {})
-        value = float(record.get("value") or 0)
+        val = get_val(record)
         
-        # Linear scaling
-        intensity = (value / max_val) if max_val > 0 else 0.0
+        intensity = (val / max_val) if max_val > 0 else 0.0
         
         new_props = old_props.copy()
         new_props["province_name_th"] = record.get("province_name_th") or old_props.get("province_name_th") or code
         new_props["province_code"] = code
-        new_props["value"] = value
-        new_props["display_value"] = record.get("display_value") if record.get("display_value") is not None else str(record.get("value") or 0)
+        new_props["value"] = val
+        if use_score and record.get("normalized_score") is not None:
+            score_str = f"{float(record['normalized_score']):.4f}"
+            raw_str = record.get("display_value", str(record.get("value", "")))
+            new_props["display_value"] = f"{score_str} (Raw: {raw_str})"
+        else:
+            new_props["display_value"] = record.get("display_value") if record.get("display_value") is not None else str(record.get("value") or 0)
         new_props["has_data"] = code in record_map
         
         if color_scheme == "GnBu":
-            # Blue scaling: White [255,255,255] to Dark Blue [0,0,200]
             r = int(255 * (1 - intensity))
             g = int(255 * (1 - intensity))
             b = 255 if intensity < 0.5 else int(255 - (intensity - 0.5) * 2 * 55)
         else:
-            # Red scaling: White [255,255,255] to Dark Red [200,0,0]
             r = 255 if intensity < 0.5 else int(255 - (intensity - 0.5) * 2 * 55)
             g = int(255 * (1 - intensity))
             b = int(255 * (1 - intensity))

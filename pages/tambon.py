@@ -9,7 +9,7 @@ from runtime import data
 
 
 def render() -> None:
-    st.header("Tambon-Level Human Impact")
+    st.header("ผลกระทบต่อมนุษย์ระดับตำบล (Tambon-Level Human Impact)")
     
     # 1. Setup Columns
     col_ctrl, col_map = st.columns([1, 2])
@@ -17,25 +17,25 @@ def render() -> None:
     with col_ctrl:
         # Time Period
         period_options = [
-            PeriodOption("period_2561_2567", "2561-2567 Average"),
-            PeriodOption("period_2567", "2567 Only"),
+            PeriodOption("period_2561_2567", "ค่าเฉลี่ยปี 2561–2567"),
+            PeriodOption("period_2567", "เฉพาะปี 2567"),
         ]
         period_key = render_period_choice(control_key="tambon", options=period_options, default_key="period_2561_2567")
 
         # Metric Selector
         metric_options = {
-            "Tambon Deaths": "tambon_deaths",
-            "Tambon Death Rate (per 100k Population)": "tambon_deaths_rate",
-            "Tambon Affected People": "tambon_affected_people",
-            "Tambon Affected People Rate (per 100k Population)": "tambon_affected_people_rate",
+            "จำนวนผู้เสียชีวิตระดับตำบล": "tambon_deaths",
+            "อัตราการเสียชีวิตระดับตำบล (ต่อประชากร 100k คน)": "tambon_deaths_rate",
+            "จำนวนผู้ได้รับผลกระทบระดับตำบล": "tambon_affected_people",
+            "อัตราส่วนผู้ได้รับผลกระทบระดับตำบล (ต่อประชากร 100k คน)": "tambon_affected_people_rate",
         }
-        selected_metric_label = st.selectbox("Metric Selector", options=list(metric_options.keys()), key="tambon_metric_selector")
+        selected_metric_label = st.selectbox("เลือกตัวชี้วัด", options=list(metric_options.keys()), key="tambon_metric_selector")
         selected_metric = metric_options[selected_metric_label]
 
         # Hazard Selector
         hazard_options = data.available_hazard_options()
         selected_hazard = st.selectbox(
-            "Hazard Selector",
+            "เลือกประเภทภัยพิบัติ",
             options=hazard_options,
             format_func=lambda x: x["hazard_label"],
             key="tambon_hazard_selector"
@@ -48,7 +48,7 @@ def render() -> None:
         
         if hazard_key == "wildfire" and period_key == "period_2561_2567":
             data_available = False
-            warning_msg = "Long-term historical wildfire average is not available. Please select '2567 Only'."
+            warning_msg = "ไม่มีข้อมูลค่าเฉลี่ยสะสมระยะยาวสำหรับไฟป่า กรุณาเลือก 'เฉพาะปี 2567'"
 
         prov_selected = False
         if data_available:
@@ -56,14 +56,14 @@ def render() -> None:
             base_dataset = data.load_metric(selected_metric, period_key, hazard_key)
             province_options = data.tambon_province_options(base_dataset)
             selected_province = st.selectbox(
-                "Select Province to Zoom",
+                "เลือกจังหวัดเพื่อขยายดูระดับตำบล",
                 options=province_options,
                 format_func=lambda x: x["province_name_th"],
                 key="tambon_province_selector"
             )
 
             if not selected_province:
-                st.info("Please select a province to view tambon-level data.")
+                st.info("กรุณาเลือกจังหวัดเพื่อเรียกดูข้อมูลระดับตำบล")
             else:
                 prov_selected = True
                 province_code = selected_province["province_code"]
@@ -88,9 +88,9 @@ def render() -> None:
                     all_zeros = True
 
                 if all_zeros:
-                    st.info(f"All subdistricts in {selected_province['province_name_th']} recorded zero impacts (0 deaths / 0 affected people) for the selected hazard.")
+                    st.info(f"ทุกตำบลใน{selected_province['province_name_th']} มียอดบันทึกผลกระทบเป็นศูนย์ (0 ราย / 0 คน) สำหรับภัยประเภทนี้")
                 else:
-                    st.markdown(f"**Ranking: {summary['metric_label']}**")
+                    st.markdown(f"**การจัดอันดับ: {summary['metric_label']}**")
                     st.caption(f"{selected_province['province_name_th']} | {summary['unit_label']}")
                     st.table(rank_rows)
 
@@ -114,7 +114,7 @@ def render() -> None:
                         df_export = df_all[cols_to_keep].rename(columns=rename_map)
                         csv_data = df_export.to_csv(index=False, encoding="utf-8-sig")
                         st.download_button(
-                            label="Download All Province Tambons CSV",
+                            label="ดาวน์โหลดข้อมูลระดับตำบล (CSV)",
                             data=csv_data,
                             file_name=f"tambons_{selected_metric}_{period_key}_{hazard_key}_{province_code}.csv",
                             mime="text/csv",

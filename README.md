@@ -1,6 +1,24 @@
-# CRI Impact Dashboard V4.3
+# CRI Impact Dashboard V4.4
 
 This is the standalone production deployment repository for the Climate Resilience Index (CRI) Impact Dashboard, serving pre-computed Stage 1 analytical data to visualize climate risks, economic loss, and health impacts across Thailand.
+
+---
+
+## 🚀 Release V4.4 Summary: Thai Localization & Sub-Score Engine
+
+Release **v4.4** implements full Thai localization, normalized sub-score rendering, and heatwave score scaling:
+
+* **Full Thai Methodology & UI Localization**:
+  Fully translated all 8 methodology sections, agency data lineage matrix (DDPM, DOPA, NESDC, MOPH), navigation tabs, dropdown selectors, zoom controls, and warning alerts into Thai.
+
+* **Sub-Score Rendering Engine**:
+  Fixed `runtime/data.py` to extract 4-decimal `normalized_score` ($S_i \in [0.0, 1.0]$) in ranking tables, map color scales, and tooltips for all CRI sub-indicators.
+
+* **Heatwave Casualty Score MinMax Normalization**:
+  Updated `export_cri_app_assets.py` to apply MinMax scaling (`minmax(0.5 * s_deaths + 0.5 * s_injured)`) to `heat_score`, scaling the top heatwave casualty province to **1.0000** (consistent with `cri_score`).
+
+* **Data Export Pipeline Schema**:
+  Preserved English column header names (`Rank`, `Province Code`, `Province Name (Thai)`, `Province Name (English)`, `Value`) in exported CSV files for downstream pipeline compatibility.
 
 ---
 

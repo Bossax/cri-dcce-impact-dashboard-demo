@@ -5,100 +5,100 @@ import streamlit as st
 
 
 def render() -> None:
-    st.header("Methodology & Data Guidance")
+    st.header("ระเบียบวิธีและข้อแนะนำด้านข้อมูล")
     
-    tab1, tab2 = st.tabs(["Overview", "Calculation Framework"])
+    tab1, tab2 = st.tabs(["ภาพรวม", "ระเบียบวิธีคำนวณ"])
 
     with tab1:
         st.markdown(
             """
-            ### 1. What the CRI Impact Index is
-            The Climate Resilience Index (CRI) Impact Index is a spatial composite indicator designed to measure the direct human and economic impacts of climate-related disasters across Thailand. Unlike traditional hazard maps, this index focuses on the *realized* consequences—lives lost, households affected, and economic disruptions—anchoring abstract climate risks in empirical evidence.
+            ### 1. ดัชนีผลกระทบ CRI คืออะไร
+            ดัชนีผลกระทบจากความเสี่ยงจากภูมิอากาศ (Climate Risk Index: CRI Impact Index) คือ ตัวชี้วัดเชิงพื้นที่แบบประสม (Spatial Composite Indicator) ที่ออกแบบมาเพื่อวัดผลกระทบโดยตรงทั้งด้านมนุษย์และเศรษฐกิจจากภัยพิบัติที่เกี่ยวข้องกับภูมิอากาศทั่วประเทศไทย ดัชนีนี้แตกต่างจากแผนที่แสดงพื้นที่เสี่ยงภัย (Hazard Map) แบบเดิม เนื่องจากมุ่งเน้นไปที่ **ผลกระทบที่เกิดขึ้นจริง (Realized Consequences)** ได้แก่ การสูญเสียชีวิต ครัวเรือนที่ได้รับผลกระทบ และความเสียหายทางเศรษฐกิจ เพื่อเปลี่ยนความเสี่ยงด้านภูมิอากาศที่เป็นรูปธรรมยาก ให้ยึดโยงอยู่บนหลักฐานเชิงประจักษ์อย่างชัดเจน
 
-            ### 2. What the indicators measure
-            - **Human Impact**: Realized mortality (absolute and per capita) and household displacement due to extreme weather events.
-            - **Economic Impact**: Direct financial losses compared to the Gross Provincial Product (GPP), representing the local economy's sensitivity to shocks.
-            - **Heat Impact**: Heat-related injuries and fatalities recorded by public health systems.
+            ### 2. ตัวชี้วัดต่าง ๆ วัดผลในเรื่องใด
+            - **ผลกระทบต่อมนุษย์ (Human Impact)**: วัดอัตราการเสียชีวิตที่เกิดขึ้นจริง (ทั้งจำนวนรวมทั้งหมดและอัตราส่วนต่อประชากร) รวมถึงการพลัดถิ่นหรือการย้ายถิ่นฐานของครัวเรือน อันเนื่องมาจากเหตุการณ์สภาวะอากาศสุดขั้ว
+            - **ผลกระทบทางเศรษฐกิจ (Economic Impact)**: วัดความเสียหายทางการเงินโดยตรงเมื่อเปรียบเทียบกับผลิตภัณฑ์มวลรวมจังหวัด (GPP) ซึ่งสะท้อนถึงความไวต่อการได้รับผลกระทบของระบบเศรษฐกิจในระดับท้องถิ่นเมื่อเกิดสภาวะวิกฤต
+            - **ผลกระทบจากความร้อน (Heat Impact)**: วัดจำนวนผู้ได้รับบาดเจ็บและผู้เสียชีวิตจากเจ็บป่วยด้วยโรคจากความร้อนที่บันทึกโดยระบบสาธารณสุข
 
-            ### 3. What data sources are used
-            The system integrates several high-fidelity datasets:
-            - **Disaster Impact**: Standardized village-level reports from the Department of Disaster Prevention and Mitigation (**DDPM**).
-            - **Demographics**: Official registration statistics for Population and Households from the Department of Provincial Administration (**DOPA**). 
-            - **Economic Metrics**: Gross Provincial Product (GPP) from the **NESDC** and disaster-related financial relief from **Government Advance Payments**.
-            - **Public Health**: Heat-related mortality and injury data from the **Ministry of Public Health**.
+            ### 3. แหล่งข้อมูลที่นำมาใช้ประกอบไปด้วยอะไรบ้าง
+            ระบบได้ทำการบูรณาการชุดข้อมูลที่มีความน่าเชื่อถือสูง (High-fidelity datasets) จากหลายแหล่ง ประกอบด้วย:
+            - **ข้อมูลผลกระทบจากภัยพิบัติ**: รายงานข้อมูลภัยพิบัติระดับหมู่บ้านตามมาตรฐานจากกรมป้องกันและบรรเทาสาธารณภัย (**ปภ. / DDPM**)
+            - **ข้อมูลประชากรศาสตร์**: สถิติจำนวนประชากรและบ้านเรือนอย่างเป็นทางการ จากสำนักบริหารการทะเบียน กรมการปกครอง (**ดพ. / DOPA**)
+            - **ตัวชี้วัดทางเศรษฐกิจ**: ผลิตภัณฑ์มวลรวมจังหวัด (GPP) จากสำนักงานสภาพัฒนาการเศรษฐกิจและสังคมแห่งชาติ (**สศช. / NESDC**) และข้อมูลเงินช่วยเหลือเยียวยาผู้ประสบภัยพิบัติจาก**เงินทดรองราชการ**
+            - **ข้อมูลการสาธารณสุข**: ข้อมูลผู้เสียชีวิตและผู้ได้รับบาดเจ็บจากโรคจากความร้อน จาก**กระทรวงสาธารณสุข (สธ.)**
 
-            ### 4. Conversion of Affected Households to Affected People
-            In the raw DDPM reporting system, headcount data (Affected People) is often missing or under-reported. However, Affected Households data is robustly recorded as it is the primary administrative unit for disaster relief and compensation. 
-            
-            To estimate the number of **Affected People**, we calculate the average population per household ratio for each subdistrict (Tambon) using DOPA registry data. We then multiply the affected households by this ratio:
-            - **Tambon Multiplier**: Calculated dynamically for each subdistrict and year.
-            - **Province Fallback**: If subdistrict population or household statistics are missing, we fall back to the province's average household size.
-            - **National Fallback**: If both are unavailable, we fall back to a default national average of 3.0 people per household.
-            
-            *Note on potential artifacts*: Because household sizes vary across different regions and years, applying this multiplier may introduce slight discrepancies compared to direct census counts. However, it ensures uniform human-scale comparison across different hazards.
+            ### 4. การแปลงจำนวนครัวเรือนที่ได้รับผลกระทบเป็นจำนวนประชากรที่ได้รับผลกระทบ
+            ในระบบรายงานขั้นต้นของกรมป้องกันและบรรเทาสาธารณภัย (ปภ.) ข้อมูลจำนวนประชากรรายบุคคล (Affected People) มักจะขาดหายไปหรือถูกรายงานต่ำกว่าความเป็นจริง อย่างไรก็ตาม ข้อมูลจำนวนครัวเรือนที่ได้รับผลกระทบ (Affected Households) กลับมีการบันทึกไว้อย่างถูกต้องแม่นยำ เนื่องจากเป็นหน่วยการบริหารจัดการหลักที่ใช้ในการช่วยเหลือและจ่ายเงินชดเชยเยียวยาผู้ประสบภัย
 
-            ### 5. Hazard Completeness and CRI Score Exclusion
-            The composite Climate Resilience Index (CRI) score requires a complete set of 6 metrics (representing human and economic dimensions). 
-            - **Complete Hazards**: *Flood, Drought, and Windstorm* are fully documented and integrated into the composite all-hazard CRI Score.
-            - **Incomplete Hazards**: *Landslide, Wildfire, and Cold Spell* lack financial relief data. To prevent calculation skew, they do not have hazard-specific CRI Scores, and their values are omitted from the overall composite CRI calculation.
+            ดังนั้น เพื่อประมาณการจำนวน**ประชากรที่ได้รับผลกระทบ** เราจึงคำนวณอัตราส่วนประชากรต่อครัวเรือนเฉลี่ยในแต่ละระดับตำบล โดยใช้ข้อมูลทะเบียนราษฎรจากกรมการปกครอง (ดพ.) แล้วนำจำนวนครัวเรือนที่ได้รับผลกระทบไปคูณกับอัตราส่วนดังกล่าว:
+            - **ตัวคูณระดับตำบล (Tambon Multiplier)**: คำนวณแบบไดนามิกแยกตามรายตำบลและรายปี
+            - **ค่าสำรองระดับจังหวัด (Province Fallback)**: หากไม่มีข้อมูลสถิติประชากรหรือครัวเรือนในระดับตำบล ระบบจะดึงค่าเฉลี่ยขนาดครัวเรือนในระดับจังหวัดมาใช้แทน
+            - **ค่าสำรองระดับประเทศ (National Fallback)**: หากไม่มีข้อมูลทั้งสองระดับข้างต้น ระบบจะดึงค่าเฉลี่ยระดับประเทศซึ่งกำหนดไว้ที่ 3.0 คนต่อครัวเรือน มาใช้เป็นค่าเริ่มต้น
 
-            ### 6. What the time-period selector means
-            - **2560-2567 Average**: Represents the 8-year cumulative average, highlighting persistent "hotspots" where impacts are chronic.
-            - **2567 Only**: Focuses on the most recent full calendar year to illustrate current trends and immediate shifts in impact patterns.
-            
-            ### 7. Known limitations
-            - **Affected Rate Interpretation**: The "Affected Rate" represents *estimated affected people per 100,000 population*.
-            - **Economic Metrics**: The primary economic proxy is **Government Advance Payment** (เงินทดรองราชการ) for relief, measured in **THB**. This represents the direct fiscal cost of recovery. **Loss per GPP** is calculated as a **Percentage Point (%)** of the Gross Provincial Product (GPP), where GPP is denominated in **Million THB**. It is important to note that these figures represent government advance payments accounted for by DDPM from various sources of advance payment made by line agencies to recover and relief disaster in provinces.
-            - **Government Relief Caps**: These emergency funds may hit administrative ceilings (e.g., 20M THB/event), potentially understating absolute total damage but providing a reliable indicator of provincial fiscal stress.
- 
-            ### 8. Data Lineage & Metadata
-            | Dataset | Source Agency | Detail |
+            *หมายเหตุเกี่ยวกับความคลาดเคลื่อนที่อาจเกิดขึ้น (Potential Artifacts)*: เนื่องจากขนาดของครัวเรือนมีความแตกต่างกันไปตามภูมิภาคและช่วงเวลา การใช้ตัวคูณนี้อาจทำให้เกิดความคลาดเคลื่อนเล็กน้อยเมื่อเทียบกับการนับสำมะโนประชากรโดยตรง อย่างไรก็ตาม วิธีนี้ช่วยให้สามารถเปรียบเทียบผลกระทบในมิติมนุษย์ได้อย่างเป็นเอกภาพครอบคลุมทุกประเภทภัยพิบัติ
+
+            ### 5. ความสมบูรณ์ของข้อมูลภัยพิบัติและการยกเว้นการคำนวณคะแนน CRI
+            การคำนวณคะแนนดัชนีความต้านทานต่อการเปลี่ยนแปลงสภาพภูมิอากาศแบบประสม (Composite CRI Score) จำเป็นต้องใช้ชุดตัวชี้วัดที่สมบูรณ์ครบทั้ง 6 ตัวชี้วัด (ซึ่งครอบคลุมทั้งมิติด้านมนุษย์และมิติด้านเศรษฐกิจ)
+            - **ประเภทภัยพิบัติที่มีข้อมูลสมบูรณ์ (Complete Hazards)**: *อุทกภัย (น้ำท่วม), ภัยแล้ง และวาตภัย (ลมกระโชกแรง)* มีการบันทึกข้อมูลอย่างครบถ้วน และได้รับการบูรณาการเข้าสู่การคำนวณคะแนน CRI ภาพรวมทุกภัยพิบัติ (All-Hazard Composite CRI Score)
+            - **ประเภทภัยพิบัติที่มีข้อมูลไม่สมบูรณ์ (Incomplete Hazards)**: *ดินถล่ม, ไฟป่า และภัยหนาว* ยังขาดข้อมูลเงินช่วยเหลือเยียวยาทางการเงิน ดังนั้น เพื่อป้องกันไม่ให้เกิดความเบี่ยงเบนในการคำนวณ (Calculation Skew) ภัยเหล่านี้จึงไม่มีการคำนวณคะแนน CRI แยกเฉพาะรายภัย และจะถูกยกเว้น (ไม่นำมูลค่ามาคิด) ในการคำนวณคะแนน CRI ภาพรวม
+
+            ### 6. ความหมายของฟังก์ชันเลือกช่วงเวลา (Time-Period Selector)
+            - **ค่าเฉลี่ยปี 2561–2567**: ตัวแทนค่าเฉลี่ยสะสมระยะเวลา 8 ปี ซึ่งช่วยฉายภาพให้เห็น "พื้นที่เสี่ยงสะสม" (Hotspots) ที่ได้รับผลกระทบอย่างเรื้อรังและต่อเนื่อง
+            - **เฉพาะปี 2567**: มุ่งเน้นไปที่ข้อมูลของปีปฏิทินล่าสุดแบบเต็มปี เพื่อสะท้อนให้เห็นถึงแนวโน้มในปัจจุบัน และการเปลี่ยนแปลงของรูปแบบผลกระทบที่เกิดขึ้นในทันที
+
+            ### 7. ข้อจำกัดของข้อมูลที่ควรทราบ
+            - **การตีความอัตราส่วนผู้ได้รับผลกระทบ (Affected Rate Interpretation)**: "อัตราส่วนผู้ได้รับผลกระทบ" หมายถึง การประมาณการจำนวนประชากรที่ได้รับผลกระทบต่อประชากร 100,000 คน
+            - **ตัวชี้วัดทางเศรษฐกิจ (Economic Metrics)**: ตัวแทนหลักทางเศรษฐกิจที่นำมาใช้คือ **เงินทดรองราชการเพื่อช่วยเหลือผู้ประสบภัยพิบัติกรณีฉุกเฉิน (Government Advance Payment)** ซึ่งมีหน่วยเป็น**บาท (THB)** ตัวเลขนี้สะท้อนถึงภาระการคลังโดยตรงของภาครัฐในการฟื้นฟูเยียวยา สำหรับ**ค่าความเสียหายต่อ GPP (Loss per GPP)** จะคำนวณเป็น **จุดร้อยละ (%)** ของผลิตภัณฑ์มวลรวมจังหวัด (GPP) โดยที่มูลค่า GPP มีหน่วยเป็น**ล้านบาท (Million THB)** ทั้งนี้ มีข้อสังเกตสำคัญคือ ตัวเลขเหล่านี้เป็นยอดเงินทดรองราชการที่ลงบัญชีโดยกรมป้องกันและบรรเทาสาธารณภัย (ปภ.) ซึ่งรวบรวมมาจากวงเงินทดรองราชการของหน่วยงานปฏิบัติต่าง ๆ ที่ใช้ในการฟื้นฟูและบรรเทาสาธารณภัยในระดับจังหวัด
+            - **เพดานวงเงินช่วยเหลือของภาครัฐ (Government Relief Caps)**: เงินงบประมาณฉุกเฉินเหล่านี้อาจมีเพดานวงเงินตามระเบียบการบริหารราชการ (เช่น จำกัดไม่เกิน 20 ล้านบาทต่อเหตุการณ์) ซึ่งอาจทำให้ มูลค่าความเสียหายรวมที่เกิดขึ้นจริงถูกประเมินต่ำกว่าความเป็นจริง (Understated) อย่างไรก็ตาม ตัวเลขนี้ยังคงเป็นตัวชี้วัดที่น่าเชื่อถือในการสะท้อนถึง **ภาวะความเครียดทางการคลัง (Fiscal Stress)** ของจังหวัด
+
+            ### 8. สายวิวัฒนาการข้อมูลและข้อมูลอธิบาย (Data Lineage & Metadata)
+            | ชุดข้อมูล (Dataset) | หน่วยงานเจ้าของข้อมูล (Source Agency) | รายละเอียด (Detail) |
             | :--- | :--- | :--- |
-            | **Human Impact** | DDPM | Standardized village reports (Bronze: Open Data) |
-            | **Population** | DOPA | Annual registration statistics (Silver: Annual) |
-            | **Households** | DOPA | Annual registration statistics (Silver: Annual) |
-            | **GPP** | NESDC | Current market prices (Million THB) (Silver: Annual) |
-            | **Economic Relief**| DDPM | Government advance payments (THB) |
-            | **Heat Impact** | MOPH | Clinical cases of heat-related injuries/deaths |
+            | **ผลกระทบต่อมนุษย์ (Human Impact)** | กรมป้องกันและบรรเทาสาธารณภัย (ปภ. / DDPM) | รายงานข้อมูลระดับหมู่บ้านตามมาตรฐาน (ระดับ Bronze: ข้อมูลเปิด / Open Data) |
+            | **ประชากร (Population)** | กรมการปกครอง (ดพ. / DOPA) | สถิติจำนวนประชากรจากทะเบียนราษฎรรายปี (ระดับ Silver: อัปเดตรายปี / Annual) |
+            | **ครัวเรือน (Households)** | กรมการปกครอง (ดพ. / DOPA) | สถิติจำนวนบ้านเรือนจากทะเบียนราษฎรรายปี (ระดับ Silver: อัปเดตรายปี / Annual) |
+            | **ผลิตภัณฑ์มวลรวมจังหวัด (GPP)** | สำนักงานสภาพัฒนาการเศรษฐกิจและสังคมแห่งชาติ (สศช. / NESDC) | ณ ราคาตลาดปัจจุบัน (หน่วย: ล้านบาท) (ระดับ Silver: อัปเดตรายปี / Annual) |
+            | **การเยียวยาทางเศรษฐกิจ (Economic Relief)** | กรมป้องกันและบรรเทาสาธารณภัย (ปภ. / DDPM) | เงินทดรองราชการเพื่อช่วยเหลือผู้ประสบภัยพิบัติกรณีฉุกเฉิน (หน่วย: บาท) |
+            | **ผลกระทบจากความร้อน (Heat Impact)** | กระทรวงสาธารณสุข (สธ. / MOPH) | ข้อมูลการเจ็บป่วยและเสียชีวิตจากโรคจากความร้อนเชิงคลินิก |
             """
         )
- 
+
     with tab2:
-        st.markdown("### Calculation Methodology")
+        st.markdown("### ระเบียบวิธีคำนวณ (Calculation Methodology)")
         st.markdown(
             """
-            The CRI score utilizes **Min-Max Normalization** to scale data between 0 and 1. The province with the highest impact receives a score of 1.0, and the province with the lowest impact receives 0. The final CRI Score is the sum of 6 weighted indicators.
+            คะแนน CRI ใช้เทคนิค **การปรับบรรทัดฐานแบบมิน-แมกซ์ (Min-Max Normalization)** ในการปรับสเกลข้อมูลให้อยู่ในช่วง 0 ถึง 1 โดยจังหวัดที่ได้รับผลกระทบสูงสุดจะได้รับคะแนนเท่ากับ 1.0 และจังหวัดที่ได้รับผลกระทบน้อยที่สุดจะได้รับคะแนนเท่ากับ 0 ทั้งนี้ คะแนน CRI ภาพรวมในขั้นตอนสุดท้าย เกิดจากการรวมผลรวมของ 6 ตัวชี้วัดที่ผ่านการถ่วงน้ำหนัก (Weighted Indicators) แล้ว
             """
         )
         
         col1, col2 = st.columns(2)
         
         with col1:
-            st.markdown("#### A. Human Impact (50% Weight)")
+            st.markdown("#### ก. ผลกระทบต่อมนุษย์ (ถ่วงน้ำหนัก 50%)")
             st.latex(r"S_1 = \text{Norm}(\text{Deaths}) \times 0.075")
             st.latex(r"S_2 = \text{Norm}(\text{DeathRate}) \times 0.225")
             st.latex(r"S_3 = \text{Norm}(\text{AffPpl}) \times 0.050")
             st.latex(r"S_4 = \text{Norm}(\text{AffPplRate}) \times 0.150")
 
         with col2:
-            st.markdown("#### B. Economic Impact (50% Weight)")
+            st.markdown("#### ข. ผลกระทบทางเศรษฐกิจ (ถ่วงน้ำหนัก 50%)")
             st.latex(r"S_5 = \text{Norm}(\text{Relief}) \times 0.125")
             st.latex(r"S_6 = \text{Norm}(\text{Relief\_GPP\_Ratio}) \times 0.375")
 
-        st.markdown("#### Total CRI Score")
+        st.markdown("#### คะแนน CRI รวม")
         st.latex(r"CRI = \sum_{i=1}^{6} S_i")
 
         st.markdown("---")
-        st.markdown("#### Indicators and Weighting Table")
+        st.markdown("#### ตารางสรุปตัวชี้วัดและการถ่วงน้ำหนัก")
         st.markdown(
             """
-            | Component | Indicator | Variable Code | Weight | Unit |
+            | องค์ประกอบ | ตัวชี้วัด | รหัสตัวแปร | น้ำหนัก | หน่วย |
             | :--- | :--- | :--- | :--- | :--- |
-            | **Human Impact** | Total Deaths | `deaths_abs` | 7.5% | Annual deaths |
-            | (50%) | Death Rate | `deaths_rate` | 22.5% | Per 100k pop |
-            | | Total Affected People | `affected_ppl_abs` | 5.0% | Annual people (estimated) |
-            | | Affected People Rate | `affected_ppl_rate` | 15.0% | Per 100k pop |
-            | **Economic Impact** | Govt Advance Payment | `loss_abs` | 12.5% | THB |
-            | (50%) | Relief per Unit GPP | `loss_per_gpp` | 37.5% | Percentage Points (%) |
+            | **ผลกระทบต่อมนุษย์** | จำนวนผู้เสียชีวิตรวม | `deaths_abs` | 7.5% | ผู้เสียชีวิตต่อปี |
+            | (50%) | อัตราการเสียชีวิต | `deaths_rate` | 22.5% | ต่อประชากร 100k คน |
+            | | จำนวนผู้ได้รับผลกระทบรวม | `affected_ppl_abs` | 5.0% | ประชากรต่อปี (จากการประมาณการ) |
+            | | อัตราส่วนผู้ได้รับผลกระทบ | `affected_ppl_rate` | 15.0% | ต่อประชากร 100k คน |
+            | **ผลกระทบทางเศรษฐกิจ** | เงินทดรองราชการฯ | `loss_abs` | 12.5% | บาท |
+            | (50%) | มูลค่าเงินเยียวยาต่อ GPP | `loss_per_gpp` | 37.5% | จุดร้อยละ (%) |
             """
         )
